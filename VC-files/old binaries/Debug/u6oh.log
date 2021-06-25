@@ -1,0 +1,53 @@
+﻿Build started 1/2/2012 7:04:18 PM.
+     1>Project "C:\The Ultima VI Online Project\c drive\c source\VC-files\u6oh.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\u6oh.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\The Ultima VI Online Project\c drive\c source\include" /ZI /nologo /W1 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D HOST /D CONSOLE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\data_both.cpp ..\dmusic.cpp ..\frame.cpp ..\function_both.cpp ..\myddraw.cpp ..\myfile.cpp ..\random\randi.cpp ..\random\random.cpp ..\stdafx.cpp ..\txt.cpp ..\u6o7.cpp ..\Xenkan.cpp
+         Xenkan.cpp
+         u6o7.cpp
+         txt.cpp
+         stdafx.cpp
+         random.cpp
+         randi.cpp
+         myfile.cpp
+         myddraw.cpp
+         function_both.cpp
+         frame.cpp
+         dmusic.cpp
+         data_both.cpp
+         Generating Code...
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\u6oh.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\The Ultima VI Online Project\c drive\c source\lib" dplay.lib dxguid.lib mylib.lib wininet.lib fdv_dmvr.lib ws2_32.lib winmm.lib user32.lib kernel32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib vfw32.lib dplay.lib dplayx.lib ddraw.lib dsound.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\u6oh.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\The Ultima VI Online Project\c drive\c source\VC-files\Debug\u6oh.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\u6oh.lib" /MACHINE:X86 Debug\u6o7.res
+         Debug\data_both.obj
+         Debug\data_host.obj
+         Debug\dmusic.obj
+         Debug\frame.obj
+         Debug\function_both.obj
+         Debug\function_host.obj
+         Debug\house.obj
+         Debug\myddraw.obj
+         Debug\myfile.obj
+         Debug\randi.obj
+         Debug\random.obj
+         Debug\spell_code.obj
+         Debug\stdafx.obj
+         Debug\txt.obj
+         Debug\u6o7.obj
+         Debug\use_code.obj
+         Debug\Xenkan.obj
+     1>data_both.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         u6oh.vcxproj -> C:\The Ultima VI Online Project\c drive\c source\VC-files\Debug\u6oh.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Debug\u6oh.exe;#1" /manifest Debug\u6oh.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\u6oh.unsuccessfulbuild".
+         Touching "Debug\u6oh.lastbuildstate".
+     1>Done Building Project "C:\The Ultima VI Online Project\c drive\c source\VC-files\u6oh.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.77

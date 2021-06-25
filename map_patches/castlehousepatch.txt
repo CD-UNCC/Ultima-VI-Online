@@ -1,0 +1,25 @@
+patchx=0; patchy=0;
+//house tiles (tiles sorted by position, not number)
+housenumber=basehousenumber+23;
+BTset(1297,268,210);
+BTset(1298,268,210);
+BTset(1299,268,210);
+BTset(1296,269,210);
+BTset(1297,269,210);
+BTset(1298,269,210);
+BTset(1299,269,210);
+BTset(1300,269,210);
+BTset(1296,270,210);
+BTset(1297,270,210);
+BTset(1296,271,210);
+BTset(1297,271,210);
+BTset(1298,271,210);
+BTset(1296,272,156);
+BTset(1297,272,210);
+BTset(1298,272,210);
+if(NEThost){
+housenumber=65535;
+//Objects
+OBJaddnew(1296,270,163+1024*6,0,0);
+OBJaddnew(1296,271,163+1024*7,0,0);
+}//NEThost

@@ -1,0 +1,44 @@
+﻿Build started 12/6/2010 7:29:43 PM.
+     1>Project "C:\The Ultima VI Online Project\c drive\c source\VC-files\u6oh.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\u6oh.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\u6oh.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\data_both.cpp ..\data_host.cpp ..\dmusic.cpp ..\frame.cpp ..\function_both.cpp ..\function_host.cpp ..\house.cpp ..\myddraw.cpp ..\myfile.cpp ..\random\randi.cpp ..\random\random.cpp ..\spell_code\spell_code.cpp ..\stdafx.cpp ..\txt.cpp ..\u6o7.cpp ..\use_code\use_code.cpp
+         data_both.cpp
+     1>..\data_both.cpp(68): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         data_host.cpp
+     1>..\data_host.cpp(73): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         dmusic.cpp
+     1>..\dmusic.cpp(17): fatal error C1083: Cannot open precompiled header file: 'Release\u6oh.pch': No such file or directory
+         frame.cpp
+     1>..\frame.cpp(105): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         function_both.cpp
+     1>..\function_both.cpp(494): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         function_host.cpp
+     1>..\function_host.cpp(4543): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         house.cpp
+     1>..\house.cpp(62): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         myddraw.cpp
+     1>..\myddraw.cpp(1): fatal error C1083: Cannot open precompiled header file: 'Release\u6oh.pch': No such file or directory
+         myfile.cpp
+     1>..\myfile.cpp(1): fatal error C1083: Cannot open precompiled header file: 'Release\u6oh.pch': No such file or directory
+         randi.cpp
+     1>..\random\randi.cpp(148): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         random.cpp
+     1>..\random\random.cpp(91): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         spell_code.cpp
+     1>..\spell_code\spell_code.cpp(389): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         stdafx.cpp
+     1>..\stdafx.cpp(5): fatal error C1083: Cannot open precompiled header file: 'Release\u6oh.pch': No such file or directory
+         txt.cpp
+     1>..\txt.cpp(1): fatal error C1083: Cannot open precompiled header file: 'Release\u6oh.pch': No such file or directory
+         u6o7.cpp
+     1>..\u6o7.cpp(2): fatal error C1083: Cannot open precompiled header file: 'Release\u6oh.pch': No such file or directory
+         use_code.cpp
+     1>..\use_code\use_code.cpp(190): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         Generating Code...
+     1>Done Building Project "C:\The Ultima VI Online Project\c drive\c source\VC-files\u6oh.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.22

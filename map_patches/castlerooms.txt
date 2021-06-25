@@ -1,0 +1,190 @@
+//castle rooms
+
+//copy basetiles and add redirectors
+housenumber=65535; //non-specific house changes
+patchx=1280; patchy=256;
+//basetiles
+for (y=0;y<=(61+1);y++){
+for (x=0;x<=(69+1);x++){
+BTset(x,y,bt[333+y][273+x]&1023);
+//inclusive box boarder for 2nd floor castle (all outside given redirectors)
+//1298,270
+//1330,302
+x2=patchx+x; y2=patchy+y;
+x3=1;//add view redirector
+if (x2>=1298){if (x2<=1330){if (y2>=270){if (y2<=302){
+x3=0;
+}}}}
+if (x2>=1310){if (x2<=1318){if (y2>=287){if (y2<=302){
+x3=1;
+}}}}
+x4=abs(x2-1298); y4=abs(y2-302);
+if ((x4<=3)&&(y4<=3)){
+if (!((x4==3)&&(y4==3))){
+x3=0;
+}
+}
+x4=abs(x2-1330); y4=abs(y2-302);
+if ((x4<=3)&&(y4<=3)){
+if (!((x4==3)&&(y4==3))){
+x3=0;
+}
+}
+x4=abs(x2-1330); y4=abs(y2-270);
+if ((x4<=3)&&(y4<=3)){
+if (!((x4==3)&&(y4==3))){
+x3=0;
+}
+}
+x4=abs(x2-1298); y4=abs(y2-270);
+if ((x4<=3)&&(y4<=3)){
+if (!((x4==3)&&(y4==3))){
+x3=0;
+}
+}
+//if (x2>=1296){if (x2<=1300){if (y2>=300){if (y2<=304){
+//x3=0;
+//}}}}
+if (x3){
+if (NEThost) OBJaddnew(x,y,416,0,273+x-1+((333+y-1)<<16)); //view redirector
+BTset(x,y,bt[333+y-1][273+x-1]&1023);
+bt[y2][x2]=bt[333+y-1][273+x-1];//adopt flags
+}else{
+BTset(x,y,bt[333+y][273+x]&1023);
+}
+}
+}
+
+
+//original right hand wing of castle
+patchx=1280; patchy=256;
+for (i=0;i<=9;i++){
+
+if (i==0) {i=5; patchx+=20; patchy+=38; patchy-=6; patchy-=6; patchy-=6; patchy-=6;}
+if (i==0){housenumber=105; patchx+=20; patchy+=38;}
+if (i==1){housenumber=104; patchx+=0; patchy-=6;}
+if (i==2){housenumber=103; patchx+=0; patchy-=6;}
+if (i==3){housenumber=102; patchx+=0; patchy-=6;}
+if (i==4){housenumber=101; patchx+=0; patchy-=6;}
+
+if (i==5){housenumber=37; patchx+=21; patchy+=24;}
+if (i==6){housenumber=36; patchx+=0; patchy-=6;}
+if (i==7){housenumber=35; patchx+=0; patchy-=6;}
+if (i==8){housenumber=34; patchx+=0; patchy-=6;}
+if (i==9){housenumber=33; patchx+=0; patchy-=6;}
+
+//houseinitialcost[housenumber]=500;
+//housecost[housenumber]=10;
+
+for (y=0;y<=6;y++){for (x=0;x<=3;x++){
+BTset(x,y,210);
+}}
+BTset(0,0,146);
+BTset(1,0,144);
+BTset(2,0,146);
+BTset(3,0,144);
+BTset(2,3,157);
+BTset(3,3,146);
+BTset(3,4,145);
+BTset(3,5,145);
+BTset(3,6,144);
+BTset(2,6,146);
+BTset(1,6,144);
+BTset(0,6,146);
+BTset(0,5,145);
+BTset(0,4,145);
+BTset(0,1,145);
+if (NEThost){
+OBJaddnew(0,2,301+2*1024,0,256+housenumber); OBJaddnew(0,3,301+3*1024,0,256+housenumber); //doorframe
+myobj=OBJaddnew(0,2,297+10*1024,0,0); myobj->more=(object*)OBJaddnew(0,3,297+11*1024,0,(unsigned long)myobj); //door
+houseentrancex[housenumber]=patchx-1; houseentrancey[housenumber]=patchy+3;
+OBJaddnew(2,1,301+2*1024,0,256+housenumber); OBJaddnew(2,2,301+3*1024,0,256+housenumber); //doorframe
+myobj=OBJaddnew(2,1,300+10*1024,0,0); myobj->more=(object*)OBJaddnew(2,2,300+11*1024,0,(unsigned long)myobj); //door
+OBJaddnew(1,5,163,0,0); OBJaddnew(2,5,163+1*1024,0,0); //h-bed
+OBJaddnew(3,2,279,0,0);//table
+housestoragex[housenumber][housestoragenext[housenumber]]=patchx+3;
+housestoragey[housenumber][housestoragenext[housenumber]]=patchy+2;
+housestoragenext[housenumber]++;
+myobj=OBJaddnew(3,1,186+1024,128,0); //barrel (closed) + random food
+myobj2=OBJnew();
+x=rnd*6;
+if (x==0){myobj2->type=129; myobj2->more2=1;}//meat
+if (x==1){myobj2->type=128; myobj2->more2=1;}//bread
+if (x==2) myobj2->type=130;//rolls
+if (x==3) myobj2->type=131;//cake
+if (x==4) myobj2->type=132;//cheese
+if (x==5) myobj2->type=133;//ham
+myobj->more=myobj2; myobj2->prev=myobj;
+myobj=OBJaddnew(2,4,177+1024,128,0); //desk + candle
+myobj2=OBJnew(); myobj2->type=122; myobj2->info=128; //candle
+myobj->more=myobj2; myobj2->prev=myobj;
+OBJaddnew(1,4,252+1*1024,128,0);//chair east
+OBJaddnew(0,4,164,128,0);//fireplace v
+OBJaddnew(1,0,143+1024,128,99);//picture
+}//NEThost
+
+if (i==0){housenumber=106;}
+if (i==1){housenumber=107;}
+if (i==2){housenumber=108;}
+if (i==3){housenumber=109;}
+if (i==4){housenumber=110;}
+
+if (i==5){housenumber=38;}
+if (i==6){housenumber=39;}
+if (i==7){housenumber=40;}
+if (i==8){housenumber=41;}
+if (i==9){housenumber=42;}
+
+//houseinitialcost[housenumber]=500;
+//housecost[housenumber]=10;
+
+for (y=0;y<=6;y++){for (x=4;x<=7;x++){
+BTset(x,y,210);
+}}
+BTset(4,0,146);
+BTset(5,0,144);
+BTset(6,0,144);
+BTset(7,0,145);
+BTset(7,1,145);
+BTset(7,4,145);
+BTset(7,5,145);
+BTset(7,6,145);
+BTset(6,6,144);
+BTset(5,6,144);
+BTset(4,6,146);
+BTset(5,3,156);
+BTset(4,3,144);
+BTset(4,2,145);
+BTset(4,1,145);
+if (NEThost){
+OBJaddnew(7,2,301+2*1024,0,256+housenumber); OBJaddnew(7,3,301+3*1024,0,256+housenumber); //doorframe
+myobj=OBJaddnew(7,2,297+10*1024,0,0); myobj->more=(object*)OBJaddnew(7,3,297+11*1024,0,(unsigned long)myobj); //door
+houseentrancex[housenumber]=patchx+8; houseentrancey[housenumber]=patchy+3;
+OBJaddnew(5,4,301+2*1024,0,256+housenumber); OBJaddnew(5,5,301+3*1024,0,256+housenumber); //doorframe
+myobj=OBJaddnew(5,4,300+10*1024,0,0); myobj->more=(object*)OBJaddnew(5,5,300+11*1024,0,(unsigned long)myobj); //door
+
+OBJaddnew(5,1,163,0,0); OBJaddnew(6,1,163+1*1024,0,0); //h-bed
+OBJaddnew(4,5,279,0,0);//table
+housestoragex[housenumber][housestoragenext[housenumber]]=patchx+4;
+housestoragey[housenumber][housestoragenext[housenumber]]=patchy+5;
+housestoragenext[housenumber]++;
+myobj=OBJaddnew(4,4,186+1024,128,0); //barrel (closed) + random food
+myobj2=OBJnew();
+x=rnd*6;
+if (x==0){myobj2->type=129; myobj2->more2=1;}//meat
+if (x==1){myobj2->type=128; myobj2->more2=1;}//bread
+if (x==2) myobj2->type=130;//rolls
+if (x==3) myobj2->type=131;//cake
+if (x==4) myobj2->type=132;//cheese
+if (x==5) myobj2->type=133;//ham
+myobj->more=myobj2; myobj2->prev=myobj;
+myobj=OBJaddnew(5,2,177+1024,128,0); //desk + candle
+myobj2=OBJnew(); myobj2->type=122; myobj2->info=128; //candle
+myobj->more=myobj2; myobj2->prev=myobj;
+OBJaddnew(6,2,252+3*1024,128,0);//chair west
+OBJaddnew(6,0,164+2*1024,128,0);//fireplace h
+OBJaddnew(4,2,143,128,99);//picture
+}//NEThost
+}//i
+
+////////////////////////////////////////////////////////////////////////////

@@ -1,0 +1,7 @@
+000:00:00:00 Welcome to the U6O Slim-Client
+000:00:00:00 U6O DirectDraw engine setup has been completed
+000:00:00:00 System-memory screen back-buffers created
+000:00:00:00 System font [System] loaded
+000:00:00:00 Client socket created
+000:00:00:00 Port: 22 Name: 174.110.175.251
+000:00:00:00 DNS translated to IP address successfully

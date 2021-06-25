@@ -1,0 +1,446 @@
+basehousenumber=50;
+houseinitialcost[basehousenumber]=1000;
+housecost[basehousenumber]=60;
+houseentrancex[basehousenumber]=421;
+houseentrancey[basehousenumber]=392;
+
+patchx=0;
+patchy=0; //always 0 so far
+
+housenumber=65535;//Non house tiles
+
+BTset(1320,319,146);
+BTset(1321,319,144);
+BTset(1322,319,146);
+BTset(1323,319,144);
+BTset(1324,319,144);
+BTset(1325,319,144);
+BTset(1326,319,152);
+BTset(1320,320,145);
+BTset(1322,320,145);
+BTset(1326,320,145);
+BTset(1320,321,145);
+BTset(1322,321,214);
+BTset(1326,321,145);
+BTset(1320,322,145);
+BTset(1326,322,145);
+BTset(1320,323,145);
+BTset(1322,323,145);
+BTset(1326,323,145);
+BTset(1320,324,153);
+BTset(1321,324,144);
+BTset(1322,324,144);
+BTset(1323,324,144);
+BTset(1324,324,144);
+BTset(1325,324,144);
+BTset(1326,324,149);
+BTset(413,383,64);
+BTset(414,383,65);
+BTset(413,384,66);
+BTset(414,384,67);
+BTset(417,384,1);
+BTset(415,386,70);
+BTset(425,387,63);
+BTset(412,390,11);
+BTset(413,390,38);
+BTset(414,390,70);
+BTset(416,390,71);
+BTset(411,391,39);
+BTset(412,391,17);
+BTset(413,391,38);
+BTset(417,391,1);
+BTset(420,391,83);
+BTset(421,391,84);
+BTset(422,391,85);
+BTset(425,391,70);
+BTset(411,392,37);
+BTset(412,392,19);
+BTset(413,392,38);
+BTset(417,392,70);
+BTset(426,394,72);
+BTset(423,395,39);
+BTset(424,395,33);
+BTset(423,396,21);
+BTset(424,396,19);
+
+//house tiles (tiles sorted by position, not number)
+housenumber=basehousenumber;
+BTset(1321,320,214);
+BTset(1323,320,214);
+BTset(1324,320,214);
+BTset(1325,320,214);
+BTset(1321,321,214);
+BTset(1323,321,214);
+BTset(1324,321,213);
+BTset(1325,321,214);
+BTset(1321,322,214);
+BTset(1322,322,214);
+BTset(1323,322,214);
+BTset(1324,322,214);
+BTset(1325,322,214);
+BTset(1321,323,214);
+BTset(1323,323,214);
+BTset(1324,323,214);
+BTset(1325,323,214);
+BTset(417,385,146);
+BTset(418,385,144);
+BTset(419,385,144);
+BTset(420,385,144);
+BTset(421,385,144);
+BTset(422,385,144);
+BTset(423,385,152);
+BTset(417,386,195);
+BTset(418,386,214);
+BTset(419,386,214);
+BTset(420,386,214);
+BTset(421,386,214);
+BTset(422,386,214);
+BTset(423,386,197);
+BTset(417,387,145);
+BTset(418,387,214);
+BTset(419,387,214);
+BTset(420,387,214);
+BTset(421,387,214);
+BTset(422,387,214);
+BTset(423,387,145);
+BTset(417,388,195);
+BTset(418,388,214);
+BTset(419,388,214);
+BTset(420,388,214);
+BTset(421,388,214);
+BTset(422,388,214);
+BTset(423,388,145);
+BTset(417,389,145);
+BTset(418,389,214);
+BTset(419,389,214);
+BTset(420,389,214);
+BTset(421,389,214);
+BTset(422,389,214);
+BTset(423,389,197);
+BTset(417,390,153);
+BTset(418,390,144);
+BTset(419,390,196);
+BTset(420,390,214);
+BTset(421,390,214);
+BTset(422,390,144);
+BTset(423,390,149);
+
+housenumber=65535;
+
+if (NEThost){//cant add objects as a client
+//Objects
+OBJaddnew(422,390,332+1024*2,0,65536+basehousenumber+0);//sign
+
+myobj=OBJaddnew(421,390,298+1024*9,0,7);//matched door pair
+myobj->more=(object*)OBJaddnew( 420,390,298 + 1024*8,0,(unsigned long)myobj);//matched door pair
+
+object* item000021=OBJaddnew(417,387,164+1024*1,0,0);//fireplace
+
+object* item000041=OBJaddnew(419,392,206+1024*1,0,0);//brazier
+
+object* item000045=OBJaddnew(419,385,144+1024*0,128,0);//tapestry
+
+object* item000046=OBJaddnew(420,385,144+1024*1,128,0);//tapestry
+
+object* item000047=OBJaddnew(418,386,303+1024*0,0,0);//carpet
+
+object* item000048=OBJaddnew(421,386,303+1024*1,0,0);//carpet
+
+object* item000049=OBJaddnew(418,389,303+1024*16,0,0);//carpet
+
+object* item000050=OBJaddnew(422,386,303+1024*2,0,0);//carpet
+
+OBJaddnew(1321,321,279+1024*0,0,0);
+housestoragex[basehousenumber][housestoragenext[basehousenumber]]=patchx+1321;
+housestoragey[basehousenumber][housestoragenext[basehousenumber]]=patchy+321;
+housestoragenext[basehousenumber]++;
+
+OBJaddnew(1321,323,279+1024*2,0,0);
+housestoragex[basehousenumber][housestoragenext[basehousenumber]]=patchx+1321;
+housestoragey[basehousenumber][housestoragenext[basehousenumber]]=patchy+323;
+housestoragenext[basehousenumber]++;
+
+OBJaddnew(1321,322,279+1024*1,0,0);
+housestoragex[basehousenumber][housestoragenext[basehousenumber]]=patchx+1321;
+housestoragey[basehousenumber][housestoragenext[basehousenumber]]=patchy+322;
+housestoragenext[basehousenumber]++;
+
+myobj=OBJaddnew(1322,322,300+1024*(7+4),0,103);//matched door pair
+myobj->more=(object*)OBJaddnew( 1322,321,300 + 1024*(6+4),0,(unsigned long)myobj);//matched door pair
+
+object* item000108=OBJaddnew(1323,320,216+1024*1,0,0);//bookcase
+
+object* item000109=OBJaddnew(1322,320,216+1024*0,0,0);//bookcase
+
+object* item000130=OBJaddnew(420,386,303+1024*1,0,0);//carpet
+
+object* item000131=OBJaddnew(419,386,303+1024*1,0,0);//carpet
+
+object* item000132=OBJaddnew(420,389,303+1024*13,0,0);//carpet
+
+object* item000133=OBJaddnew(419,389,303+1024*13,0,0);//carpet
+
+object* item000137=OBJaddnew(1323,321,303+1024*0,0,0);//carpet
+
+object* item000138=OBJaddnew(1324,321,303+1024*1,0,0);//carpet
+
+object* item000139=OBJaddnew(1323,323,303+1024*3,0,0);//carpet
+
+object* item000140=OBJaddnew(1325,321,303+1024*1,0,0);//carpet
+
+object* item000141=OBJaddnew(1324,323,303+1024*10,0,0);//carpet
+
+object* item000142=OBJaddnew(1325,323,303+1024*10,0,0);//carpet
+
+object* item000148=OBJaddnew(1321,320,206+1024*2,0,0);//brazier
+
+OBJaddnew(420,390,301+1024*0,0,256+basehousenumber+0);//doorframe
+
+OBJaddnew(421,390,301+1024*1,0,256+basehousenumber+0);//doorframe
+
+OBJaddnew(1325,323,305+1024*0,0, 25493926); // pointing at something
+
+OBJaddnew(1322,322,301+1024*3,0,256+basehousenumber+0);//doorframe
+
+OBJaddnew(1322,321,301+1024*2,0,256+basehousenumber+0);//doorframe
+
+
+
+object* item000159=OBJaddnew(422,388,303+1024*5,0,0);//carpet
+//OBJremove(item000159);//remove from the map (so it can go in a container)
+
+object* item000160=OBJaddnew(421,389,303+1024*13,0,0);//carpet
+
+object* item000161=OBJaddnew(421,388,303+1024*10,0,0);//carpet
+
+object* item000162=OBJaddnew(420,388,303+1024*4,0,0);//carpet
+
+object* item000163=OBJaddnew(419,388,303+1024*10,0,0);//carpet
+
+object* item000164=OBJaddnew(418,388,303+1024*3,0,0);//carpet
+
+
+
+
+
+object* item000169=OBJaddnew(1323,322,303+1024*3,0,0);//carpet
+
+object* item000170=OBJaddnew(1324,322,303+1024*15,0,0);//carpet
+
+object* item000171=OBJaddnew(1325,322,303+1024*10,0,0);//carpet
+
+
+
+
+
+
+
+object* item000178=OBJaddnew(420,389,138+1024*0,128,0);//plant
+
+
+
+
+object* item000182=OBJaddnew(1325,319,140+1024*1,128,0);//wall mount
+
+object* item000183=OBJaddnew(1325,319,141+1024*1,128,0);//decorative sword
+
+
+
+
+
+object* item000189=OBJaddnew(422,389,303+1024*17,0,0);//carpet
+
+OBJaddnew(422,389,305+1024*1,0, 21169453); // pointing at something
+
+object* item000210=OBJaddnew(422,387,303+1024*5,0,0);//carpet
+
+object* item000211=OBJaddnew(421,387,303+1024*10,0,0);//carpet
+
+object* item000212=OBJaddnew(419,387,303+1024*10,0,0);//carpet
+
+object* item000213=OBJaddnew(420,387,303+1024*10,0,0);//carpet
+
+object* item000214=OBJaddnew(418,387,303+1024*3,0,0);//carpet
+
+object* item000215=OBJaddnew(418,386,230+1024*0,0,0);//table
+
+object* item000216=OBJaddnew(419,386,230+1024*1,0,0);//table
+
+object* item000217=OBJaddnew(418,387,239+1024*0,0,0);//table
+
+object* item000218=OBJaddnew(419,387,239+1024*1,0,0);//table
+
+object* item000223=OBJaddnew(419,388,251+1024*1,0,0);//shadow
+
+object* item000224=OBJaddnew(418,388,251+1024*0,0,0);//shadow
+
+object* item000226=OBJaddnew(420,386,231+1024*0,0,0);//shadow
+
+object* item000228=OBJaddnew(420,387,240+1024*0,0,0);//shadow
+
+object* item000229=OBJaddnew(419,388,252+1024*0,128,0);//chair
+
+object* item000230=OBJaddnew(420,387,252+1024*3,128,0);//chair
+
+
+object* item000232=OBJaddnew(419,387,119+1024*0,128,0);//plate
+
+
+object* item000234=OBJaddnew(419,387,121+1024*0,128,0);//silverware
+
+
+
+object* item000237=OBJaddnew(419,387,120+1024*0,128,0);//mug
+
+object* item000238=OBJaddnew(419,387,129+1024*0,0,1);//meat
+
+object* item000239=OBJaddnew(419,386,152+1024*0,128,0);//scroll
+
+
+object* item000241=OBJaddnew(419,386,150+1024*0,128,0);//inkwell
+
+object* item000242=OBJaddnew(418,388,154+1024*0,0,0);//telescope
+
+object* item000243=OBJaddnew(422,386,163+1024*6,0,0);//bed
+
+object* item000244=OBJaddnew(422,387,163+1024*7,0,0);//bed
+
+
+
+
+
+object* item000247=OBJaddnew(421,386,122+1024*0,128,0);//candle
+OBJremove(item000247);//remove from the map (so it can go in a container)
+
+object* item000248=OBJaddnew(422,388,133+1024*0,0,0);//ham
+OBJremove(item000248);//remove from the map (so it can go in a container)
+
+object* item000249=OBJaddnew(422,388,132+1024*0,0,0);//cheese
+OBJremove(item000249);//remove from the map (so it can go in a container)
+
+object* item000250=OBJaddnew(422,388,130+1024*0,0,0);//rolls
+OBJremove(item000250);//remove from the map (so it can go in a container)
+
+object* item000251=OBJaddnew(422,388,129+1024*0,0,3);//meat
+OBJremove(item000251);//remove from the map (so it can go in a container)
+
+object* item000252=OBJaddnew(418,386,139+1024*0,128,0);//flowers
+
+object* item000253=OBJaddnew(418,387,275+1024*2,0,0);//potion
+
+
+
+object* item000255=OBJaddnew(420,386,90+1024*0,0,3);//torch
+OBJremove(item000255);//remove from the map (so it can go in a container)
+
+object* item000256=OBJaddnew(420,386,83+1024*0,0,2);//oil flask
+OBJremove(item000256);//remove from the map (so it can go in a container)
+
+object* item000257=OBJaddnew(420,386,63+1024*0,0,1);//lockpick
+OBJremove(item000257);//remove from the map (so it can go in a container)
+
+object* item000258=OBJaddnew(420,386,122+1024*0,0,0);//candle
+OBJremove(item000258);//remove from the map (so it can go in a container)
+
+
+
+
+object* item000262=OBJaddnew(418,389,124+1024*0,0,0);//tunic
+OBJremove(item000262);//remove from the map (so it can go in a container)
+
+object* item000263=OBJaddnew(418,389,137+1024*0,0,0);//trousers
+OBJremove(item000263);//remove from the map (so it can go in a container)
+
+object* item000264=OBJaddnew(421,385,143+1024*1,128,0);//picture
+
+object* item000265=OBJaddnew(418,385,142+1024*1,128,0);//decorative shield
+
+
+
+
+
+
+
+
+object* item000273=OBJaddnew(1322,321,216+1024*4,0,0);//bookcase
+
+object* item000274=OBJaddnew(1323,321,216+1024*5,0,0);//bookcase
+
+object* item000275=OBJaddnew(1323,319,144+1024*0,0,0);//tapestry
+
+object* item000276=OBJaddnew(1324,319,144+1024*1,0,0);//tapestry
+
+
+
+object* item000278=OBJaddnew(1324,323,252+1024*3,128,0);//chair
+
+
+
+
+
+
+
+
+object* item000286=OBJaddnew(1325,320,325+1024*0,0,0);//bookstand
+
+
+object* item000288=OBJaddnew(1325,320,151+1024*0,0,0);//book
+
+object* item000289=OBJaddnew(1323,323,122+1024*0,0,0);//candle
+OBJremove(item000289);//remove from the map (so it can go in a container)
+
+object* item000290=OBJaddnew(1324,320,189+1024*0,0,0);//cask
+
+
+
+
+
+
+
+
+
+object* item000299=OBJaddnew(1325,320,38+1024*0,0,0);//dagger
+
+object* item000300=OBJaddnew(1323,320,77+1024*0,0,1);//gem
+
+object* item000292=OBJaddnew(1324,320,118+1024*0,0,0);//wineglass
+
+object* item1000296=OBJaddnew(1324,320,115+1024*0,0,0);//wine
+object* item2000296=OBJaddnew(1324,320,115+1024*0,0,0);//wine
+object* item3000296=OBJaddnew(1324,320,115+1024*0,0,0);//wine
+object* item4000296=OBJaddnew(1324,320,115+1024*0,0,0);//wine
+object* item5000296=OBJaddnew(1324,320,115+1024*0,0,0);//wine
+object* item6000296=OBJaddnew(1324,320,115+1024*0,0,0);//wine
+object* item7000302=OBJaddnew(1324,320,115+1024*0,0,0);//wine
+object* item8000301=OBJaddnew(1324,320,115+1024*0,0,0);//wine
+
+object* item000277=OBJaddnew(1323,323,177+1024*1,128,0);//desk
+
+object* item000187=OBJaddnew(417,389,176+1024*0,0,0);//chest of drawers
+object* item000188=OBJaddnew(418,389,176+1024*1,0,0);//chest of drawers
+item000187->more=item000188; item000187->info|=8;
+
+object* item000254=OBJaddnew(420,386,98+1024*2,128,0);//chest
+
+object* item000246=OBJaddnew(421,386,177+1024*0,128,0);//desk
+
+object* item000245=OBJaddnew(422,388,186+1024*1,0,0);//barrel
+
+object* item00asdasd0041=OBJaddnew(1325,322,206+1024*1,0,0);//brazier
+
+
+//Put items with parents into their containers
+OBJaddtocontainer(item000246, item000247); //put this item inside its parent
+OBJaddtocontainer(item000245, item000248); //put this item inside its parent
+OBJaddtocontainer(item000245, item000249); //put this item inside its parent
+OBJaddtocontainer(item000245, item000250); //put this item inside its parent
+OBJaddtocontainer(item000245, item000251); //put this item inside its parent
+OBJaddtocontainer(item000254, item000255); //put this item inside its parent
+OBJaddtocontainer(item000254, item000256); //put this item inside its parent
+OBJaddtocontainer(item000254, item000257); //put this item inside its parent
+OBJaddtocontainer(item000254, item000258); //put this item inside its parent
+OBJaddtocontainer(item000188, item000262); //put this item inside its parent
+OBJaddtocontainer(item000188, item000263); //put this item inside its parent
+OBJaddtocontainer(item000277, item000289); //put this item inside its parent
+}//NEThost
+

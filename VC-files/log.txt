@@ -1,0 +1,11 @@
+000:00:00:00 Welcome to the U6O Slim-Client
+000:00:00:00 U6O DirectDraw engine setup has been completed
+000:00:00:00 System-memory screen back-buffers created
+000:00:00:00 System font [System] loaded
+000:00:00:00 Client socket created
+000:00:00:00 Port: 22 Name: localhost
+000:00:00:00 DNS translated to IP address successfully
+000:00:00:00 Connected to U6O server successfully!
+000:00:00:00 Send and Receive network data threads started
+000:00:00:00 U6O network signature sent to host
+000:00:00:00 Loading .BMP image [.\dr\ultimavi.bmp]

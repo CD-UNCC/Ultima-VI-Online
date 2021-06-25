@@ -1,0 +1,45 @@
+﻿Build started 5/24/2011 6:25:18 PM.
+     1>Project "C:\The Ultima VI Online Project\c drive\c source\VC-files\u6o7.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "u607Debug\u6o7.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\The Ultima VI Online Project\c drive\c source\include" /ZI /nologo /W1 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D HOST /D CLIENT /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"u607Debug\\" /Fd"u607Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\u6o7.cpp
+         u6o7.cpp
+     1>c:\the ultima vi online project\c drive\c source\loop_client.cpp(6704): warning C4731: 'WinMain' : frame pointer register 'ebp' modified by inline assembly code
+     1>c:\the ultima vi online project\c drive\c source\loop_client.cpp(6724): warning C4731: 'WinMain' : frame pointer register 'ebp' modified by inline assembly code
+     1>c:\the ultima vi online project\c drive\c source\loop_client.cpp(6726): warning C4731: 'WinMain' : frame pointer register 'ebp' modified by inline assembly code
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"u607Debug\u6o7.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\The Ultima VI Online Project\c drive\c source\lib" dplay.lib dxguid.lib mylib.lib wininet.lib fdv_dmvr.lib ws2_32.lib winmm.lib user32.lib kernel32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib vfw32.lib dplay.lib dplayx.lib ddraw.lib dsound.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"u607Debug\u6o7.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\The Ultima VI Online Project\c drive\c source\VC-files\u607Debug\u6o7.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"u607Debug\u6o7.lib" /MACHINE:X86 u607Debug\u6o7.res
+         u607Debug\data_both.obj
+         u607Debug\data_client.obj
+         u607Debug\data_host.obj
+         u607Debug\dmusic.obj
+         u607Debug\frame.obj
+         u607Debug\function_both.obj
+         u607Debug\function_client.obj
+         u607Debug\function_host.obj
+         u607Debug\house.obj
+         u607Debug\myddraw.obj
+         u607Debug\myfile.obj
+         u607Debug\randi.obj
+         u607Debug\random.obj
+         u607Debug\sound.obj
+         u607Debug\spell_code.obj
+         u607Debug\stdafx.obj
+         u607Debug\txt.obj
+         u607Debug\u6o7.obj
+         u607Debug\use_code.obj
+         ..\lib\ddraw.lib
+         ..\lib\dsound.lib
+         ..\lib\dxguid.lib
+     1>data_both.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     1>u6o7.obj : error LNK2019: unresolved external symbol "public: bool __thiscall object::IsStackable(void)" (?IsStackable@object@@QAE_NXZ) referenced in function _WinMain@16
+     1>u6o7.obj : error LNK2019: unresolved external symbol "public: void __thiscall player::GetPartyInventory(struct object * * *,unsigned long *)" (?GetPartyInventory@player@@QAEXPAPAPAUobject@@PAK@Z) referenced in function _WinMain@16
+     1>u607Debug\u6o7.exe : fatal error LNK1120: 2 unresolved externals
+     1>Done Building Project "C:\The Ultima VI Online Project\c drive\c source\VC-files\u6o7.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:11.30

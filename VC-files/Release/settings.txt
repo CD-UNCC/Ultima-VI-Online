@@ -1,0 +1,16 @@
+The party list window is [25%] transparent.{PARTYLISTWINDOW_TRANSPARENCYLEVEL,CHOICE,not,50%,25%}
+The inventory windows are [50%] transparent.{INVENTORYWINDOW_TRANSPARENCYLEVEL,CHOICE,not,50%,25%}
+The spellbook windows are [50%] transparent.{SPELLBOOKWINDOW_TRANSPARENCYLEVEL,CHOICE,not,50%,25%}
+The portrait shown whilst typing text is [50%] transparent.{TEXTINPUTPORTRAIT_TRANSPARENCYLEVEL,CHOICE,not,50%,25%}
+The volume control window is [50%] transparent.{VOLUMECONTROL_TRANSPARENCYLEVEL,CHOICE,not,50%,25%}
+The up/down converstaion log arrows are [50%] transparent.{CONVERSATIONLOG_SCROLLARROWS_TRANSPARENCYLEVEL,CHOICE,not,50%,25%}
+The box with an arrow to show previous status messages at the bottom of the screen is [50%] transparent.{STATUSMESSAGE_VIEWPREVIOUSBOX_TRANSPARENCYLEVEL,CHOICE,not,50%,25%}
+The piano keys displayed when playing a musical instrument are [50%] transparent.{PLAYINSTRUMENTPIANOKEYS_TRANSPARENCYLEVEL,CHOICE,not,50%,25%}
+
+[Do] read joystick information.{ALLOWJOYSTICK,CHOICE,Do,Don't}
+[Do] load (DirectMusic) MIDI drivers.(Disabling allows U6O to function under WINE in Linux.){ALLOWMIDI,CHOICE,Do,Don't}
+[Yes] clouds?.{CLOUDS,CHOICE,Yes,No}
+
+Window resolution Y [Max] {WINDOW_RESOLUTION_Y,CHOICE,Max,600,500,800,1200,900}
+Sidebar UI Scale [Auto] {UI_SIDEBAR_SCALE,CHOICE,No,Auto,100,75,50,150,200}
+Minimap [1x] {MINIMAP,CHOICE,None,1x}

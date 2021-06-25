@@ -1,0 +1,21 @@
+﻿cl : Command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  Xenkan.cpp
+  u6o7.cpp
+  txt.cpp
+  stdafx.cpp
+  sound.cpp
+  random.cpp
+  randi.cpp
+  myfile.cpp
+  myddraw.cpp
+  function_client.cpp
+  function_both.cpp
+  frame.cpp
+  dmusic.cpp
+  data_client.cpp
+  data_both.cpp
+  Generating Code...
+c:\source\ultima\loop_client.cpp(8209): warning C4731: 'WinMain': frame pointer register 'ebp' modified by inline assembly code
+c:\source\ultima\loop_client.cpp(8229): warning C4731: 'WinMain': frame pointer register 'ebp' modified by inline assembly code
+c:\source\ultima\loop_client.cpp(8231): warning C4731: 'WinMain': frame pointer register 'ebp' modified by inline assembly code
+LINK : fatal error LNK1104: cannot open file 'C:\Source\ultima\VC-files\Debug\u6oclient2.exe'

@@ -1,0 +1,31 @@
+if (NEThost){//cant add objects as a client
+
+//fix for dungeon wrong
+object* item000001=OBJaddnew(1440,35,310+1024*3,0,0);//portcullis
+object* item000002=OBJaddnew(1440,34,310+1024*2,0,0);//portcullis
+
+object* item000003=OBJaddnew(1440,11,310+1024*3,0,0);//portcullis
+object* item000004=OBJaddnew(1440,10,310+1024*2,0,0);//portcullis
+
+//20080814-luteijn: probably no need to actually assign these calls to anything, since we don't use the pointers anymore afterwards. We might want to link the frames together stil lshould use local variables then, e.g. using a { } block.
+
+//drawbridges in LB's castle
+object* item000005=OBJaddnew(303,385,269+1024*6,0,0);//drawbridge
+object* item000006=OBJaddnew(305,385,269+1024*7,0,0);//drawbridge
+object* item000007=OBJaddnew(306,385,269+1024*7,0,0);//drawbridge
+object* item000008=OBJaddnew(307,385,269+1024*7,0,0);//drawbridge
+object* item000009=OBJaddnew(308,385,269+1024*7,0,0);//drawbridge
+object* item000010=OBJaddnew(309,385,269+1024*7,0,0);//drawbridge
+object* item000011=OBJaddnew(310,385,269+1024*8,0,0);//drawbridge
+object* item000012=OBJaddnew(304,385,269+1024*7,0,0);//drawbridge
+
+item000005->more=item000006;
+item000006->more=item000007;
+item000007->more=item000008;
+item000008->more=item000009;
+item000009->more=item000010;
+item000010->more=item000011;
+item000011->more=item000012;
+
+
+}//NEThost

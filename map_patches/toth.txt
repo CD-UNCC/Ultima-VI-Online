@@ -1,0 +1,1978 @@
+//red gates
+
+
+basehousenumber=51;
+patchx=0; patchy=0;
+houseinitialcost[basehousenumber+0]=4000;
+housecost[basehousenumber+0]=100;
+houseentrancex[basehousenumber+0]=1342; houseentrancey[basehousenumber+0]=334;
+
+housenumber=65535;//Non house tiles
+BTset(1473,233,240);
+BTset(1474,233,241);
+BTset(1475,233,241);
+BTset(1476,233,241);
+BTset(1477,233,241);
+BTset(1478,233,242);
+BTset(1473,234,247);
+BTset(1478,234,243);
+BTset(1473,235,247);
+BTset(1478,235,243);
+BTset(1473,236,247);
+BTset(1478,236,243);
+BTset(1473,237,246);
+BTset(1474,237,245);
+BTset(1475,237,245);
+BTset(1476,237,245);
+BTset(1477,237,245);
+BTset(1478,237,244);
+BTset(255,286,7);
+BTset(258,289,7);
+BTset(254,292,7);
+BTset(259,292,80);
+BTset(258,293,94);
+BTset(260,293,85);
+BTset(1327,319,254);
+BTset(1328,319,254);
+BTset(1329,319,254);
+BTset(1330,319,254);
+BTset(1331,319,252);
+BTset(1332,319,254);
+BTset(1333,319,252);
+BTset(1334,319,254);
+BTset(1335,319,254);
+BTset(1336,319,254);
+BTset(1337,319,254);
+BTset(1338,319,254);
+BTset(1339,319,252);
+BTset(1340,319,254);
+BTset(1341,319,252);
+BTset(1342,319,254);
+BTset(1343,319,254);
+BTset(1344,319,254);
+BTset(1345,319,254);
+BTset(1346,319,254);
+BTset(1347,319,252);
+BTset(1348,319,254);
+BTset(1349,319,252);
+BTset(1350,319,254);
+BTset(1351,319,254);
+BTset(1352,319,254);
+BTset(1353,319,254);
+BTset(1354,319,254);
+BTset(1355,319,252);
+BTset(1356,319,254);
+BTset(1357,319,252);
+BTset(1358,319,254);
+BTset(1360,319,240);
+BTset(1361,319,241);
+BTset(1362,319,241);
+BTset(1363,319,241);
+BTset(1364,319,242);
+BTset(1327,320,254);
+BTset(1328,320,254);
+BTset(1329,320,252);
+BTset(1330,320,254);
+BTset(1331,320,254);
+BTset(1332,320,254);
+BTset(1333,320,252);
+BTset(1334,320,254);
+BTset(1335,320,254);
+BTset(1336,320,254);
+BTset(1337,320,252);
+BTset(1338,320,254);
+BTset(1339,320,254);
+BTset(1340,320,254);
+BTset(1341,320,252);
+BTset(1342,320,254);
+BTset(1343,320,254);
+BTset(1344,320,254);
+BTset(1345,320,252);
+BTset(1346,320,254);
+BTset(1347,320,254);
+BTset(1348,320,254);
+BTset(1349,320,252);
+BTset(1350,320,254);
+BTset(1351,320,254);
+BTset(1352,320,254);
+BTset(1353,320,252);
+BTset(1354,320,254);
+BTset(1355,320,254);
+BTset(1356,320,254);
+BTset(1357,320,252);
+BTset(1358,320,254);
+BTset(1359,320,240);
+BTset(1360,320,250);
+BTset(1361,320,108);
+BTset(1362,320,221);
+BTset(1363,320,108);
+BTset(1364,320,251);
+BTset(1365,320,242);
+BTset(1327,321,254);
+BTset(1328,321,252);
+BTset(1329,321,252);
+BTset(1330,321,254);
+BTset(1331,321,254);
+BTset(1332,321,253);
+BTset(1333,321,254);
+BTset(1334,321,252);
+BTset(1335,321,254);
+BTset(1336,321,252);
+BTset(1337,321,252);
+BTset(1338,321,254);
+BTset(1339,321,254);
+BTset(1340,321,253);
+BTset(1341,321,254);
+BTset(1342,321,252);
+BTset(1343,321,254);
+BTset(1344,321,252);
+BTset(1345,321,252);
+BTset(1346,321,254);
+BTset(1347,321,254);
+BTset(1348,321,253);
+BTset(1349,321,254);
+BTset(1350,321,252);
+BTset(1351,321,254);
+BTset(1352,321,252);
+BTset(1353,321,252);
+BTset(1354,321,254);
+BTset(1355,321,254);
+BTset(1356,321,253);
+BTset(1357,321,254);
+BTset(1358,321,252);
+BTset(1359,321,247);
+BTset(1360,321,109);
+BTset(1361,321,109);
+BTset(1362,321,108);
+BTset(1363,321,221);
+BTset(1364,321,222);
+BTset(1365,321,243);
+BTset(1327,322,254);
+BTset(1328,322,254);
+BTset(1329,322,253);
+BTset(1330,322,254);
+BTset(1331,322,252);
+BTset(1332,322,254);
+BTset(1333,322,254);
+BTset(1334,322,254);
+BTset(1335,322,254);
+BTset(1336,322,254);
+BTset(1337,322,253);
+BTset(1338,322,254);
+BTset(1339,322,252);
+BTset(1340,322,254);
+BTset(1341,322,254);
+BTset(1342,322,254);
+BTset(1343,322,254);
+BTset(1344,322,254);
+BTset(1345,322,253);
+BTset(1346,322,254);
+BTset(1347,322,252);
+BTset(1348,322,254);
+BTset(1349,322,254);
+BTset(1350,322,254);
+BTset(1351,322,254);
+BTset(1352,322,254);
+BTset(1353,322,253);
+BTset(1354,322,254);
+BTset(1355,322,252);
+BTset(1356,322,254);
+BTset(1357,322,254);
+BTset(1358,322,254);
+BTset(1359,322,247);
+BTset(1360,322,89);
+BTset(1361,322,109);
+BTset(1362,322,108);
+BTset(1363,322,109);
+BTset(1364,322,221);
+BTset(1365,322,243);
+BTset(1327,323,254);
+BTset(1328,323,254);
+BTset(1329,323,254);
+BTset(1330,323,254);
+BTset(1331,323,254);
+BTset(1332,323,254);
+BTset(1333,323,254);
+BTset(1334,323,254);
+BTset(1335,323,254);
+BTset(1336,323,254);
+BTset(1337,323,254);
+BTset(1338,323,254);
+BTset(1339,323,254);
+BTset(1340,323,254);
+BTset(1341,323,254);
+BTset(1342,323,254);
+BTset(1343,323,254);
+BTset(1344,323,254);
+BTset(1345,323,254);
+BTset(1346,323,254);
+BTset(1347,323,254);
+BTset(1348,323,254);
+BTset(1349,323,254);
+BTset(1350,323,254);
+BTset(1351,323,254);
+BTset(1352,323,254);
+BTset(1353,323,254);
+BTset(1354,323,254);
+BTset(1355,323,254);
+BTset(1356,323,254);
+BTset(1357,323,254);
+BTset(1358,323,254);
+BTset(1359,323,247);
+BTset(1360,323,95);
+BTset(1361,323,108);
+BTset(1362,323,109);
+BTset(1363,323,108);
+BTset(1364,323,108);
+BTset(1365,323,243);
+BTset(1327,324,254);
+BTset(1328,324,254);
+BTset(1329,324,254);
+BTset(1330,324,254);
+BTset(1331,324,254);
+BTset(1332,324,254);
+BTset(1333,324,254);
+BTset(1334,324,254);
+BTset(1335,324,254);
+BTset(1338,324,254);
+BTset(1339,324,254);
+BTset(1340,324,254);
+BTset(1341,324,254);
+BTset(1342,324,254);
+BTset(1343,324,254);
+BTset(1344,324,254);
+BTset(1345,324,254);
+BTset(1346,324,254);
+BTset(1350,324,254);
+BTset(1351,324,254);
+BTset(1352,324,254);
+BTset(1353,324,254);
+BTset(1354,324,254);
+BTset(1355,324,254);
+BTset(1356,324,254);
+BTset(1357,324,254);
+BTset(1358,324,254);
+BTset(1359,324,246);
+BTset(1360,324,249);
+BTset(1361,324,89);
+BTset(1362,324,111);
+BTset(1363,324,88);
+BTset(1364,324,248);
+BTset(1365,324,244);
+BTset(1327,325,254);
+BTset(1328,325,252);
+BTset(1329,325,252);
+BTset(1330,325,252);
+BTset(1331,325,254);
+BTset(1332,325,254);
+BTset(1333,325,254);
+BTset(1334,325,252);
+BTset(1335,325,254);
+BTset(1350,325,252);
+BTset(1351,325,254);
+BTset(1352,325,252);
+BTset(1353,325,252);
+BTset(1354,325,252);
+BTset(1355,325,254);
+BTset(1356,325,254);
+BTset(1357,325,254);
+BTset(1358,325,252);
+BTset(1360,325,246);
+BTset(1361,325,245);
+BTset(1362,325,245);
+BTset(1363,325,245);
+BTset(1364,325,244);
+BTset(1327,326,254);
+BTset(1328,326,253);
+BTset(1329,326,252);
+BTset(1330,326,254);
+BTset(1331,326,254);
+BTset(1332,326,254);
+BTset(1333,326,252);
+BTset(1334,326,252);
+BTset(1335,326,254);
+BTset(1336,326,253);
+BTset(1349,326,252);
+BTset(1350,326,252);
+BTset(1351,326,254);
+BTset(1352,326,253);
+BTset(1353,326,252);
+BTset(1354,326,254);
+BTset(1355,326,254);
+BTset(1356,326,254);
+BTset(1357,326,252);
+BTset(1358,326,252);
+BTset(1327,327,254);
+BTset(1328,327,254);
+BTset(1329,327,254);
+BTset(1330,327,254);
+BTset(1331,327,252);
+BTset(1332,327,254);
+BTset(1333,327,252);
+BTset(1334,327,254);
+BTset(1335,327,254);
+BTset(1336,327,254);
+BTset(1349,327,252);
+BTset(1350,327,254);
+BTset(1351,327,254);
+BTset(1354,327,254);
+BTset(1355,327,252);
+BTset(1356,327,254);
+BTset(1357,327,252);
+BTset(1358,327,254);
+BTset(1327,328,254);
+BTset(1328,328,254);
+BTset(1329,328,252);
+BTset(1330,328,254);
+BTset(1331,328,254);
+BTset(1332,328,254);
+BTset(1333,328,252);
+BTset(1334,328,254);
+BTset(1335,328,254);
+BTset(1336,328,254);
+BTset(1354,328,254);
+BTset(1355,328,254);
+BTset(1356,328,254);
+BTset(1357,328,252);
+BTset(1358,328,254);
+BTset(1327,329,254);
+BTset(1328,329,252);
+BTset(1329,329,252);
+BTset(1330,329,254);
+BTset(1331,329,254);
+BTset(1332,329,253);
+BTset(1333,329,254);
+BTset(1334,329,252);
+BTset(1335,329,254);
+BTset(1336,329,252);
+BTset(1349,329,254);
+BTset(1350,329,254);
+BTset(1351,329,254);
+BTset(1354,329,254);
+BTset(1355,329,254);
+BTset(1356,329,253);
+BTset(1357,329,254);
+BTset(1358,329,252);
+BTset(1327,330,254);
+BTset(1328,330,254);
+BTset(1329,330,253);
+BTset(1330,330,254);
+BTset(1331,330,252);
+BTset(1332,330,254);
+BTset(1333,330,254);
+BTset(1334,330,254);
+BTset(1335,330,254);
+BTset(1336,330,254);
+BTset(1349,330,254);
+BTset(1350,330,254);
+BTset(1351,330,254);
+BTset(1352,330,252);
+BTset(1353,330,253);
+BTset(1354,330,254);
+BTset(1355,330,252);
+BTset(1356,330,254);
+BTset(1357,330,254);
+BTset(1358,330,254);
+BTset(1327,331,254);
+BTset(1328,331,254);
+BTset(1329,331,254);
+BTset(1330,331,254);
+BTset(1331,331,254);
+BTset(1332,331,254);
+BTset(1333,331,254);
+BTset(1334,331,254);
+BTset(1335,331,254);
+BTset(1336,331,254);
+BTset(1349,331,254);
+BTset(1350,331,254);
+BTset(1351,331,254);
+BTset(1352,331,254);
+BTset(1353,331,254);
+BTset(1354,331,254);
+BTset(1355,331,254);
+BTset(1356,331,254);
+BTset(1357,331,254);
+BTset(1358,331,254);
+BTset(1327,332,254);
+BTset(1328,332,254);
+BTset(1329,332,254);
+BTset(1330,332,254);
+BTset(1331,332,254);
+BTset(1332,332,254);
+BTset(1333,332,254);
+BTset(1334,332,254);
+BTset(1335,332,254);
+BTset(1336,332,254);
+BTset(1342,332,214);
+BTset(1349,332,254);
+BTset(1350,332,254);
+BTset(1351,332,254);
+BTset(1352,332,254);
+BTset(1353,332,254);
+BTset(1354,332,254);
+BTset(1355,332,254);
+BTset(1356,332,254);
+BTset(1357,332,254);
+BTset(1358,332,254);
+BTset(1327,333,254);
+BTset(1328,333,252);
+BTset(1329,333,252);
+BTset(1330,333,252);
+BTset(1331,333,254);
+BTset(1332,333,254);
+BTset(1333,333,254);
+BTset(1334,333,252);
+BTset(1335,333,254);
+BTset(1336,333,252);
+BTset(1349,333,254);
+BTset(1350,333,252);
+BTset(1351,333,254);
+BTset(1352,333,252);
+BTset(1353,333,252);
+BTset(1354,333,252);
+BTset(1355,333,254);
+BTset(1356,333,254);
+BTset(1357,333,254);
+BTset(1358,333,252);
+BTset(1327,334,254);
+BTset(1328,334,253);
+BTset(1329,334,252);
+BTset(1330,334,254);
+BTset(1331,334,254);
+BTset(1332,334,254);
+BTset(1333,334,252);
+BTset(1334,334,252);
+BTset(1335,334,254);
+BTset(1336,334,253);
+BTset(1339,334,254);
+BTset(1340,334,254);
+BTset(1341,334,252);
+BTset(1342,334,214);
+BTset(1343,334,254);
+BTset(1344,334,253);
+BTset(1345,334,252);
+BTset(1347,334,214);
+BTset(1349,334,252);
+BTset(1350,334,252);
+BTset(1351,334,254);
+BTset(1352,334,253);
+BTset(1353,334,252);
+BTset(1354,334,254);
+BTset(1355,334,254);
+BTset(1356,334,254);
+BTset(1357,334,252);
+BTset(1358,334,252);
+BTset(1327,335,254);
+BTset(1328,335,254);
+BTset(1329,335,254);
+BTset(1330,335,254);
+BTset(1331,335,252);
+BTset(1332,335,254);
+BTset(1333,335,252);
+BTset(1334,335,254);
+BTset(1335,335,254);
+BTset(1336,335,254);
+BTset(1337,335,214);
+BTset(1338,335,254);
+BTset(1339,335,252);
+BTset(1340,335,254);
+BTset(1341,335,254);
+BTset(1342,335,214);
+BTset(1343,335,254);
+BTset(1344,335,254);
+BTset(1345,335,254);
+BTset(1346,335,254);
+BTset(1347,335,252);
+BTset(1349,335,252);
+BTset(1350,335,254);
+BTset(1351,335,254);
+BTset(1352,335,254);
+BTset(1353,335,254);
+BTset(1354,335,254);
+BTset(1355,335,252);
+BTset(1356,335,254);
+BTset(1357,335,252);
+BTset(1358,335,254);
+BTset(1327,336,254);
+BTset(1328,336,254);
+BTset(1329,336,252);
+BTset(1330,336,254);
+BTset(1331,336,254);
+BTset(1332,336,254);
+BTset(1333,336,252);
+BTset(1334,336,254);
+BTset(1335,336,254);
+BTset(1336,336,254);
+BTset(1337,336,252);
+BTset(1338,336,254);
+BTset(1339,336,254);
+BTset(1340,336,254);
+BTset(1341,336,253);
+BTset(1342,336,111);
+BTset(1343,336,253);
+BTset(1344,336,254);
+BTset(1345,336,254);
+BTset(1346,336,254);
+BTset(1347,336,254);
+BTset(1348,336,254);
+BTset(1349,336,252);
+BTset(1350,336,254);
+BTset(1351,336,254);
+BTset(1352,336,254);
+BTset(1353,336,252);
+BTset(1354,336,254);
+BTset(1355,336,254);
+BTset(1356,336,254);
+BTset(1357,336,252);
+BTset(1358,336,254);
+BTset(1327,337,254);
+BTset(1328,337,252);
+BTset(1329,337,252);
+BTset(1330,337,254);
+BTset(1331,337,254);
+BTset(1332,337,253);
+BTset(1333,337,254);
+BTset(1334,337,252);
+BTset(1335,337,254);
+BTset(1336,337,252);
+BTset(1337,337,252);
+BTset(1338,337,254);
+BTset(1339,337,248);
+BTset(1340,337,245);
+BTset(1341,337,249);
+BTset(1342,337,111);
+BTset(1343,337,248);
+BTset(1344,337,245);
+BTset(1345,337,249);
+BTset(1346,337,254);
+BTset(1347,337,254);
+BTset(1348,337,253);
+BTset(1349,337,254);
+BTset(1350,337,252);
+BTset(1351,337,254);
+BTset(1352,337,252);
+BTset(1353,337,252);
+BTset(1354,337,254);
+BTset(1355,337,254);
+BTset(1356,337,253);
+BTset(1357,337,254);
+BTset(1358,337,252);
+BTset(1327,338,254);
+BTset(1328,338,254);
+BTset(1329,338,253);
+BTset(1330,338,254);
+BTset(1331,338,252);
+BTset(1332,338,254);
+BTset(1333,338,254);
+BTset(1334,338,254);
+BTset(1335,338,254);
+BTset(1336,338,254);
+BTset(1337,338,253);
+BTset(1338,338,254);
+BTset(1339,338,243);
+BTset(1340,338,240);
+BTset(1341,338,250);
+BTset(1342,338,217);
+BTset(1343,338,251);
+BTset(1344,338,242);
+BTset(1345,338,247);
+BTset(1346,338,254);
+BTset(1347,338,252);
+BTset(1348,338,254);
+BTset(1349,338,254);
+BTset(1350,338,254);
+BTset(1351,338,254);
+BTset(1352,338,254);
+BTset(1353,338,253);
+BTset(1354,338,254);
+BTset(1355,338,252);
+BTset(1356,338,254);
+BTset(1357,338,254);
+BTset(1358,338,254);
+BTset(1327,339,254);
+BTset(1328,339,254);
+BTset(1329,339,254);
+BTset(1330,339,254);
+BTset(1331,339,254);
+BTset(1332,339,254);
+BTset(1333,339,254);
+BTset(1334,339,254);
+BTset(1335,339,254);
+BTset(1336,339,254);
+BTset(1337,339,254);
+BTset(1338,339,254);
+BTset(1339,339,243);
+BTset(1340,339,247);
+BTset(1341,339,217);
+BTset(1342,339,218);
+BTset(1343,339,217);
+BTset(1344,339,243);
+BTset(1345,339,247);
+BTset(1346,339,254);
+BTset(1347,339,254);
+BTset(1348,339,254);
+BTset(1349,339,254);
+BTset(1350,339,254);
+BTset(1351,339,254);
+BTset(1352,339,254);
+BTset(1353,339,254);
+BTset(1354,339,254);
+BTset(1355,339,254);
+BTset(1356,339,254);
+BTset(1357,339,254);
+BTset(1358,339,254);
+BTset(1327,340,254);
+BTset(1328,340,254);
+BTset(1329,340,254);
+BTset(1330,340,254);
+BTset(1331,340,254);
+BTset(1332,340,254);
+BTset(1333,340,254);
+BTset(1334,340,254);
+BTset(1335,340,254);
+BTset(1336,340,254);
+BTset(1337,340,254);
+BTset(1338,340,254);
+BTset(1339,340,243);
+BTset(1340,340,247);
+BTset(1341,340,218);
+BTset(1342,340,219);
+BTset(1343,340,218);
+BTset(1344,340,243);
+BTset(1345,340,247);
+BTset(1346,340,254);
+BTset(1347,340,254);
+BTset(1348,340,254);
+BTset(1349,340,254);
+BTset(1350,340,254);
+BTset(1351,340,254);
+BTset(1352,340,254);
+BTset(1353,340,254);
+BTset(1354,340,254);
+BTset(1355,340,254);
+BTset(1356,340,254);
+BTset(1357,340,254);
+BTset(1358,340,254);
+BTset(1327,341,254);
+BTset(1328,341,252);
+BTset(1329,341,252);
+BTset(1330,341,252);
+BTset(1331,341,254);
+BTset(1332,341,254);
+BTset(1333,341,254);
+BTset(1334,341,252);
+BTset(1335,341,254);
+BTset(1336,341,252);
+BTset(1337,341,252);
+BTset(1338,341,252);
+BTset(1339,341,243);
+BTset(1340,341,246);
+BTset(1341,341,245);
+BTset(1342,341,245);
+BTset(1343,341,245);
+BTset(1344,341,244);
+BTset(1345,341,247);
+BTset(1346,341,252);
+BTset(1347,341,254);
+BTset(1348,341,254);
+BTset(1349,341,254);
+BTset(1350,341,252);
+BTset(1351,341,254);
+BTset(1352,341,252);
+BTset(1353,341,252);
+BTset(1354,341,252);
+BTset(1355,341,254);
+BTset(1356,341,254);
+BTset(1357,341,254);
+BTset(1358,341,252);
+BTset(1327,342,254);
+BTset(1328,342,253);
+BTset(1329,342,252);
+BTset(1330,342,254);
+BTset(1331,342,254);
+BTset(1332,342,254);
+BTset(1333,342,252);
+BTset(1334,342,252);
+BTset(1335,342,254);
+BTset(1336,342,253);
+BTset(1337,342,252);
+BTset(1338,342,254);
+BTset(1339,342,251);
+BTset(1340,342,241);
+BTset(1341,342,241);
+BTset(1342,342,241);
+BTset(1343,342,241);
+BTset(1344,342,241);
+BTset(1345,342,250);
+BTset(1346,342,254);
+BTset(1347,342,254);
+BTset(1348,342,254);
+BTset(1349,342,252);
+BTset(1350,342,252);
+BTset(1351,342,254);
+BTset(1352,342,253);
+BTset(1353,342,252);
+BTset(1354,342,254);
+BTset(1355,342,254);
+BTset(1356,342,254);
+BTset(1357,342,252);
+BTset(1358,342,252);
+BTset(1327,343,254);
+BTset(1328,343,254);
+BTset(1329,343,254);
+BTset(1330,343,254);
+BTset(1331,343,252);
+BTset(1332,343,254);
+BTset(1333,343,252);
+BTset(1334,343,254);
+BTset(1335,343,254);
+BTset(1336,343,254);
+BTset(1337,343,254);
+BTset(1338,343,254);
+BTset(1339,343,252);
+BTset(1340,343,254);
+BTset(1341,343,252);
+BTset(1342,343,254);
+BTset(1343,343,254);
+BTset(1344,343,254);
+BTset(1345,343,254);
+BTset(1346,343,254);
+BTset(1347,343,252);
+BTset(1348,343,254);
+BTset(1349,343,252);
+BTset(1350,343,254);
+BTset(1351,343,254);
+BTset(1352,343,254);
+BTset(1353,343,254);
+BTset(1354,343,254);
+BTset(1355,343,252);
+BTset(1356,343,254);
+BTset(1357,343,252);
+BTset(1358,343,254);
+//BTset(281,406,1);
+//BTset(282,406,1);
+//BTset(281,407,1);
+//BTset(282,407,1);
+
+//BTset(957,749,94);
+//BTset(958,749,118);
+//BTset(957,750,113);
+//BTset(958,750,123);
+//BTset(959,750,134);
+//BTset(958,751,129);
+//BTset(959,751,139);
+
+//house tiles (tiles sorted by position, not number)
+housenumber=basehousenumber+0;
+BTset(1474,234,110);
+housenumber=basehousenumber+0;
+BTset(1475,234,110);
+housenumber=basehousenumber+0;
+BTset(1476,234,110);
+housenumber=basehousenumber+0;
+BTset(1477,234,110);
+housenumber=basehousenumber+0;
+BTset(1474,235,110);
+housenumber=basehousenumber+0;
+BTset(1475,235,109);
+housenumber=basehousenumber+0;
+BTset(1476,235,110);
+housenumber=basehousenumber+0;
+BTset(1477,235,111);
+housenumber=basehousenumber+0;
+BTset(1474,236,110);
+housenumber=basehousenumber+0;
+BTset(1475,236,110);
+housenumber=basehousenumber+0;
+BTset(1476,236,186);
+housenumber=basehousenumber+0;
+BTset(1477,236,108);
+housenumber=basehousenumber+0;
+BTset(1336,324,214);
+housenumber=basehousenumber+0;
+BTset(1337,324,214);
+housenumber=basehousenumber+0;
+BTset(1347,324,214);
+housenumber=basehousenumber+0;
+BTset(1348,324,214);
+housenumber=basehousenumber+0;
+BTset(1349,324,214);
+housenumber=basehousenumber+0;
+BTset(1336,325,214);
+housenumber=basehousenumber+0;
+BTset(1337,325,214);
+housenumber=basehousenumber+0;
+BTset(1338,325,214);
+housenumber=basehousenumber+0;
+BTset(1339,325,214);
+housenumber=basehousenumber+0;
+BTset(1340,325,214);
+housenumber=basehousenumber+0;
+BTset(1341,325,214);
+housenumber=basehousenumber+0;
+BTset(1342,325,214);
+housenumber=basehousenumber+0;
+BTset(1343,325,214);
+housenumber=basehousenumber+0;
+BTset(1344,325,214);
+housenumber=basehousenumber+0;
+BTset(1345,325,214);
+housenumber=basehousenumber+0;
+BTset(1346,325,214);
+housenumber=basehousenumber+0;
+BTset(1347,325,214);
+housenumber=basehousenumber+0;
+BTset(1348,325,214);
+housenumber=basehousenumber+0;
+BTset(1349,325,214);
+housenumber=basehousenumber+0;
+BTset(1337,326,214);
+housenumber=basehousenumber+0;
+BTset(1338,326,146);
+housenumber=basehousenumber+0;
+BTset(1339,326,144);
+housenumber=basehousenumber+0;
+BTset(1340,326,144);
+housenumber=basehousenumber+0;
+BTset(1341,326,144);
+housenumber=basehousenumber+0;
+BTset(1342,326,144);
+housenumber=basehousenumber+0;
+BTset(1343,326,144);
+housenumber=basehousenumber+0;
+BTset(1344,326,214);
+housenumber=basehousenumber+0;
+BTset(1345,326,144);
+housenumber=basehousenumber+0;
+BTset(1346,326,147);
+housenumber=basehousenumber+0;
+BTset(1347,326,214);
+housenumber=basehousenumber+0;
+BTset(1348,326,214);
+housenumber=basehousenumber+0;
+BTset(1337,327,214);
+housenumber=basehousenumber+0;
+BTset(1338,327,145);
+housenumber=basehousenumber+0;
+BTset(1339,327,213);
+housenumber=basehousenumber+0;
+BTset(1340,327,213);
+housenumber=basehousenumber+0;
+BTset(1341,327,213);
+housenumber=basehousenumber+0;
+BTset(1342,327,213);
+housenumber=basehousenumber+0;
+BTset(1343,327,214);
+housenumber=basehousenumber+0;
+BTset(1344,327,214);
+housenumber=basehousenumber+0;
+BTset(1345,327,214);
+housenumber=basehousenumber+0;
+BTset(1346,327,214);
+housenumber=basehousenumber+0;
+BTset(1347,327,214);
+housenumber=basehousenumber+0;
+BTset(1348,327,214);
+housenumber=basehousenumber+0;
+BTset(1352,327,190);
+housenumber=basehousenumber+0;
+BTset(1353,327,189);
+housenumber=basehousenumber+0;
+BTset(1337,328,214);
+housenumber=basehousenumber+0;
+BTset(1338,328,145);
+housenumber=basehousenumber+0;
+BTset(1339,328,213);
+housenumber=basehousenumber+0;
+BTset(1340,328,214);
+housenumber=basehousenumber+0;
+BTset(1341,328,213);
+housenumber=basehousenumber+0;
+BTset(1342,328,213);
+housenumber=basehousenumber+0;
+BTset(1343,328,214);
+housenumber=basehousenumber+0;
+BTset(1344,328,214);
+housenumber=basehousenumber+0;
+BTset(1345,328,214);
+housenumber=basehousenumber+0;
+BTset(1346,328,214);
+housenumber=basehousenumber+0;
+BTset(1347,328,214);
+housenumber=basehousenumber+0;
+BTset(1348,328,214);
+housenumber=basehousenumber+0;
+BTset(1349,328,214);
+housenumber=basehousenumber+0;
+BTset(1350,328,214);
+housenumber=basehousenumber+0;
+BTset(1351,328,214);
+housenumber=basehousenumber+0;
+BTset(1352,328,189);
+housenumber=basehousenumber+0;
+BTset(1353,328,188);
+housenumber=basehousenumber+0;
+BTset(1337,329,214);
+housenumber=basehousenumber+0;
+BTset(1338,329,145);
+housenumber=basehousenumber+0;
+BTset(1339,329,213);
+housenumber=basehousenumber+0;
+BTset(1340,329,213);
+housenumber=basehousenumber+0;
+BTset(1341,329,213);
+housenumber=basehousenumber+0;
+BTset(1342,329,213);
+housenumber=basehousenumber+0;
+BTset(1343,329,214);
+housenumber=basehousenumber+0;
+BTset(1344,329,214);
+housenumber=basehousenumber+0;
+BTset(1345,329,214);
+housenumber=basehousenumber+0;
+BTset(1346,329,145);
+housenumber=basehousenumber+0;
+BTset(1347,329,214);
+housenumber=basehousenumber+0;
+BTset(1348,329,214);
+housenumber=basehousenumber+0;
+BTset(1352,329,188);
+housenumber=basehousenumber+0;
+BTset(1353,329,189);
+housenumber=basehousenumber+0;
+BTset(1337,330,214);
+housenumber=basehousenumber+0;
+BTset(1338,330,145);
+housenumber=basehousenumber+0;
+BTset(1339,330,214);
+housenumber=basehousenumber+0;
+BTset(1340,330,214);
+housenumber=basehousenumber+0;
+BTset(1341,330,214);
+housenumber=basehousenumber+0;
+BTset(1342,330,214);
+housenumber=basehousenumber+0;
+BTset(1343,330,214);
+housenumber=basehousenumber+0;
+BTset(1344,330,214);
+housenumber=basehousenumber+0;
+BTset(1345,330,214);
+housenumber=basehousenumber+0;
+BTset(1346,330,145);
+housenumber=basehousenumber+0;
+BTset(1347,330,214);
+housenumber=basehousenumber+0;
+BTset(1348,330,214);
+housenumber=basehousenumber+0;
+BTset(1337,331,214);
+housenumber=basehousenumber+0;
+BTset(1338,331,145);
+housenumber=basehousenumber+0;
+BTset(1339,331,214);
+housenumber=basehousenumber+0;
+BTset(1340,331,214);
+housenumber=basehousenumber+0;
+BTset(1341,331,214);
+housenumber=basehousenumber+0;
+BTset(1342,331,214);
+housenumber=basehousenumber+0;
+BTset(1343,331,214);
+housenumber=basehousenumber+0;
+BTset(1344,331,214);
+housenumber=basehousenumber+0;
+BTset(1345,331,214);
+housenumber=basehousenumber+0;
+BTset(1346,331,145);
+housenumber=basehousenumber+0;
+BTset(1347,331,214);
+housenumber=basehousenumber+0;
+BTset(1348,331,214);
+housenumber=basehousenumber+0;
+BTset(1337,332,214);
+housenumber=basehousenumber+0;
+BTset(1338,332,145);
+housenumber=basehousenumber+0;
+BTset(1339,332,214);
+housenumber=basehousenumber+0;
+BTset(1340,332,214);
+housenumber=basehousenumber+0;
+BTset(1341,332,214);
+housenumber=basehousenumber+0;
+BTset(1343,332,214);
+housenumber=basehousenumber+0;
+BTset(1344,332,214);
+housenumber=basehousenumber+0;
+BTset(1345,332,214);
+housenumber=basehousenumber+0;
+BTset(1346,332,145);
+housenumber=basehousenumber+0;
+BTset(1347,332,214);
+housenumber=basehousenumber+0;
+BTset(1348,332,214);
+housenumber=basehousenumber+0;
+BTset(1337,333,214);
+housenumber=basehousenumber+0;
+BTset(1338,333,148);
+housenumber=basehousenumber+0;
+BTset(1339,333,144);
+housenumber=basehousenumber+0;
+BTset(1340,333,144);
+housenumber=basehousenumber+0;
+BTset(1341,333,207);
+housenumber=basehousenumber+0;
+BTset(1342,333,214);
+housenumber=basehousenumber+0;
+BTset(1343,333,207);
+housenumber=basehousenumber+0;
+BTset(1344,333,144);
+housenumber=basehousenumber+0;
+BTset(1345,333,144);
+housenumber=basehousenumber+0;
+BTset(1346,333,149);
+housenumber=basehousenumber+0;
+BTset(1347,333,214);
+housenumber=basehousenumber+0;
+BTset(1348,333,214);
+housenumber=basehousenumber+0;
+BTset(1337,334,214);
+housenumber=basehousenumber+0;
+BTset(1338,334,214);
+housenumber=basehousenumber+0;
+BTset(1346,334,214);
+housenumber=basehousenumber+0;
+BTset(1348,334,214);
+housenumber=basehousenumber+0;
+BTset(1348,335,214);
+
+housenumber=65535;
+
+
+if (NEThost){//cant add objects as a client
+//Objects
+
+
+
+
+
+
+
+
+
+
+
+
+
+OBJaddnew(1342,333,301+1024*1,0,256+basehousenumber+0);//doorframe
+
+
+object* item000015=OBJaddnew(1341,338,309+1024*1,0,0);//bones
+
+
+
+
+
+object* item000020=OBJaddnew(1343,338,309+1024*4,0,0);//bones
+
+object* item000021=OBJaddnew(1343,339,312+1024*0,0,0);//stone lion
+
+object* item000022=OBJaddnew(1343,340,312+1024*1,0,0);//stone lion
+
+object* item000023=OBJaddnew(1341,339,312+1024*0,0,0);//stone lion
+
+object* item000024=OBJaddnew(1341,340,312+1024*1,0,0);//stone lion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+object* item000050=OBJaddnew(1337,331,322+1024*0,0,0);//pool
+
+object* item000051=OBJaddnew(1337,332,322+1024*2,0,0);//pool
+
+object* item000052=OBJaddnew(1347,331,322+1024*0,0,0);//pool
+
+object* item000053=OBJaddnew(1348,331,322+1024*1,0,0);//pool
+
+object* item000054=OBJaddnew(1347,332,322+1024*2,0,0);//pool
+
+object* item000055=OBJaddnew(1348,332,322+1024*3,0,0);//pool
+
+
+
+
+
+
+object* item000061=OBJaddnew(1339,327,303+1024*0,0,0);//carpet
+
+
+
+object* item000064=OBJaddnew(1338,330,272+1024*3,0,0);//steps
+
+object* item000065=OBJaddnew(1339,331,303+1024*12,0,0);//carpet
+
+object* item000066=OBJaddnew(1340,329,303+1024*10,0,0);//carpet
+
+object* item000067=OBJaddnew(1339,329,303+1024*3,0,0);//carpet
+
+object* item000068=OBJaddnew(1339,330,276+1024*5,0,0);//steps
+
+object* item000069=OBJaddnew(1339,330,303+1024*6,0,0);//carpet
+
+object* item000070=OBJaddnew(1339,328,303+1024*3,0,0);//carpet
+
+object* item000071=OBJaddnew(1340,330,303+1024*7,0,0);//carpet
+
+object* item000072=OBJaddnew(1341,330,303+1024*7,0,0);//carpet
+
+object* item000073=OBJaddnew(1340,331,303+1024*13,0,0);//carpet
+
+object* item000074=OBJaddnew(1341,331,303+1024*13,0,0);//carpet
+
+object* item000075=OBJaddnew(1341,329,303+1024*10,0,0);//carpet
+
+
+
+object* item000078=OBJaddnew(1338,329,273+1024*2,0,0);//tile
+
+object* item000079=OBJaddnew(1338,328,273+1024*2,0,0);//tile
+
+object* item000080=OBJaddnew(1338,327,273+1024*2,0,0);//tile
+
+object* item000081=OBJaddnew(1338,326,273+1024*0,0,0);//tile
+
+object* item000082=OBJaddnew(1339,326,273+1024*1,0,0);//tile
+
+object* item000083=OBJaddnew(1340,326,273+1024*1,0,0);//tile
+
+
+object* item000085=OBJaddnew(1342,326,273+1024*1,0,0);//tile
+
+object* item000086=OBJaddnew(1340,327,303+1024*1,0,0);//carpet
+
+object* item000087=OBJaddnew(1340,328,303+1024*15,0,0);//carpet
+
+object* item000088=OBJaddnew(1341,327,303+1024*1,0,0);//carpet
+
+object* item000089=OBJaddnew(1342,327,303+1024*2,0,0);//carpet
+
+object* item000090=OBJaddnew(1341,328,303+1024*4,0,0);//carpet
+
+object* item000091=OBJaddnew(1342,328,303+1024*5,0,0);//carpet
+
+
+object* item000093=OBJaddnew(1339,327,163+1024*0,0,0);//bed
+
+object* item000094=OBJaddnew(1340,327,163+1024*1,0,0);//bed
+
+object* item000095=OBJaddnew(1339,327,163+1024*4,0,0);//bed
+
+object* item000096=OBJaddnew(1339,326,163+1024*2,0,0);//bed
+
+object* item000097=OBJaddnew(1340,326,163+1024*3,0,0);//bed
+
+object* item000098=OBJaddnew(1340,327,163+1024*5,0,0);//bed
+
+
+
+object* item000101=OBJaddnew(1343,326,272+1024*2,0,0);//steps
+
+
+object* item000103=OBJaddnew(1343,327,276+1024*3,0,0);//steps
+
+object* item000104=OBJaddnew(1343,328,276+1024*3,0,0);//steps
+
+object* item000105=OBJaddnew(1343,329,276+1024*3,0,0);//steps
+
+object* item000106=OBJaddnew(1343,330,276+1024*4,0,0);//steps
+
+object* item000107=OBJaddnew(1342,330,276+1024*5,0,0);//steps
+
+object* item000108=OBJaddnew(1342,331,303+1024*14,0,0);//carpet
+
+object* item000109=OBJaddnew(1342,330,303+1024*8,0,0);//carpet
+
+object* item000110=OBJaddnew(1342,329,303+1024*5,0,0);//carpet
+
+object* item000111=OBJaddnew(1339,328,160+1024*0,128,0);//endtable
+
+object* item000112=OBJaddnew(1343,326,143+1024*1,128,0);//picture
+
+object* item000113=OBJaddnew(1342,327,138+1024*0,128,0);//plant
+
+
+
+
+object* item000117=OBJaddnew(1345,330,228+1024*0,0,0);//table
+
+
+
+
+
+
+
+
+object* item000125=OBJaddnew(1344,332,252+1024*1,128,0);//chair
+
+object* item000126=OBJaddnew(1341,327,177+1024*0,0,0);//desk
+
+object* item000127=OBJaddnew(1345,330,145+1024*0,128,0);//candelabra
+
+object* item000128=OBJaddnew(1336,324,154+1024*0,0,0);//telescope
+
+
+
+object* item000131=OBJaddnew(1345,332,155+1024*0,0,0);//crystal ball
+
+
+object* item000133=OBJaddnew(1345,331,239+1024*0,0,0);//table
+
+object* item000134=OBJaddnew(1338,329,176+1024*0,0,0);//chest of drawers
+object* item000135=OBJaddnew(1339,329,176+1024*1,0,0);//chest of drawers
+item000134->more=item000135; item000134->info|=8;
+
+
+object* item000137=OBJaddnew(1338,331,216+1024*0,0,0);//bookcase
+
+object* item000138=OBJaddnew(1338,332,216+1024*2,0,0);//bookcase
+
+object* item000139=OBJaddnew(1339,331,216+1024*1,0,0);//bookcase
+
+object* item000140=OBJaddnew(1339,332,216+1024*3,0,0);//bookcase
+
+object* item000141=OBJaddnew(1339,333,168+1024*0,0,0);//remains
+
+object* item000142=OBJaddnew(1340,333,168+1024*1,0,0);//remains
+
+object* item000143=OBJaddnew(1344,333,168+1024*0,0,0);//remains
+
+object* item000144=OBJaddnew(1345,333,168+1024*1,0,0);//remains
+
+
+OBJaddnew(1348,324,305+1024*1,0, 51577780); // pointing at something
+
+
+
+
+object* item000150=OBJaddnew(1344,327,330+1024*0,0,0);//mat
+
+object* item000151=OBJaddnew(1345,327,330+1024*1,0,0);//mat
+
+object* item000152=OBJaddnew(1344,328,330+1024*2,0,0);//mat
+
+object* item000153=OBJaddnew(1345,328,330+1024*3,0,0);//mat
+
+
+OBJaddnew(1345,329,305+1024*0,0, 15402435); // pointing at something
+
+object* item000156=OBJaddnew(1348,325,333+1024*0,0,0);//gargoyle sign
+
+
+
+
+
+
+
+
+object* item000164=OBJaddnew(1345,326,159+1024*0,0,0);//clock
+
+object* item000165=OBJaddnew(1345,327,159+1024*1,0,0);//clock
+
+object* item000166=OBJaddnew(1338,330,142+1024*0,128,0);//decorative shield
+
+object* item000167=OBJaddnew(1338,330,141+1024*0,128,0);//decorative sword
+
+
+
+object* item000170=OBJaddnew(1341,327,122+1024*0,128,0);//candle
+OBJremove(item000170);
+
+object* item000171=OBJaddnew(1345,331,152+1024*0,128,0);//scroll
+
+object* item000172=OBJaddnew(1345,331,150+1024*0,128,0);//inkwell
+
+
+
+
+
+
+
+
+object* item000180=OBJaddnew(1341,326,219+1024*0,0,0);//oven
+
+object* item000181=OBJaddnew(1341,326,273+1024*1,0,0);//tile
+
+
+
+
+
+object* item000186=OBJaddnew(1337,324,252+1024*3,128,0);//chair
+
+object* item000187=OBJaddnew(1339,328,161+1024*0,128,0);//jug
+
+
+object* item000189=OBJaddnew(1339,328,118+1024*0,128,0);//wineglass
+
+
+
+
+
+object* item000194=OBJaddnew(1344,327,98+1024*0,0,0);//chest
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+myobj=OBJaddnew(1341,333,300+1024*4,0,212);//matched door pair
+myobj->more=(object*)OBJaddnew( 1342,333,300 + 1024*9,0,(unsigned long)myobj);//matched door pair
+
+
+
+object* item000214=OBJaddnew(1340,332,325+1024*0,0,0);//bookstand
+
+
+OBJaddnew(1346,327,301+1024*2,0,256+basehousenumber+0);//doorframe
+
+
+OBJaddnew(1346,328,301+1024*3,0,256+basehousenumber+0);//doorframe
+
+
+object* item000220=OBJaddnew(1340,332,78+1024*0,0,0);//staff
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+object* item000258=OBJaddnew(1344,326,213+1024*1,0,0);//mousehole
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+object* item000276=OBJaddnew(1336,326,276+1024*9,0,0);//steps
+
+object* item000277=OBJaddnew(1343,334,276+1024*5,0,0);//steps
+
+object* item000278=OBJaddnew(1349,335,276+1024*3,0,0);//steps
+
+object* item000279=OBJaddnew(1349,336,276+1024*4,0,0);//steps
+
+object* item000280=OBJaddnew(1348,336,276+1024*5,0,0);//steps
+
+object* item000281=OBJaddnew(1347,335,276+1024*9,0,0);//steps
+
+object* item000282=OBJaddnew(1347,336,276+1024*6,0,0);//steps
+
+object* item000283=OBJaddnew(1346,335,276+1024*5,0,0);//steps
+
+object* item000284=OBJaddnew(1345,335,276+1024*6,0,0);//steps
+
+object* item000285=OBJaddnew(1345,334,276+1024*9,0,0);//steps
+
+object* item000286=OBJaddnew(1344,334,276+1024*5,0,0);//steps
+
+
+
+object* item000289=OBJaddnew(1341,334,276+1024*5,0,0);//steps
+
+object* item000290=OBJaddnew(1340,334,276+1024*5,0,0);//steps
+
+object* item000291=OBJaddnew(1339,334,276+1024*8,0,0);//steps
+
+object* item000292=OBJaddnew(1339,335,276+1024*4,0,0);//steps
+
+object* item000293=OBJaddnew(1338,335,276+1024*8,0,0);//steps
+
+
+object* item000295=OBJaddnew(1338,336,276+1024*4,0,0);//steps
+
+
+
+object* item000298=OBJaddnew(1337,336,276+1024*5,0,0);//steps
+
+object* item000299=OBJaddnew(1336,336,276+1024*6,0,0);//steps
+
+object* item000300=OBJaddnew(1336,335,276+1024*7,0,0);//steps
+
+object* item000301=OBJaddnew(1336,334,276+1024*7,0,0);//steps
+
+object* item000302=OBJaddnew(1336,333,276+1024*7,0,0);//steps
+
+object* item000303=OBJaddnew(1336,332,276+1024*7,0,0);//steps
+
+object* item000304=OBJaddnew(1336,331,276+1024*7,0,0);//steps
+
+object* item000305=OBJaddnew(1336,330,276+1024*7,0,0);//steps
+
+object* item000306=OBJaddnew(1336,329,276+1024*7,0,0);//steps
+
+object* item000307=OBJaddnew(1336,328,276+1024*7,0,0);//steps
+
+object* item000308=OBJaddnew(1336,327,276+1024*7,0,0);//steps
+
+
+object* item000310=OBJaddnew(1342,334,269+1024*4,0,0);//drawbridge
+
+object* item000311=OBJaddnew(1342,335,269+1024*4,0,0);//drawbridge
+
+object* item000312=OBJaddnew(1342,336,269+1024*1,0,0);//drawbridge
+
+
+object* item000314=OBJaddnew(1342,337,309+1024*2,0,0);//bones
+
+
+
+
+
+
+
+object* item000321=OBJaddnew(1335,323,276+1024*0,0,0);//steps
+
+object* item000322=OBJaddnew(1335,326,276+1024*6,0,0);//steps
+
+object* item000323=OBJaddnew(1335,325,276+1024*7,0,0);//steps
+
+object* item000324=OBJaddnew(1335,324,276+1024*7,0,0);//steps
+
+object* item000325=OBJaddnew(1336,323,276+1024*1,0,0);//steps
+
+object* item000326=OBJaddnew(1337,323,276+1024*1,0,0);//steps
+
+object* item000327=OBJaddnew(1338,323,276+1024*2,0,0);//steps
+
+object* item000328=OBJaddnew(1338,324,276+1024*11,0,0);//steps
+
+object* item000329=OBJaddnew(1339,324,276+1024*1,0,0);//steps
+
+object* item000330=OBJaddnew(1340,324,276+1024*1,0,0);//steps
+
+object* item000331=OBJaddnew(1341,324,276+1024*1,0,0);//steps
+
+object* item000332=OBJaddnew(1342,324,276+1024*1,0,0);//steps
+
+object* item000333=OBJaddnew(1343,324,276+1024*1,0,0);//steps
+
+object* item000334=OBJaddnew(1344,324,276+1024*1,0,0);//steps
+
+object* item000335=OBJaddnew(1345,324,276+1024*1,0,0);//steps
+
+object* item000336=OBJaddnew(1346,324,276+1024*10,0,0);//steps
+
+object* item000337=OBJaddnew(1346,323,276+1024*0,0,0);//steps
+
+object* item000338=OBJaddnew(1347,323,276+1024*1,0,0);//steps
+
+object* item000339=OBJaddnew(1348,323,276+1024*1,0,0);//steps
+
+object* item000340=OBJaddnew(1349,323,276+1024*1,0,0);//steps
+
+object* item000341=OBJaddnew(1350,323,276+1024*2,0,0);//steps
+
+object* item000342=OBJaddnew(1350,324,276+1024*3,0,0);//steps
+
+object* item000343=OBJaddnew(1350,325,276+1024*3,0,0);//steps
+
+object* item000344=OBJaddnew(1350,326,276+1024*4,0,0);//steps
+
+object* item000345=OBJaddnew(1349,326,276+1024*8,0,0);//steps
+
+object* item000346=OBJaddnew(1349,327,276+1024*3,0,0);//steps
+
+
+object* item000348=OBJaddnew(1349,331,276+1024*3,0,0);//steps
+
+object* item000349=OBJaddnew(1349,332,276+1024*3,0,0);//steps
+
+object* item000350=OBJaddnew(1349,333,276+1024*3,0,0);//steps
+
+object* item000351=OBJaddnew(1349,334,276+1024*3,0,0);//steps
+
+
+object* item000353=OBJaddnew(1349,329,272+1024*2,0,0);//steps
+
+
+
+
+object* item000357=OBJaddnew(1349,329,303+1024*13,0,0);//carpet
+
+
+object* item000359=OBJaddnew(1349,327,303+1024*1,0,0);//carpet
+
+object* item000360=OBJaddnew(1349,330,276+1024*3,0,0);//steps
+
+
+
+
+
+
+
+
+object* item000369=OBJaddnew(1348,327,303+1024*0,0,0);//carpet
+
+object* item000370=OBJaddnew(1348,329,303+1024*16,0,0);//carpet
+
+
+object* item000372=OBJaddnew(1341,332,325+1024*1,0,0);//bookstand
+
+object* item000373=OBJaddnew(1347,332,324+1024*0,0,0);//pillar
+
+object* item000374=OBJaddnew(1348,332,324+1024*1,0,0);//pillar
+
+object* item000375=OBJaddnew(1348,333,324+1024*3,0,0);//pillar
+
+object* item000376=OBJaddnew(1347,333,324+1024*2,0,0);//pillar
+
+object* item000377=OBJaddnew(1336,332,324+1024*0,0,0);//pillar
+
+object* item000378=OBJaddnew(1337,332,324+1024*1,0,0);//pillar
+
+object* item000379=OBJaddnew(1336,333,324+1024*2,0,0);//pillar
+
+object* item000380=OBJaddnew(1337,333,324+1024*3,0,0);//pillar
+
+
+
+
+//OBJaddnew(957,749,305+1024*0,0, 49087421); // pointing at something
+
+
+
+//OBJaddnew(282,407,305+1024*0,0, 0); // pointing at something
+
+//object* item000388=OBJaddnew(282,407,138+1024*0,0,0);//plant
+
+OBJaddnew(259,293,308+1024*0,0, 21235026); // pointing at something
+
+
+object* item000391=OBJaddnew(259,293,138+1024*0,0,0);//plant
+
+object* item000392=OBJaddnew(1477,234,189+1024*0,0,0);//cask
+
+
+object* item000394=OBJaddnew(1477,235,182+1024*0,0,0);//beehive
+
+
+object* item000396=OBJaddnew(1476,233,168+1024*0,0,0);//remains
+
+object* item000397=OBJaddnew(1477,233,168+1024*1,0,0);//remains
+
+
+
+object* item000400=OBJaddnew(1474,233,144+1024*0,0,0);//tapestry
+
+object* item000401=OBJaddnew(1475,233,144+1024*1,0,0);//tapestry
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+object* item000426=OBJaddnew(1476,236,207+1024*0,0,0);//rod
+
+
+
+
+
+
+
+object* item000433=OBJaddnew(1345,337,251+1024*0,0,0);//shadow
+
+
+object* item000435=OBJaddnew(1347,331,234+1024*0,0,0);//fountain
+
+object* item000436=OBJaddnew(1337,331,234+1024*0,0,0);//fountain
+
+object* item000437=OBJaddnew(1339,329,17+1024*0,0,0);//cloth armour
+OBJremove(item000437);
+object* item000438=OBJaddnew(1339,329,27+1024*0,0,0);//leather boots
+OBJremove(item000438);
+object* item000440=OBJaddnew(1339,329,137+1024*0,0,0);//trousers
+OBJremove(item000440);
+
+object* item000441=OBJaddnew(1343,336,269+1024*2,0,0);//drawbridge
+
+object* item000442=OBJaddnew(1341,336,269+1024*0,0,0);//drawbridge
+
+object* item000443=OBJaddnew(1342,339,84+1024*1,0,0xFFFFFFFE);//red gate
+
+
+
+object* item000445=OBJaddnew(1341,337,309+1024*0,0,0);//bones
+
+object* item000446=OBJaddnew(1343,337,309+1024*3,0,0);//bones
+
+object* item000447=OBJaddnew(1343,335,269+1024*5,0,0);//drawbridge
+
+object* item000448=OBJaddnew(1341,335,269+1024*3,0,0);//drawbridge
+
+
+object* item000450=OBJaddnew(1343,334,269+1024*5,0,0);//drawbridge
+
+object* item000451=OBJaddnew(1341,334,269+1024*3,0,0);//drawbridge
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+object* item000470=OBJaddnew(1343,341,165+1024*1,0,0);//stalagmite
+
+object* item000471=OBJaddnew(1339,340,165+1024*0,0,0);//stalagmite
+
+object* item000472=OBJaddnew(1344,337,165+1024*1,0,0);//stalagmite
+
+object* item000473=OBJaddnew(1340,337,165+1024*0,0,0);//stalagmite
+
+object* item000474=OBJaddnew(1344,338,165+1024*0,0,0);//stalagmite
+
+
+object* item000476=OBJaddnew(1351,330,276+1024*6,0,0);//steps
+
+object* item000477=OBJaddnew(1351,329,276+1024*7,0,0);//steps
+
+object* item000478=OBJaddnew(1351,326,276+1024*0,0,0);//steps
+
+
+object* item000480=OBJaddnew(1350,327,303+1024*1,0,0);//carpet
+
+object* item000481=OBJaddnew(1350,329,303+1024*13,0,0);//carpet
+
+
+object* item000483=OBJaddnew(1351,329,303+1024*17,0,0);//carpet
+
+object* item000484=OBJaddnew(1348,328,303+1024*3,0,0);//carpet
+
+object* item000485=OBJaddnew(1352,326,276+1024*1,0,0);//steps
+
+object* item000486=OBJaddnew(1353,326,276+1024*1,0,0);//steps
+
+object* item000487=OBJaddnew(1354,326,276+1024*2,0,0);//steps
+
+object* item000488=OBJaddnew(1354,328,276+1024*3,0,0);//steps
+
+object* item000489=OBJaddnew(1354,329,276+1024*3,0,0);//steps
+
+object* item000490=OBJaddnew(1354,330,276+1024*4,0,0);//steps
+
+object* item000491=OBJaddnew(1353,330,276+1024*5,0,0);//steps
+
+object* item000492=OBJaddnew(1352,330,276+1024*5,0,0);//steps
+
+object* item000493=OBJaddnew(1351,327,276+1024*7,0,0);//steps
+
+object* item000494=OBJaddnew(1351,327,303+1024*2,0,0);//carpet
+
+object* item000495=OBJaddnew(1354,327,276+1024*3,0,0);//steps
+
+object* item000496=OBJaddnew(1349,328,303+1024*10,0,0);//carpet
+
+object* item000497=OBJaddnew(1350,328,303+1024*10,0,0);//carpet
+
+
+object* item000499=OBJaddnew(1351,328,276+1024*7,0,0);//steps
+
+object* item000500=OBJaddnew(1351,328,303+1024*5,0,0);//carpet
+
+
+
+
+object* item000503=OBJaddnew(1353,328,66+1024*0,0,1);//bloodmoss
+
+object* item000504=OBJaddnew(1352,327,67+1024*0,0,1);//garlic
+
+object* item000505=OBJaddnew(1353,329,68+1024*0,0,1);//ginseng root
+
+object* item000506=OBJaddnew(1352,329,69+1024*0,0,1);//mandrake root
+
+object* item000507=OBJaddnew(1353,327,70+1024*0,0,1);//nightshade mushroom
+
+object* item000508=OBJaddnew(1352,327,67+1024*0,0,1);//garlic
+
+
+
+object* item000510=OBJaddnew(1353,327,70+1024*0,0,1);//nightshade mushroom
+
+object* item000511=OBJaddnew(1353,328,66+1024*0,0,1);//bloodmoss
+
+object* item000512=OBJaddnew(1353,329,68+1024*0,0,1);//ginseng root
+
+object* item000513=OBJaddnew(1352,329,69+1024*0,0,1);//mandrake root
+
+object* item000514=OBJaddnew(1352,328,65+1024*0,0,1);//black pearl
+
+object* item000515=OBJaddnew(1352,328,65+1024*0,0,1);//black pearl
+
+
+
+OBJaddnew(947,786,326+1024*4,0, 51577780); // pointing at something
+
+OBJaddnew(948,786,326+1024*5,0, 51577780); // pointing at something
+
+object* item000520=OBJaddnew(1362,322,84+1024*1,0,0xFFFFFFFF);//red gate
+
+
+object* item000522=OBJaddnew(1364,323,171+1024*0,0,0);//fumerole
+
+object* item000523=OBJaddnew(1361,321,171+1024*0,0,0);//fumerole
+
+
+object* item000525=OBJaddnew(1362,321,165+1024*1,0,0);//stalagmite
+
+
+object* item000527=OBJaddnew(1361,323,165+1024*0,0,0);//stalagmite
+
+OBJaddnew(1362,324,305+1024*1,0, 19202307); // pointing at something
+
+
+object* item000530=OBJaddnew(1363,322,367+1024*4,0,0);//demon
+
+
+
+object* item000533=OBJaddnew(1361,320,338+1024*0,0,0);//blood
+
+
+object* item000535=OBJaddnew(1363,320,338+1024*1,0,0);//blood
+
+
+object* item000537=OBJaddnew(1364,322,165+1024*1,0,0);//stalagmite
+
+object* item000538=OBJaddnew(1361,320,165+1024*0,0,0);//stalagmite
+
+
+object* item000540=OBJaddnew(1363,320,171+1024*0,0,0);//fumerole
+
+object* item000541=OBJaddnew(1360,323,338+1024*0,0,0);//blood
+
+object* item000542=OBJaddnew(1360,321,338+1024*0,0,0);//blood
+
+object* item000543=OBJaddnew(1360,321,367+1024*2,0,0);//demon
+
+object* item000544=OBJaddnew(1361,324,338+1024*0,0,0);//blood
+
+object* item000545=OBJaddnew(1363,323,338+1024*1,0,0);//blood
+
+OBJaddnew(1476,234,279+1024*5,0,0);
+housestoragex[basehousenumber+0][housestoragenext[basehousenumber+0]]=patchx+1476;
+housestoragey[basehousenumber+0][housestoragenext[basehousenumber+0]]=patchy+234;
+housestoragenext[basehousenumber+0]++;
+
+OBJaddnew(1474,234,279+1024*7,0,0);
+housestoragex[basehousenumber+0][housestoragenext[basehousenumber+0]]=patchx+1474;
+housestoragey[basehousenumber+0][housestoragenext[basehousenumber+0]]=patchy+234;
+housestoragenext[basehousenumber+0]++;
+
+OBJaddnew(1475,234,279+1024*4,0,0);
+housestoragex[basehousenumber+0][housestoragenext[basehousenumber+0]]=patchx+1475;
+housestoragey[basehousenumber+0][housestoragenext[basehousenumber+0]]=patchy+234;
+housestoragenext[basehousenumber+0]++;
+
+OBJaddnew(1474,235,279+1024*1,0,0);
+housestoragex[basehousenumber+0][housestoragenext[basehousenumber+0]]=patchx+1474;
+housestoragey[basehousenumber+0][housestoragenext[basehousenumber+0]]=patchy+235;
+housestoragenext[basehousenumber+0]++;
+
+OBJaddnew(1474,236,279+1024*9,0,0);
+housestoragex[basehousenumber+0][housestoragenext[basehousenumber+0]]=patchx+1474;
+housestoragey[basehousenumber+0][housestoragenext[basehousenumber+0]]=patchy+236;
+housestoragenext[basehousenumber+0]++;
+
+object* item000551=OBJaddnew(1476,235,261+1024*0,0,0);//table leg
+
+object* item000552=OBJaddnew(1475,235,260+1024*0,0,0);//shadow
+
+object* item000553=OBJaddnew(1475,235,238+1024*0,0,0);//shadow
+
+
+
+
+
+object* item000558=OBJaddnew(1477,236,210+1024*0,0,0);//ribs
+
+
+object* item000560=OBJaddnew(1477,236,207+1024*1,0,0);//rod
+
+object* item000561=OBJaddnew(1477,236,208+1024*0,0,0);//hook
+
+OBJaddnew(1475,235,305+1024*1,0, 21562689); // pointing at something
+
+
+object* item000564=OBJaddnew(1477,234,118+1024*0,0,0);//wineglass
+
+object* item000565=OBJaddnew(1477,234,115+1024*0,0,0);//wine
+
+object* item000566=OBJaddnew(1477,234,115+1024*0,0,0);//wine
+
+object* item000567=OBJaddnew(1477,234,115+1024*0,0,0);//wine
+
+object* item000568=OBJaddnew(1477,234,115+1024*0,0,0);//wine
+
+object* item000569=OBJaddnew(1477,234,115+1024*0,0,0);//wine
+
+object* item000570=OBJaddnew(1477,234,115+1024*0,0,0);//wine
+
+object* item000571=OBJaddnew(1477,234,115+1024*0,0,0);//wine
+
+object* item000572=OBJaddnew(1477,234,115+1024*0,0,0);//wine
+
+object* item000573=OBJaddnew(1476,235,294+1024*0,0,0);//lightsource
+
+object* item000574=OBJaddnew(1477,235,343+1024*0,0,0);//insects
+
+OBJaddnew(1475,236,279+1024*5,0,0);
+housestoragex[basehousenumber+0][housestoragenext[basehousenumber+0]]=patchx+1475;
+housestoragey[basehousenumber+0][housestoragenext[basehousenumber+0]]=patchy+236;
+housestoragenext[basehousenumber+0]++;
+
+object* item000576=OBJaddnew(1473,235,143+1024*0,128,0);//picture
+
+object* item000577=OBJaddnew(1347,325,294+1024*0,0,0);//lightsource
+
+object* item000578=OBJaddnew(1337,325,294+1024*0,0,0);//lightsource
+
+//object* item000579=OBJaddnew(1348,334,294+1024*0,0,0);//lightsource
+
+//object* item000580=OBJaddnew(1337,334,294+1024*0,0,0);//lightsource
+
+
+object* item000049=OBJaddnew(1338-1,334+1,206+1024*2,0,0);//brazier
+
+
+object* item000048=OBJaddnew(1346+2,334+1,206+1024*2,0,0);//brazier
+
+
+
+
+
+object* item000040=OBJaddnew(1337+1,334-1,321+1024*1,0,0);//statue
+object* item000041=OBJaddnew(1337+1,335-1,321+1024*3,0,0);//statue
+object* item000363=OBJaddnew(1336+1,334-1,321+1024*0,0,0);//statue
+object* item000364=OBJaddnew(1336+1,335-1,321+1024*2,0,0);//statue
+
+
+object* item000043=OBJaddnew(1347-1,334-1,321+1024*0,0,0);//statue
+object* item000044=OBJaddnew(1348-1,334-1,321+1024*1,0,0);//statue
+object* item000046=OBJaddnew(1348-1,335-1,321+1024*3,0,0);//statue
+object* item000294=OBJaddnew(1347-1,335-1,321+1024*2,0,0);//statue
+
+
+OBJaddnew(1344,334,332+1024*6,0,0);//pole
+OBJaddnew(1344,334,332+1024*2,0,65536+basehousenumber+0);//sign
+
+
+
+//Put items with parents into their containers
+OBJaddtocontainer(item000135, item000437); //put this item inside its parent
+OBJaddtocontainer(item000135, item000438); //put this item inside its parent
+OBJaddtocontainer(item000135, item000440); //put this item inside its parent
+
+OBJaddtocontainer(item000126,item000170);
+
+}//NEThost
+
+//BTrect=new Rectangle(254,233)-(1478,751);
+//ItemRect=new Rectangle(259,233)-(1477,786);
+

@@ -1,0 +1,524 @@
+basehousenumber=51;//+1=52
+houseinitialcost[basehousenumber+1]=2000;
+housecost[basehousenumber+1]=70;
+houseentrancex[basehousenumber+1]=260; houseentrancey[basehousenumber+1]=235;
+patchx=0; patchy=0; //always 0 so far
+housenumber=65535;//Non house tiles
+BTset(269,230,70);
+BTset(260,236,52);
+BTset(261,236,1);
+BTset(260,237,64);
+BTset(261,237,65);
+BTset(260,238,66);
+BTset(261,238,67);
+BTset(276,240,70);
+BTset(263,242,99);
+BTset(264,242,100);
+BTset(265,242,100);
+BTset(266,242,64);
+BTset(267,242,65);
+BTset(269,242,48);
+BTset(270,242,49);
+BTset(265,243,64);
+BTset(266,243,69);
+BTset(267,243,67);
+BTset(269,243,50);
+BTset(270,243,51);
+BTset(272,243,72);
+BTset(265,244,66);
+BTset(266,244,67);
+BTset(267,244,70);
+BTset(272,244,64);
+BTset(1071,637,240);
+BTset(1072,637,241);
+BTset(1073,637,241);
+BTset(1074,637,241);
+BTset(1075,637,241);
+BTset(1076,637,241);
+BTset(1077,637,241);
+BTset(1078,637,241);
+BTset(1079,637,241);
+BTset(1080,637,241);
+BTset(1081,637,241);
+BTset(1082,637,241);
+BTset(1083,637,242);
+BTset(1071,638,247);
+BTset(1072,638,146);
+BTset(1073,638,144);
+BTset(1074,638,144);
+BTset(1075,638,146);
+BTset(1076,638,144);
+BTset(1077,638,144);
+BTset(1078,638,144);
+BTset(1079,638,146);
+BTset(1080,638,144);
+BTset(1081,638,154);
+BTset(1083,638,243);
+BTset(1071,639,247);
+BTset(1072,639,145);
+BTset(1075,639,145);
+BTset(1079,639,145);
+BTset(1081,639,145);
+BTset(1083,639,243);
+BTset(1071,640,247);
+BTset(1072,640,145);
+BTset(1075,640,145);
+BTset(1079,640,145);
+BTset(1083,640,243);
+BTset(1071,641,247);
+BTset(1072,641,145);
+BTset(1075,641,146);
+BTset(1076,641,144);
+BTset(1079,641,149);
+BTset(1081,641,145);
+BTset(1083,641,243);
+BTset(1071,642,247);
+BTset(1072,642,145);
+BTset(1081,642,145);
+BTset(1083,642,243);
+BTset(1071,643,247);
+BTset(1072,643,145);
+BTset(1081,643,145);
+BTset(1083,643,243);
+BTset(1071,644,247);
+BTset(1072,644,155);
+BTset(1073,644,144);
+BTset(1074,644,144);
+BTset(1075,644,146);
+BTset(1078,644,144);
+BTset(1079,644,146);
+BTset(1080,644,144);
+BTset(1081,644,149);
+BTset(1083,644,243);
+BTset(1071,645,246);
+BTset(1072,645,245);
+BTset(1073,645,245);
+BTset(1074,645,249);
+BTset(1075,645,145);
+BTset(1079,645,145);
+BTset(1080,645,248);
+BTset(1081,645,245);
+BTset(1082,645,245);
+BTset(1083,645,244);
+BTset(1074,646,247);
+BTset(1075,646,145);
+BTset(1079,646,145);
+BTset(1080,646,243);
+BTset(1074,647,247);
+BTset(1075,647,155);
+BTset(1076,647,144);
+BTset(1077,647,144);
+BTset(1078,647,144);
+BTset(1079,647,149);
+BTset(1080,647,243);
+BTset(1074,648,246);
+BTset(1075,648,245);
+BTset(1076,648,245);
+BTset(1077,648,245);
+BTset(1078,648,245);
+BTset(1079,648,245);
+BTset(1080,648,244);
+//house tiles (tiles sorted by position, not number)
+housenumber=basehousenumber+1;
+BTset(277,239,75);
+BTset(273,228,73);
+BTset(271,229,78);
+BTset(273,229,78);
+BTset(274,229,77);
+BTset(275,229,78);
+BTset(270,230,98);
+BTset(271,230,1);
+BTset(272,230,73);
+BTset(273,230,94);
+BTset(274,230,79);
+BTset(275,230,73);
+BTset(265,231,146);
+BTset(266,231,144);
+BTset(267,231,144);
+BTset(268,231,144);
+BTset(269,231,152);
+BTset(270,231,103);
+BTset(271,231,73);
+BTset(272,231,93);
+BTset(273,231,73);
+BTset(265,232,197);
+BTset(266,232,208);
+BTset(267,232,208);
+BTset(268,232,208);
+BTset(269,232,145);
+BTset(270,232,106);
+BTset(271,232,97);
+BTset(272,232,98);
+BTset(273,232,73);
+BTset(274,232,74);
+BTset(265,233,145);
+BTset(266,233,208);
+BTset(267,233,208);
+BTset(268,233,208);
+BTset(269,233,145);
+BTset(270,233,1);
+BTset(271,233,1);
+BTset(272,233,106);
+BTset(273,233,97);
+BTset(274,233,97);
+BTset(275,233,98);
+BTset(262,234,146);
+BTset(263,234,144);
+BTset(264,234,144);
+BTset(265,234,149);
+BTset(266,234,208);
+BTset(267,234,208);
+BTset(268,234,208);
+BTset(269,234,141);
+BTset(270,234,144);
+BTset(271,234,152);
+BTset(272,234,78);
+BTset(273,234,76);
+BTset(274,234,74);
+BTset(275,234,103);
+BTset(262,235,1);
+BTset(263,235,208);
+BTset(264,235,208);
+BTset(265,235,208);
+BTset(266,235,208);
+BTset(267,235,208);
+BTset(268,235,208);
+BTset(269,235,208);
+BTset(270,235,208);
+BTset(271,235,193);
+BTset(272,235,60);
+BTset(273,235,188);
+BTset(274,235,189);
+BTset(275,235,103);
+BTset(276,235,78);
+BTset(262,236,1);
+BTset(263,236,208);
+BTset(264,236,208);
+BTset(265,236,208);
+BTset(266,236,208);
+BTset(267,236,208);
+BTset(268,236,208);
+BTset(269,236,208);
+BTset(270,236,208);
+BTset(271,236,208);
+BTset(272,236,93);
+BTset(273,236,189);
+BTset(274,236,190);
+BTset(275,236,103);
+BTset(262,237,195);
+BTset(263,237,208);
+BTset(264,237,208);
+BTset(265,237,208);
+BTset(266,237,208);
+BTset(267,237,208);
+BTset(268,237,208);
+BTset(269,237,208);
+BTset(270,237,208);
+BTset(271,237,208);
+BTset(272,237,73);
+BTset(273,237,190);
+BTset(274,237,191);
+BTset(275,237,103);
+BTset(262,238,145);
+BTset(263,238,208);
+BTset(264,238,208);
+BTset(265,238,208);
+BTset(266,238,208);
+BTset(267,238,208);
+BTset(268,238,208);
+BTset(269,238,208);
+BTset(270,238,208);
+BTset(271,238,145);
+BTset(272,238,74);
+BTset(273,238,191);
+BTset(274,238,190);
+BTset(275,238,103);
+BTset(262,239,153);
+BTset(263,239,144);
+BTset(264,239,140);
+BTset(265,239,208);
+BTset(266,239,208);
+BTset(267,239,208);
+BTset(268,239,208);
+BTset(269,239,208);
+BTset(270,239,208);
+BTset(271,239,145);
+BTset(272,239,77);
+BTset(273,239,93);
+BTset(274,239,74);
+BTset(275,239,103);
+BTset(276,239,94);
+BTset(264,240,145);
+BTset(265,240,208);
+BTset(266,240,208);
+BTset(267,240,208);
+BTset(268,240,208);
+BTset(269,240,208);
+BTset(270,240,208);
+BTset(271,240,145);
+BTset(272,240,104);
+BTset(273,240,100);
+BTset(274,240,100);
+BTset(275,240,101);
+BTset(264,241,153);
+BTset(265,241,144);
+BTset(266,241,196);
+BTset(267,241,144);
+BTset(268,241,144);
+BTset(269,241,196);
+BTset(270,241,144);
+BTset(271,241,149);
+BTset(272,241,103);
+BTset(274,241,79);
+BTset(268,242,105);
+BTset(271,242,104);
+BTset(272,242,101);
+BTset(273,242,74);
+BTset(274,242,73);
+BTset(275,242,78);
+BTset(268,243,102);
+BTset(271,243,103);
+BTset(273,243,78);
+BTset(268,244,99);
+BTset(269,244,100);
+BTset(270,244,100);
+BTset(271,244,101);
+BTset(268,245,75);
+BTset(1082,638,108);
+BTset(1073,639,214);
+BTset(1074,639,214);
+BTset(1076,639,214);
+BTset(1077,639,214);
+BTset(1078,639,214);
+BTset(1080,639,214);
+BTset(1082,639,108);
+BTset(1073,640,214);
+BTset(1074,640,214);
+BTset(1076,640,214);
+BTset(1077,640,214);
+BTset(1078,640,214);
+BTset(1080,640,214);
+BTset(1081,640,214);
+BTset(1082,640,108);
+BTset(1073,641,214);
+BTset(1074,641,214);
+BTset(1077,641,214);
+BTset(1078,641,214);
+BTset(1080,641,214);
+BTset(1082,641,108);
+BTset(1073,642,214);
+BTset(1074,642,214);
+BTset(1075,642,214);
+BTset(1076,642,214);
+BTset(1077,642,214);
+BTset(1078,642,214);
+BTset(1079,642,214);
+BTset(1080,642,214);
+BTset(1082,642,108);
+BTset(1073,643,214);
+BTset(1074,643,214);
+BTset(1075,643,214);
+BTset(1076,643,214);
+BTset(1077,643,214);
+BTset(1078,643,214);
+BTset(1079,643,214);
+BTset(1080,643,214);
+BTset(1082,643,108);
+BTset(1076,644,214);
+BTset(1077,644,214);
+BTset(1082,644,108);
+BTset(1076,645,214);
+BTset(1077,645,214);
+BTset(1078,645,214);
+BTset(1076,646,214);
+BTset(1077,646,214);
+BTset(1078,646,214);
+housenumber=65535;
+if (NEThost){//cant add objects as a client
+//Objects
+object* item000250=OBJaddnew(270,240,262+1024*0,0,0);//shadow
+object* item000251=OBJaddnew(270,239,238+1024*0,0,0);//shadow
+object* item000252=OBJaddnew(270,238,229+1024*0,0,0);//shadow
+object* item000000=OBJaddnew(273,233,233+1024*0,0,0);//well
+object* item000001=OBJaddnew(274,233,233+1024*1,0,0);//well
+object* item000002=OBJaddnew(274,234,233+1024*3,0,0);//well
+object* item000003=OBJaddnew(273,234,233+1024*2,0,0);//well
+object* item000005=OBJaddnew(274,238,69+1024*0,0,1);//mandrake root
+object* item000006=OBJaddnew(274,235,70+1024*0,0,1);//nightshade mushroom
+object* item000007=OBJaddnew(273,236,68+1024*0,0,1);//ginseng root
+object* item000008=OBJaddnew(273,238,67+1024*0,0,1);//garlic
+object* item000009=OBJaddnew(273,235,66+1024*0,0,1);//bloodmoss
+object* item000010=OBJaddnew(272,234,205+1024*0,0,0);//water trough
+object* item000011=OBJaddnew(272,239,101+1024*0,128,0);//pitchfork
+object* item000012=OBJaddnew(266,232,154+1024*0,0,0);//telescope
+object* item000013=OBJaddnew(266,231,144+1024*0,0,0);//tapestry
+object* item000014=OBJaddnew(267,231,144+1024*1,0,0);//tapestry
+object* item000015=OBJaddnew(268,231,159+1024*0,0,0);//clock
+object* item000016=OBJaddnew(268,232,159+1024*1,0,0);//clock
+object* item000017=OBJaddnew(267,232,252+1024*3,128,0);//chair
+object* item000018=OBJaddnew(265,233,142+1024*0,128,0);//decorative shield
+object* item000019=OBJaddnew(265,233,141+1024*0,128,0);//decorative sword
+object* item000020=OBJaddnew(267,235,325+1024*0,0,0);//bookstand
+object* item000021=OBJaddnew(268,235,325+1024*1,0,0);//bookstand
+object* item000022=OBJaddnew(267,235,151+1024*0,128,0);//book
+object* item000024=OBJaddnew(262,238,164+1024*0,0,0);//fireplace
+object* item000025=OBJaddnew(270,234,164+1024*2,0,0);//fireplace
+object* item000026=OBJaddnew(263,235,303+1024*0,0,0);//carpet
+object* item000027=OBJaddnew(264,235,303+1024*1,0,0);//carpet
+object* item000028=OBJaddnew(265,235,303+1024*2,0,0);//carpet
+object* item000029=OBJaddnew(265,236,303+1024*5,0,0);//carpet
+object* item000030=OBJaddnew(265,237,303+1024*17,0,0);//carpet
+object* item000031=OBJaddnew(263,237,303+1024*16,0,0);//carpet
+object* item000032=OBJaddnew(264,237,303+1024*13,0,0);//carpet
+object* item000033=OBJaddnew(263,236,303+1024*3,0,0);//carpet
+object* item000034=OBJaddnew(264,236,303+1024*4,0,0);//carpet
+object* item000035=OBJaddnew(263,235,177+1024*0,0,0);//desk
+object* item000036=OBJaddnew(263,235,152+1024*0,128,0);//scroll
+object* item000037=OBJaddnew(263,235,150+1024*0,128,0);//inkwell
+object* item000038=OBJaddnew(266,238,252+1024*1,128,0);//chair
+object* item000039=OBJaddnew(266,239,252+1024*1,128,0);//chair
+object* item000045=OBJaddnew(270,238,252+1024*3,128,0);//chair
+object* item000047=OBJaddnew(267,237,252+1024*2,128,0);//chair
+object* item000048=OBJaddnew(267,238,228+1024*0,0,0);//table
+object* item000049=OBJaddnew(268,238,228+1024*1,0,0);//table
+object* item000050=OBJaddnew(269,238,228+1024*2,0,0);//table
+object* item000052=OBJaddnew(267,239,250+1024*0,0,0);//table
+object* item000053=OBJaddnew(268,239,250+1024*1,0,0);//table
+object* item000054=OBJaddnew(269,239,250+1024*2,0,0);//table
+object* item000056=OBJaddnew(267,240,259+1024*0,0,0);//table leg
+object* item000057=OBJaddnew(268,240,260+1024*0,0,0);//shadow
+object* item000058=OBJaddnew(269,240,261+1024*0,0,0);//table leg
+object* item000059=OBJaddnew(270,239,252+1024*3,128,0);//chair
+object* item000060=OBJaddnew(268,240,252+1024*0,128,0);//chair
+object* item000061=OBJaddnew(267,240,252+1024*0,128,0);//chair
+object* item000064=OBJaddnew(269,238,118+1024*0,0,0);//wineglass
+object* item000066=OBJaddnew(269,238,115+1024*0,0,0);//wine
+object* item000070=OBJaddnew(268,239,112+1024*0,128,0);//cooking tray
+object* item000072=OBJaddnew(268,239,132+1024*0,0,0);//cheese
+object* item000078=OBJaddnew(267,239,191+1024*0,0,0);//basket
+object* item000083=OBJaddnew(267,239,131+1024*0,0,0);//cake
+object* item000089=OBJaddnew(268,238,121+1024*0,128,0);//silverware
+OBJaddnew(270,235,305+1024*0,0, 42009656); // pointing at something
+object* item000091=OBJaddnew(267,234,206+1024*1,0,0);//brazier
+object* item000092=OBJaddnew(268,237,252+1024*2,128,0);//chair
+object* item000093=OBJaddnew(265,238,216+1024*1,0,0);//bookcase
+object* item000094=OBJaddnew(265,239,216+1024*3,0,0);//bookcase
+object* item000095=OBJaddnew(265,240,216+1024*5,0,0);//bookcase
+object* item000096=OBJaddnew(264,234,143+1024*1,128,0);//picture
+object* item000097=OBJaddnew(269,239,121+1024*0,128,0);//silverware
+object* item000098=OBJaddnew(269,239,117+1024*0,0,0);//ale
+object* item000099=OBJaddnew(267,238,119+1024*0,0,0);//plate
+object* item000100=OBJaddnew(267,238,95+1024*0,0,0);//grapes
+myobj=OBJaddnew(262,235,297+1024*10,0,109);//matched door pair
+myobj->more=(object*)OBJaddnew( 262,236,297 + 1024*11,0,(unsigned long)myobj);//matched door pair
+myobj=OBJaddnew(271,236,298+1024*10,0,113);//matched door pair
+myobj->more=(object*)OBJaddnew( 271,237,298 + 1024*11,0,(unsigned long)myobj);//matched door pair
+object* item000114=OBJaddnew(268,238,119+1024*0,128,0);//plate
+object* item000115=OBJaddnew(268,238,145+1024*0,128,0);//candelabra
+object* item000116=OBJaddnew(267,239,128+1024*0,0,2);//bread
+OBJaddnew(1077,641,301+1024*0,0,0);//doorframe
+OBJaddnew(1078,641,301+1024*1,0,0);//doorframe
+OBJaddnew(1075,642,301+1024*2,0,0);//doorframe
+OBJaddnew(1075,643,301+1024*3,0,0);//doorframe
+object* item000121=OBJaddnew(1081,640,334+1024*2,0,0);//secret door
+OBJaddnew(1080,641,305+1024*1,0, 15401230); // pointing at something
+object* item000123=OBJaddnew(1080,639,189+1024*0,0,0);//cask
+object* item000124=OBJaddnew(1080,638,140+1024*1,128,0);//wall mount
+object* item000125=OBJaddnew(1080,638,141+1024*1,128,0);//decorative sword
+object* item000126=OBJaddnew(1080,639,118+1024*0,0,0);//wineglass
+object* item000127=OBJaddnew(1080,639,115+1024*0,0,0);//wine
+object* item000128=OBJaddnew(1080,639,115+1024*0,0,0);//wine
+object* item000129=OBJaddnew(1080,639,115+1024*0,0,0);//wine
+object* item000130=OBJaddnew(1080,639,115+1024*0,0,0);//wine
+object* item000131=OBJaddnew(1079,642,206+1024*1,0,0);//brazier
+object* item000132=OBJaddnew(1077,642,206+1024*1,0,0);//brazier
+object* item000134=OBJaddnew(1074,638,162+1024*0,0,0);//stove
+object* item000135=OBJaddnew(1074,639,162+1024*1,0,0);//stove
+object* item000141=OBJaddnew(1072,643,207+1024*0,0,0);//rod
+object* item000142=OBJaddnew(1074,643,207+1024*1,0,0);//rod
+object* item000143=OBJaddnew(1073,643,207+1024*1,0,0);//rod
+object* item000144=OBJaddnew(1073,643,208+1024*0,0,0);//hook
+object* item000145=OBJaddnew(1074,643,208+1024*0,0,0);//hook
+object* item000146=OBJaddnew(1073,643,210+1024*0,0,0);//ribs
+object* item000154=OBJaddnew(1073,641,177+1024*1,0,0);//desk
+object* item000155=OBJaddnew(1073,641,338+1024*2,0,0);//blood
+object* item000160=OBJaddnew(1073,641,211+1024*0,0,0);//dead animal
+object* item000161=OBJaddnew(1073,641,113+1024*0,0,0);//cleaver
+object* item000162=OBJaddnew(1073,641,114+1024*1,0,0);//knife
+object* item000163=OBJaddnew(1072,641,142+1024*0,128,0);//decorative shield
+object* item000164=OBJaddnew(1073,639,166+1024*0,0,0);//grain
+object* item000171=OBJaddnew(1074,642,338+1024*0,0,0);//blood
+object* item000173=OBJaddnew(1073,642,338+1024*1,0,0);//blood
+object* item000174=OBJaddnew(1073,642,148+1024*0,128,0);//cauldron of broth
+object* item000175=OBJaddnew(1073,642,111+1024*0,128,0);//ladle
+object* item000177=OBJaddnew(1073,640,167+1024*0,0,0);//flour
+object* item000182=OBJaddnew(1073,640,108+1024*0,128,0);//oven spatula
+object* item000186=OBJaddnew(1077,638,144+1024*0,0,0);//tapestry
+object* item000187=OBJaddnew(1078,638,144+1024*1,0,0);//tapestry
+object* item000188=OBJaddnew(1076,639,163+1024*0,0,0);//bed
+object* item000189=OBJaddnew(1077,639,163+1024*1,0,0);//bed
+object* item000190=OBJaddnew(1078,639,155+1024*0,0,0);//crystal ball
+object* item000191=OBJaddnew(1075,640,176+1024*0,0,0);//chest of drawers
+object* item000192=OBJaddnew(1076,640,176+1024*1,0,0);//chest of drawers
+object* item000193=OBJaddnew(1076,640,17+1024*0,0,0);//cloth armour
+OBJremove(item000193);//remove from the map (so it can go in a container)
+object* item000194=OBJaddnew(1076,640,27+1024*0,0,0);//leather boots
+OBJremove(item000194);//remove from the map (so it can go in a container)
+object* item000195=OBJaddnew(1076,640,137+1024*0,0,0);//trousers
+OBJremove(item000195);//remove from the map (so it can go in a container)
+myobj=OBJaddnew(1076,644,300+1024*8,0,199);//matched door pair
+myobj->more=(object*)OBJaddnew( 1077,644,300 + 1024*9,0,(unsigned long)myobj);//matched door pair
+object* item000200=OBJaddnew(1082,638,343+1024*0,0,0);//insects
+object* item000201=OBJaddnew(1082,638,53+1024*0,0,0);//web
+object* item000203=OBJaddnew(1082,640,53+1024*0,0,0);//web
+object* item000204=OBJaddnew(1082,642,361+1024*0,0,0);//spider
+object* item000205=OBJaddnew(1082,643,53+1024*0,0,0);//web
+object* item000206=OBJaddnew(1082,644,171+1024*0,0,0);//fumerole
+object* item000207=OBJaddnew(1082,644,72+1024*0,0,2);//volcanic ash
+OBJaddnew(1076,646,279+1024*4,0,0);
+housestoragex[basehousenumber+1][housestoragenext[basehousenumber+1]]=patchx+1076;
+housestoragey[basehousenumber+1][housestoragenext[basehousenumber+1]]=patchy+646;
+housestoragenext[basehousenumber+1]++;
+OBJaddnew(1077,646,279+1024*4,0,0);
+housestoragex[basehousenumber+1][housestoragenext[basehousenumber+1]]=patchx+1077;
+housestoragey[basehousenumber+1][housestoragenext[basehousenumber+1]]=patchy+646;
+housestoragenext[basehousenumber+1]++;
+OBJaddnew(1078,646,279+1024*10,0,0);
+housestoragex[basehousenumber+1][housestoragenext[basehousenumber+1]]=patchx+1078;
+housestoragey[basehousenumber+1][housestoragenext[basehousenumber+1]]=patchy+646;
+housestoragenext[basehousenumber+1]++;
+OBJaddnew(1078,645,279+1024*1,0,0);
+housestoragex[basehousenumber+1][housestoragenext[basehousenumber+1]]=patchx+1078;
+housestoragey[basehousenumber+1][housestoragenext[basehousenumber+1]]=patchy+645;
+housestoragenext[basehousenumber+1]++;
+object* item000220=OBJaddnew(1076,645,98+1024*0,0,0);//chest
+object* item000223=OBJaddnew(1075,645,140+1024*0,128,0);//wall mount
+object* item000224=OBJaddnew(1075,645,141+1024*0,128,0);//decorative sword
+object* item000225=OBJaddnew(1076,641,143+1024*1,128,0);//picture
+myobj=OBJaddnew(1077,641,297+1024*4,0,227);//matched door pair
+myobj->more=(object*)OBJaddnew( 1078,641,297 + 1024*5,0,(unsigned long)myobj);//matched door pair
+object* item000228=OBJaddnew(1082,640,338+1024*0,0,0);//blood
+object* item000229=OBJaddnew(1082,641,338+1024*1,0,0);//blood
+object* item000231=OBJaddnew(1082,639,89+1024*0,0,1);//gold nugget
+object* item000232=OBJaddnew(1082,639,53+1024*0,0,0);//web
+OBJaddnew(1076,644,301+1024*0,0,256+basehousenumber+1);//doorframe
+OBJaddnew(1077,644,301+1024*1,0,256+basehousenumber+1);//doorframe
+OBJaddnew(262,235,301+1024*2,0,256+basehousenumber+1);//doorframe
+OBJaddnew(262,236,301+1024*3,0,256+basehousenumber+1);//doorframe
+OBJaddnew(271,236,301+1024*2,0,256+basehousenumber+1);//doorframe
+OBJaddnew(271,237,301+1024*3,0,256+basehousenumber+1);//doorframe
+object* item000239=OBJaddnew(264,238,216+1024*0,0,0);//bookcase
+object* item000240=OBJaddnew(264,240,216+1024*4,0,0);//bookcase
+object* item000241=OBJaddnew(264,239,216+1024*2,0,0);//bookcase
+object* item000242=OBJaddnew(269,237,252+1024*2,128,0);//chair
+object* item000243=OBJaddnew(269,240,252+1024*0,128,0);//chair
+object* item000244=OBJaddnew(263,238,138+1024*0,128,0);//plant
+OBJaddnew(259,235,332+1024*6,0,65536+basehousenumber+1);//sign
+OBJaddnew(259,235,332+1024*0,0,65536+basehousenumber+1);//sign
+//Put items with parents into their containers
+OBJaddtocontainer(item000192, item000193); //put this item inside its parent
+OBJaddtocontainer(item000192, item000194); //put this item inside its parent
+OBJaddtocontainer(item000192, item000195); //put this item inside its parent
+}//NEThost
+//BTrect=new Rectangle(260,228)-(1083,648);
+//ItemRect=new Rectangle(259,231)-(1082,646);

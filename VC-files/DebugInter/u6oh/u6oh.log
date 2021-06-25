@@ -1,0 +1,21 @@
+﻿cl : Command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  Xenkan.cpp
+  use_code.cpp
+  u6o7.cpp
+  txt.cpp
+  stdafx.cpp
+  spell_code.cpp
+  random.cpp
+  randi.cpp
+  myfile.cpp
+  myddraw.cpp
+  house.cpp
+  function_host.cpp
+  function_both.cpp
+  frame.cpp
+  dmusic.cpp
+  data_host.cpp
+  data_both.cpp
+  Generating Code...
+data_both.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  u6oh.vcxproj -> C:\Source\ultima\VC-files\Debug\u6oh.exe

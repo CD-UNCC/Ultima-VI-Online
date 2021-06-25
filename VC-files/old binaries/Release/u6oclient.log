@@ -1,0 +1,12 @@
+﻿Build started 12/6/2010 6:15:52 PM.
+     1>Project "C:\The Ultima VI Online Project\c drive\c source\VC-files\u6oclient.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\u6oclient2.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       FinalizeBuildStatus:
+         Deleting file "Release\u6oclient2.unsuccessfulbuild".
+         Touching "Release\u6oclient2.lastbuildstate".
+     1>Done Building Project "C:\The Ultima VI Online Project\c drive\c source\VC-files\u6oclient.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.25

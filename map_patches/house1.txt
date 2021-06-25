@@ -1,0 +1,106 @@
+housenumber=1;
+houseinitialcost[housenumber]=1000;
+housecost[housenumber]=35;
+patchx=392; patchy=337;
+for (y=1;y<=5;y++){
+for (x=1;x<=5;x++){
+BTset(x,y,208);
+}
+}
+BTset(1,0,178);
+BTset(2,0,176);
+BTset(3,0,176);
+BTset(4,0,178);
+BTset(5,0,176);
+BTset(6,0,184); //G
+BTset(6,1,177);
+BTset(6,2,177);
+BTset(6,3,177);
+BTset(6,4,181);
+BTset(5,4,178);
+BTset(4,4,180);
+BTset(4,3,177);
+BTset(5,5,177);
+BTset(5,6,181);
+BTset(4,6,176);
+BTset(3,6,176);
+BTset(0,6,185); //G
+BTset(0,5,177);
+BTset(0,4,205);
+BTset(0,3,177);
+BTset(0,2,177);
+BTset(0,1,178);
+BTset(1,1,181);
+BTset(1,6,208);
+BTset(2,6,208);
+if (NEThost){
+OBJaddnew(4,1,301+6*1024,0,256+housenumber); OBJaddnew(4,2,301+7*1024,0,256+housenumber); //doorframe
+myobj=OBJaddnew(4,1,297+10*1024,0,0); myobj->more=(object*)OBJaddnew(4,2,297+11*1024,0,(unsigned long)myobj); //door
+OBJaddnew(1,6,301+4*1024,0,256+housenumber); OBJaddnew(2,6,301+5*1024,0,256+housenumber); //doorframe
+myobj=OBJaddnew(1,6,297+8*1024,0,0); myobj->more=(object*)OBJaddnew(2,6,297+9*1024,0,(unsigned long)myobj); //door
+houseentrancex[housenumber]=patchx+2; houseentrancey[housenumber]=patchy+8;
+
+
+OBJaddnew(2,1,163,0,0); OBJaddnew(3,1,163+1*1024,0,0); //h-bed
+
+OBJaddnew(5,0,279+12*1024,0,0);
+OBJaddnew(5,1,279+1024,0,0); OBJaddnew(5,2,279+1024,0,0); OBJaddnew(5,3,279+1024,0,0);
+housestoragex[housenumber][housestoragenext[housenumber]]=patchx+5; //storage counter pos.
+housestoragey[housenumber][housestoragenext[housenumber]]=patchy+1;
+housestoragenext[housenumber]++;
+housestoragex[housenumber][housestoragenext[housenumber]]=patchx+5;
+housestoragey[housenumber][housestoragenext[housenumber]]=patchy+2;
+housestoragenext[housenumber]++;
+housestoragex[housenumber][housestoragenext[housenumber]]=patchx+5;
+housestoragey[housenumber][housestoragenext[housenumber]]=patchy+3;
+housestoragenext[housenumber]++;
+
+OBJaddnew(1,4,261,128,0); //table legs
+OBJaddnew(3,4,259,128,0);
+OBJaddnew(2,4,262,128,0);
+OBJaddnew(2,3,229,128,0);
+
+OBJaddnew(1,2,252+2*1024,128,0); //chair(s)
+OBJaddnew(1,4,252+0*1024,128,0);
+OBJaddnew(3,4,252+3*1024,128,0);
+//?
+OBJaddnew(3,3,279+1024*3,128,0);
+OBJaddnew(1,3,279+1024*3,128,0);
+OBJaddnew(0,3,279+1024*11,128,0);
+
+OBJaddnew(2,3,280,128,0);
+
+OBJaddnew(3,3,122,128,0);
+OBJaddnew(1,3,112,0,0);
+OBJaddnew(1,3,131,0,0);
+
+OBJaddnew(0,2,164,128,0); //v-fireplace
+OBJaddnew(4,5,138,128,0); //plant
+OBJaddnew(3,0,142+1024,128,0); //shield
+OBJaddnew(3,0,141+1024,128,0); //sword
+
+myobj=OBJaddnew(1,5,186+1024,128,0); //barrel (closed) + ale, wine & mead
+myobj2=OBJnew(); myobj2->type=117;
+myobj->more=myobj2; myobj2->prev=myobj;
+myobj3=OBJnew(); myobj3->type=116;
+myobj2->next=myobj3; myobj3->prev=myobj2;
+myobj4=OBJnew(); myobj4->type=115;
+myobj3->next=myobj4; myobj4->prev=myobj3;
+
+OBJaddnew(1,7,332+6*1024,128,0); //signpost
+OBJaddnew(1,7,332+7*1024,128,65536+housenumber); //sign
+}//NEThost
+housenumber=65535; //non-specific house changes
+BTset(1,7,86);
+BTset(2,7,111);
+BTset(3,7,87);
+BTset(1,8,86);
+BTset(2,8,108);
+BTset(3,8,87);
+BTset(1,9,91);
+BTset(2,9,111);
+BTset(3,9,90);
+BTset(1,10,111);
+BTset(2,10,111);
+BTset(3,10,108);
+//housenumber 1: end

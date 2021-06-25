@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\data_both.h" />
+    <ClInclude Include="..\data_client.h" />
+    <ClInclude Include="..\data_host.h" />
+    <ClInclude Include="..\define_both.h" />
+    <ClInclude Include="..\define_client.h" />
+    <ClInclude Include="..\define_host.h" />
+    <ClInclude Include="..\function_both.h" />
+    <ClInclude Include="..\function_client.h" />
+    <ClInclude Include="..\function_host.h" />
+    <ClInclude Include="..\host_setup.h" />
+    <ClInclude Include="..\random\rand.h" />
+    <ClInclude Include="..\random\random.h" />
+    <ClInclude Include="..\random\standard.h" />
+    <ClInclude Include="..\Resource.h" />
+    <ClInclude Include="..\spell_code\spell_code.h" />
+    <ClInclude Include="..\stdafx.h" />
+    <ClInclude Include="..\u6o7.h" />
+    <ClInclude Include="..\use_code\use_code.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\client_bmp.inc" />
+    <None Include="..\globals.inc" />
+    <None Include="..\host.inc" />
+    <None Include="..\inline_asm\fast.asm" />
+    <None Include="..\inline_asm\fast2hi.asm" />
+    <None Include="..\inline_asm\fast3.asm" />
+    <None Include="..\inline_asm\fast4.asm" />
+    <None Include="..\inline_asm\fast4hi.asm" />
+    <None Include="..\inline_asm\fast5.asm" />
+    <None Include="..\inline_asm\fasthi.asm" />
+    <None Include="..\new_getspr.inc" />
+    <None Include="..\old_getspr.inc" />
+    <None Include="..\secret_a.inc" />
+    <None Include="..\secret_b.inc" />
+    <None Include="..\setup_both.inc" />
+    <None Include="..\setup_client.inc" />
+    <None Include="..\setup_host.inc" />
+    <None Include="..\small.ico" />
+    <None Include="..\u6o7.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\u6o7.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\data_both.cpp" />
+    <ClCompile Include="..\data_client.cpp" />
+    <ClCompile Include="..\data_host.cpp" />
+    <ClCompile Include="..\dmusic.cpp" />
+    <ClCompile Include="..\frame.cpp" />
+    <ClCompile Include="..\function_both.cpp" />
+    <ClCompile Include="..\function_client.cpp" />
+    <ClCompile Include="..\function_host.cpp" />
+    <ClCompile Include="..\house.cpp" />
+    <ClCompile Include="..\myddraw.cpp" />
+    <ClCompile Include="..\myfile.cpp" />
+    <ClCompile Include="..\random\randi.cpp" />
+    <ClCompile Include="..\random\random.cpp" />
+    <ClCompile Include="..\sound.cpp" />
+    <ClCompile Include="..\spell_code\spell_code.cpp" />
+    <ClCompile Include="..\stdafx.cpp" />
+    <ClCompile Include="..\txt.cpp" />
+    <ClCompile Include="..\u6o7.cpp" />
+    <ClCompile Include="..\use_code\use_code.cpp" />
+    <ClCompile Include="..\Xenkan.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\lib\ddraw.lib" />
+    <Library Include="..\lib\dsound.lib" />
+    <Library Include="..\lib\dxguid.lib" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C3DFB3AA-1CC7-4D87-AFDF-3E4B91C94E53}</ProjectGuid>
+    <RootNamespace>u6o7</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <ReferencePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\The Ultima VI Online Project\c drive\c source;$(ReferencePath)</ReferencePath>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)Inter\u6o7\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkIncremental>
+    <ReferencePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\inbox\u6o full version\c drive\c source\;$(ReferencePath)</ReferencePath>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)Inter\u6o7\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;HOST;CLIENT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>$(IntDir)both.pch</PrecompiledHeaderOutputFile>
+      <WarningLevel>Level1</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>dplay.lib;dxguid.lib;mylib.lib;wininet.lib;fdv_dmvr.lib;ws2_32.lib;winmm.lib;user32.lib;kernel32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;vfw32.lib;dplay.lib;dplayx.lib;ddraw.lib;dsound.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>false</OmitFramePointers>
+      <EnableFiberSafeOptimizations>false</EnableFiberSafeOptimizations>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;HOST;CLIENT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Custom</Optimization>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>mylib.lib;wininet.lib;dxguid.lib;fdv_dmvr.lib;ws2_32.lib;winmm.lib;user32.lib;kernel32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;vfw32.lib;dplay.lib;dplayx.lib;ddraw.lib;dsound.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

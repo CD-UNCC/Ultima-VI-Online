@@ -1,0 +1,847 @@
+basehousenumber=49;
+houseinitialcost[basehousenumber+0]=1500;
+housecost[basehousenumber+0]=70;
+houseentrancex[basehousenumber+0]=495; houseentrancey[basehousenumber+0]=203;
+
+MOVERNEW_GLOBALFLAGS=MOVERNEW_FLAG_PASSIVE;
+
+patchx=0; patchy=0; //always 0 so far
+
+housenumber=65535;//Non house tiles
+BTset(487,200,178);
+BTset(488,200,176);
+BTset(491,200,176);
+BTset(492,200,176);
+BTset(493,200,184);
+BTset(487,201,177);
+BTset(493,201,177);
+BTset(487,202,205);
+BTset(487,203,177);
+BTset(487,204,177);
+BTset(493,204,205);
+BTset(487,205,177);
+BTset(493,205,177);
+BTset(487,206,185);
+BTset(491,206,176);
+BTset(492,206,176);
+BTset(493,206,181);
+BTset(488,212,146);
+BTset(489,212,144);
+BTset(490,212,152);
+BTset(488,213,145);
+BTset(489,213,108);
+BTset(483,214,73);
+BTset(488,214,153);
+BTset(489,214,196);
+BTset(490,214,149);
+BTset(491,214,75);
+BTset(488,215,74);
+BTset(489,215,63);
+BTset(490,215,58);
+BTset(491,215,61);
+BTset(1310,319,240);
+BTset(1311,319,241);
+BTset(1312,319,241);
+BTset(1313,319,241);
+BTset(1314,319,241);
+BTset(1315,319,242);
+BTset(1316,319,240);
+BTset(1317,319,241);
+BTset(1318,319,241);
+BTset(1319,319,242);
+BTset(1310,320,247);
+BTset(1315,320,251);
+BTset(1316,320,250);
+BTset(1319,320,243);
+BTset(1310,321,247);
+BTset(1319,321,243);
+BTset(1310,322,247);
+BTset(1315,322,248);
+BTset(1316,322,249);
+BTset(1319,322,243);
+BTset(1310,323,247);
+BTset(1315,323,243);
+BTset(1316,323,247);
+BTset(1319,323,243);
+BTset(1310,324,246);
+BTset(1311,324,245);
+BTset(1312,324,245);
+BTset(1313,324,245);
+BTset(1314,324,245);
+BTset(1315,324,244);
+BTset(1316,324,247);
+BTset(1319,324,243);
+BTset(1316,325,247);
+BTset(1319,325,243);
+BTset(1316,326,247);
+BTset(1319,326,243);
+BTset(1316,327,247);
+BTset(1319,327,243);
+BTset(1316,328,247);
+BTset(1319,328,243);
+BTset(1316,329,247);
+BTset(1319,329,243);
+BTset(1316,330,247);
+BTset(1319,330,243);
+BTset(1316,331,247);
+BTset(1319,331,243);
+BTset(1316,332,247);
+BTset(1319,332,243);
+BTset(1316,333,247);
+BTset(1319,333,243);
+BTset(1316,334,247);
+BTset(1319,334,243);
+BTset(1316,335,246);
+BTset(1317,335,245);
+BTset(1318,335,245);
+BTset(1319,335,244);
+
+//house tiles (tiles sorted by position, not number)
+housenumber=basehousenumber+0;
+BTset(489,200,204);
+housenumber=basehousenumber+0;
+BTset(490,200,176);
+housenumber=basehousenumber+0;
+BTset(488,201,108);
+housenumber=basehousenumber+0;
+BTset(489,201,108);
+housenumber=basehousenumber+0;
+BTset(490,201,111);
+housenumber=basehousenumber+0;
+BTset(491,201,108);
+housenumber=basehousenumber+0;
+BTset(492,201,108);
+housenumber=basehousenumber+0;
+BTset(488,202,108);
+housenumber=basehousenumber+0;
+BTset(489,202,108);
+housenumber=basehousenumber+0;
+BTset(490,202,108);
+housenumber=basehousenumber+0;
+BTset(491,202,108);
+housenumber=basehousenumber+0;
+BTset(492,202,108);
+housenumber=basehousenumber+0;
+BTset(493,202,108);
+housenumber=basehousenumber+0;
+BTset(488,203,108);
+housenumber=basehousenumber+0;
+BTset(489,203,109);
+housenumber=basehousenumber+0;
+BTset(490,203,108);
+housenumber=basehousenumber+0;
+BTset(491,203,108);
+housenumber=basehousenumber+0;
+BTset(492,203,108);
+housenumber=basehousenumber+0;
+BTset(493,203,108);
+housenumber=basehousenumber+0;
+BTset(488,204,111);
+housenumber=basehousenumber+0;
+BTset(489,204,108);
+housenumber=basehousenumber+0;
+BTset(490,204,108);
+housenumber=basehousenumber+0;
+BTset(491,204,110);
+housenumber=basehousenumber+0;
+BTset(492,204,108);
+housenumber=basehousenumber+0;
+BTset(488,205,108);
+housenumber=basehousenumber+0;
+BTset(489,205,108);
+housenumber=basehousenumber+0;
+BTset(490,205,108);
+housenumber=basehousenumber+0;
+BTset(491,205,108);
+housenumber=basehousenumber+0;
+BTset(492,205,108);
+housenumber=basehousenumber+0;
+BTset(488,206,84);
+housenumber=basehousenumber+0;
+BTset(489,206,84);
+housenumber=basehousenumber+0;
+BTset(490,206,176);
+housenumber=basehousenumber+0;
+BTset(494,206,1);
+housenumber=basehousenumber+0;
+BTset(487,207,63);
+housenumber=basehousenumber+0;
+BTset(488,207,63);
+housenumber=basehousenumber+0;
+BTset(489,207,63);
+housenumber=basehousenumber+0;
+BTset(490,207,63);
+housenumber=basehousenumber+0;
+BTset(491,207,59);
+housenumber=basehousenumber+0;
+BTset(492,207,63);
+housenumber=basehousenumber+0;
+BTset(493,207,1);
+housenumber=basehousenumber+0;
+BTset(494,207,1);
+housenumber=basehousenumber+0;
+BTset(487,208,61);
+housenumber=basehousenumber+0;
+BTset(488,208,189);
+housenumber=basehousenumber+0;
+BTset(489,208,188);
+housenumber=basehousenumber+0;
+BTset(490,208,191);
+housenumber=basehousenumber+0;
+BTset(491,208,188);
+housenumber=basehousenumber+0;
+BTset(492,208,190);
+housenumber=basehousenumber+0;
+BTset(493,208,1);
+housenumber=basehousenumber+0;
+BTset(494,208,1);
+housenumber=basehousenumber+0;
+BTset(487,209,63);
+housenumber=basehousenumber+0;
+BTset(488,209,189);
+housenumber=basehousenumber+0;
+BTset(489,209,188);
+housenumber=basehousenumber+0;
+BTset(490,209,191);
+housenumber=basehousenumber+0;
+BTset(491,209,188);
+housenumber=basehousenumber+0;
+BTset(492,209,190);
+housenumber=basehousenumber+0;
+BTset(487,210,63);
+housenumber=basehousenumber+0;
+BTset(488,210,189);
+housenumber=basehousenumber+0;
+BTset(489,210,188);
+housenumber=basehousenumber+0;
+BTset(490,210,191);
+housenumber=basehousenumber+0;
+BTset(491,210,188);
+housenumber=basehousenumber+0;
+BTset(492,210,190);
+housenumber=basehousenumber+0;
+BTset(487,211,63);
+housenumber=basehousenumber+0;
+BTset(488,211,63);
+housenumber=basehousenumber+0;
+BTset(489,211,56);
+housenumber=basehousenumber+0;
+BTset(490,211,63);
+housenumber=basehousenumber+0;
+BTset(491,211,63);
+housenumber=basehousenumber+0;
+BTset(492,211,63);
+housenumber=basehousenumber+0;
+BTset(487,212,57);
+housenumber=basehousenumber+0;
+BTset(491,212,60);
+housenumber=basehousenumber+0;
+BTset(492,212,63);
+housenumber=basehousenumber+0;
+BTset(487,213,63);
+housenumber=basehousenumber+0;
+BTset(490,213,60);
+housenumber=basehousenumber+0;
+BTset(491,213,63);
+housenumber=basehousenumber+0;
+BTset(492,213,58);
+housenumber=basehousenumber+0;
+BTset(1311,320,108);
+housenumber=basehousenumber+0;
+BTset(1312,320,108);
+housenumber=basehousenumber+0;
+BTset(1313,320,217);
+housenumber=basehousenumber+0;
+BTset(1314,320,218);
+housenumber=basehousenumber+0;
+BTset(1317,320,219);
+housenumber=basehousenumber+0;
+BTset(1318,320,218);
+housenumber=basehousenumber+0;
+BTset(1311,321,108);
+housenumber=basehousenumber+0;
+BTset(1312,321,109);
+housenumber=basehousenumber+0;
+BTset(1313,321,108);
+housenumber=basehousenumber+0;
+BTset(1314,321,108);
+housenumber=basehousenumber+0;
+BTset(1315,321,109);
+housenumber=basehousenumber+0;
+BTset(1316,321,217);
+housenumber=basehousenumber+0;
+BTset(1317,321,217);
+housenumber=basehousenumber+0;
+BTset(1318,321,88);
+housenumber=basehousenumber+0;
+BTset(1311,322,217);
+housenumber=basehousenumber+0;
+BTset(1312,322,110);
+housenumber=basehousenumber+0;
+BTset(1313,322,111);
+housenumber=basehousenumber+0;
+BTset(1314,322,108);
+housenumber=basehousenumber+0;
+BTset(1317,322,46);
+housenumber=basehousenumber+0;
+BTset(1318,322,30);
+housenumber=basehousenumber+0;
+BTset(1311,323,218);
+housenumber=basehousenumber+0;
+BTset(1312,323,217);
+housenumber=basehousenumber+0;
+BTset(1313,323,108);
+housenumber=basehousenumber+0;
+BTset(1314,323,108);
+housenumber=basehousenumber+0;
+BTset(1317,323,8);
+housenumber=basehousenumber+0;
+BTset(1318,323,15);
+housenumber=basehousenumber+0;
+BTset(1317,324,8);
+housenumber=basehousenumber+0;
+BTset(1318,324,8);
+housenumber=basehousenumber+0;
+BTset(1317,325,8);
+housenumber=basehousenumber+0;
+BTset(1318,325,8);
+housenumber=basehousenumber+0;
+BTset(1317,326,8);
+housenumber=basehousenumber+0;
+BTset(1318,326,8);
+housenumber=basehousenumber+0;
+BTset(1317,327,9);
+housenumber=basehousenumber+0;
+BTset(1318,327,8);
+housenumber=basehousenumber+0;
+BTset(1317,328,9);
+housenumber=basehousenumber+0;
+BTset(1318,328,8);
+housenumber=basehousenumber+0;
+BTset(1317,329,9);
+housenumber=basehousenumber+0;
+BTset(1318,329,8);
+housenumber=basehousenumber+0;
+BTset(1317,330,9);
+housenumber=basehousenumber+0;
+BTset(1318,330,15);
+housenumber=basehousenumber+0;
+BTset(1317,331,9);
+housenumber=basehousenumber+0;
+BTset(1318,331,15);
+housenumber=basehousenumber+0;
+BTset(1317,332,9);
+housenumber=basehousenumber+0;
+BTset(1318,332,15);
+housenumber=basehousenumber+0;
+BTset(1317,333,9);
+housenumber=basehousenumber+0;
+BTset(1318,333,15);
+housenumber=basehousenumber+0;
+BTset(1317,334,9);
+housenumber=basehousenumber+0;
+BTset(1318,334,15);
+
+housenumber=65535;
+
+
+if (NEThost){//cant add objects as a client
+//Objects
+
+OBJaddnew(488,205,305+1024*0,0, 21169439); // pointing at something
+
+//object* item000002=OBJaddnew(485,197,415+1024*0,128,0);//raft
+
+
+
+
+
+
+
+object* item000009=OBJaddnew(487,204,164+1024*1,0,0);//fireplace
+
+
+
+
+
+object* item000014=OBJaddnew(488,199,182+1024*0,128,0);//beehive
+item000014->info|=(15<<9);//beehive!
+
+object* item000015=OBJaddnew(491,201,228+1024*0,0,0);//table
+//OBJremove(item000015);//remove from the map (so it can go in a container)
+
+object* item000016=OBJaddnew(491,202,250+1024*0,0,0);//table
+
+object* item000017=OBJaddnew(492,201,228+1024*2,0,0);//table
+
+object* item000018=OBJaddnew(492,202,250+1024*2,0,0);//table
+
+object* item000019=OBJaddnew(489,201,192+1024*1,128,0);//crate
+
+object* item000020=OBJaddnew(491,202,115+1024*0,0,0);//wine
+
+
+
+object* item000023=OBJaddnew(491,202,117+1024*0,0,0);//ale
+
+object* item000024=OBJaddnew(491,202,116+1024*0,0,0);//mead
+
+
+object* item000026=OBJaddnew(492,202,133+1024*0,0,0);//ham
+
+
+object* item000028=OBJaddnew(492,201,139+1024*0,128,0);//flowers
+
+object* item000029=OBJaddnew(489,201,113+1024*0,0,0);//cleaver
+OBJremove(item000029);//remove from the map (so it can go in a container)
+
+object* item000030=OBJaddnew(489,201,114+1024*1,0,0);//knife
+OBJremove(item000030);//remove from the map (so it can go in a container)
+
+
+object* item000032=OBJaddnew(491,201,191+1024*0,128,0);//basket
+
+object* item000033=OBJaddnew(491,201,130+1024*0,0,0);//rolls
+OBJremove(item000033);//remove from the map (so it can go in a container)
+
+object* item000034=OBJaddnew(491,201,129+1024*0,0,3);//meat
+OBJremove(item000034);//remove from the map (so it can go in a container)
+
+object* item000035=OBJaddnew(491,201,95+1024*0,0,0);//grapes
+OBJremove(item000035);//remove from the map (so it can go in a container)
+
+OBJaddnew(1311,323,305+1024*1,0, 13435368); // pointing at something
+
+
+
+object* item000039=OBJaddnew(1311,320,163+1024*6,0,0);//bed
+
+object* item000040=OBJaddnew(1311,321,163+1024*7,0,0);//bed
+
+
+
+
+
+
+
+object* item000047=OBJaddnew(1314,322,186+1024*1,0,0);//barrel
+
+object* item000048=OBJaddnew(1314,322,129+1024*0,0,3);//meat
+OBJremove(item000048);//remove from the map (so it can go in a container)
+
+
+object* item000050=OBJaddnew(1314,322,128+1024*0,0,3);//bread
+OBJremove(item000050);//remove from the map (so it can go in a container)
+
+object* item000051=OBJaddnew(1314,322,132+1024*0,0,0);//cheese
+OBJremove(item000051);//remove from the map (so it can go in a container)
+
+
+
+
+
+
+
+
+
+
+object* item000061=OBJaddnew(1312,319,144+1024*0,0,0);//tapestry
+
+object* item000062=OBJaddnew(1313,319,144+1024*1,0,0);//tapestry
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+object* item000081=OBJaddnew(492,205,148+1024*0,128,0);//cauldron of broth
+
+
+
+
+object* item000085=OBJaddnew(492,200,140+1024*1,128,0);//wall mount
+
+
+object* item000087=OBJaddnew(492,200,141+1024*1,128,0);//decorative sword
+
+object* item000088=OBJaddnew(488,200,143+1024*1,128,0);//picture
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+object* item000115=OBJaddnew(486,206,282+1024*4,0,0);//bars
+
+object* item000116=OBJaddnew(486,207,282+1024*4,0,0);//bars
+
+object* item000117=OBJaddnew(486,208,282+1024*4,0,0);//bars
+
+object* item000118=OBJaddnew(486,209,282+1024*4,0,0);//bars
+
+object* item000119=OBJaddnew(486,210,282+1024*4,0,0);//bars
+
+
+object* item000121=OBJaddnew(486,211,282+1024*4,0,0);//bars
+
+object* item000122=OBJaddnew(486,212,282+1024*4,0,0);//bars
+
+object* item000123=OBJaddnew(486,205,282+1024*0,0,0);//bars
+
+object* item000124=OBJaddnew(486,205,282+1024*3,0,0);//bars
+
+object* item000125=OBJaddnew(486,205,282+1024*6,0,0);//bars
+
+object* item000126=OBJaddnew(486,213,282+1024*4,0,0);//bars
+
+object* item000127=OBJaddnew(486,214,282+1024*5,0,0);//bars
+
+object* item000128=OBJaddnew(486,214,282+1024*0,0,0);//bars
+
+object* item000129=OBJaddnew(487,214,282+1024*1,0,0);//bars
+
+object* item000130=OBJaddnew(486,214,282+1024*6,0,0);//bars
+
+object* item000131=OBJaddnew(488,214,282+1024*2,0,0);//bars
+
+object* item000132=OBJaddnew(491,214,282+1024*1,0,0);//bars
+
+object* item000133=OBJaddnew(492,214,282+1024*1,0,0);//bars
+
+object* item000134=OBJaddnew(493,214,282+1024*2,0,0);//bars
+
+object* item000135=OBJaddnew(493,213,282+1024*4,0,0);//bars
+
+object* item000136=OBJaddnew(493,214,282+1024*5,0,0);//bars
+
+object* item000137=OBJaddnew(493,214,282+1024*6,0,0);//bars
+
+object* item000138=OBJaddnew(493,212,282+1024*4,0,0);//bars
+
+object* item000139=OBJaddnew(493,211,282+1024*4,0,0);//bars
+
+object* item000140=OBJaddnew(493,210,282+1024*4,0,0);//bars
+
+object* item000141=OBJaddnew(493,209,282+1024*3,0,0);//bars
+
+object* item000142=OBJaddnew(495,208,282+1024*4,0,0);//bars
+
+object* item000143=OBJaddnew(495,207,282+1024*4,0,0);//bars
+
+
+object* item000145=OBJaddnew(491,211,359+1024*0,0,0);//rabbit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+object* item000165=OBJaddnew(490,213,334+1024*2,0,0);//secret door
+
+
+object* item000167=OBJaddnew(490,204,160+1024*0,128,0);//endtable
+
+
+
+
+object* item000171=OBJaddnew(1314,319,162+1024*0,0,0);//stove
+
+object* item000172=OBJaddnew(1314,320,162+1024*1,0,0);//stove
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OBJaddnew(493,203,301+1024*7,0,256+basehousenumber+0);//doorframe
+
+OBJaddnew(493,202,301+1024*6,0,256+basehousenumber+0);//doorframe
+
+//object* item000188=OBJaddnew(494,203,0+1024*0,0,0);//nothing
+
+
+
+myobj=OBJaddnew(493,203,297+1024*11,0,192);//matched door pair
+myobj->more=(object*)OBJaddnew( 493,202,297 + 1024*10,0,(unsigned long)myobj);//matched door pair
+
+
+OBJaddnew(488,206,301+1024*4,0,256+basehousenumber+0);//doorframe
+
+OBJaddnew(489,206,301+1024*1,0,256+basehousenumber+0);//doorframe
+
+myobj=OBJaddnew(488,206,298+1024*4,0,196);//matched door pair
+myobj->more=(object*)OBJaddnew( 489,206,298 + 1024*9,0,(unsigned long)myobj);//matched door pair
+
+
+OBJaddnew(488,201,279+1024*0,0,120);
+housestoragex[basehousenumber+0][housestoragenext[basehousenumber+0]]=patchx+488;
+housestoragey[basehousenumber+0][housestoragenext[basehousenumber+0]]=patchy+201;
+housestoragenext[basehousenumber+0]++;
+
+OBJaddnew(488,202,279+1024*1,0,120);
+housestoragex[basehousenumber+0][housestoragenext[basehousenumber+0]]=patchx+488;
+housestoragey[basehousenumber+0][housestoragenext[basehousenumber+0]]=patchy+202;
+housestoragenext[basehousenumber+0]++;
+
+OBJaddnew(488,203,279+1024*2,0,120);
+housestoragex[basehousenumber+0][housestoragenext[basehousenumber+0]]=patchx+488;
+housestoragey[basehousenumber+0][housestoragenext[basehousenumber+0]]=patchy+203;
+housestoragenext[basehousenumber+0]++;
+
+
+object* item000201=OBJaddnew(490,205,311+1024*0,0,0);//stone table
+
+object* item000202=OBJaddnew(491,205,311+1024*1,0,0);//stone table
+
+object* item000203=OBJaddnew(490,205,184+1024*0,0,0);//jar of honey
+
+object* item000204=OBJaddnew(491,205,184+1024*0,0,0);//jar of honey
+
+OBJaddnew(489,213,279+1024*0,0,120);
+housestoragex[basehousenumber+0][housestoragenext[basehousenumber+0]]=patchx+489;
+housestoragey[basehousenumber+0][housestoragenext[basehousenumber+0]]=patchy+213;
+housestoragenext[basehousenumber+0]++;
+
+
+OBJaddnew(1312,323,279+1024*3,0,120);
+housestoragex[basehousenumber+0][housestoragenext[basehousenumber+0]]=patchx+1312;
+housestoragey[basehousenumber+0][housestoragenext[basehousenumber+0]]=patchy+323;
+housestoragenext[basehousenumber+0]++;
+
+OBJaddnew(1313,323,279+1024*4,0,120);
+housestoragex[basehousenumber+0][housestoragenext[basehousenumber+0]]=patchx+1313;
+housestoragey[basehousenumber+0][housestoragenext[basehousenumber+0]]=patchy+323;
+housestoragenext[basehousenumber+0]++;
+
+OBJaddnew(1314,323,279+1024*5,0,120);
+housestoragex[basehousenumber+0][housestoragenext[basehousenumber+0]]=patchx+1314;
+housestoragey[basehousenumber+0][housestoragenext[basehousenumber+0]]=patchy+323;
+housestoragenext[basehousenumber+0]++;
+
+
+
+object* item000212=OBJaddnew(1313,320,123+1024*0,128,0);//mirror
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+object* item000233=OBJaddnew(492,212,359+1024*1,0,0);//rabbit
+
+object* item000234=OBJaddnew(488,208,356+1024*0,0,0);//bird
+
+object* item000235=OBJaddnew(493,205,282+1024*0,0,0);//bars
+
+object* item000236=OBJaddnew(495,205,282+1024*3,0,0);//bars
+
+object* item000237=OBJaddnew(494,205,282+1024*1,0,0);//bars
+
+object* item000238=OBJaddnew(495,205,282+1024*6,0,0);//bars
+
+object* item000239=OBJaddnew(495,206,282+1024*4,0,0);//bars
+
+object* item000240=OBJaddnew(495,209,282+1024*5,0,0);//bars
+
+object* item000241=OBJaddnew(494,209,282+1024*1,0,0);//bars
+
+object* item000242=OBJaddnew(493,209,282+1024*0,0,0);//bars
+
+object* item000243=OBJaddnew(493,209,282+1024*6,0,0);//bars
+
+object* item000244=OBJaddnew(495,209,282+1024*6,0,0);//bars
+
+object* item000245=OBJaddnew(495,209,282+1024*2,0,0);//bars
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+object* item000262=OBJaddnew(488,213,140+1024*0,128,0);//wall mount
+
+object* item000263=OBJaddnew(488,213,141+1024*0,128,0);//decorative sword
+
+object* item000264=OBJaddnew(489,212,142+1024*1,128,0);//decorative shield
+
+object* item000265=OBJaddnew(490,214,282+1024*0,0,0);//bars
+
+
+
+
+
+object* item000270=OBJaddnew(493,208,276+1024*7,0,0);//steps
+
+
+object* item000272=OBJaddnew(493,207,276+1024*7,0,0);//steps
+
+
+
+object* item000275=OBJaddnew(494,208,237+1024*1,0,0);//table
+
+object* item000276=OBJaddnew(494,207,237+1024*1,0,0);//table
+
+object* item000277=OBJaddnew(494,206,237+1024*1,0,0);//table
+
+object* item000278=OBJaddnew(494,206,139+1024*0,0,0);//flowers
+
+object* item000279=OBJaddnew(494,207,139+1024*0,0,0);//flowers
+
+object* item000280=OBJaddnew(494,208,139+1024*0,0,0);//flowers
+
+object* item000281=OBJaddnew(494,207,343+1024*0,0,0);//insects
+
+
+
+object* item000283=OBJaddnew(485,201,265+1024*0,0,0);//fish
+
+
+
+object* item000286=OBJaddnew(488,204,261+1024*0,0,0);//table leg
+
+object* item000287=OBJaddnew(490,200,162+1024*0,0,0);//stove
+
+object* item000288=OBJaddnew(490,201,162+1024*1,0,0);//stove
+
+object* item000289=OBJaddnew(496,205,316+1024*3,0,0);//lamppost
+
+
+object* item000291=OBJaddnew(491,203,259+1024*0,0,0);//table leg
+
+
+object* item000293=OBJaddnew(492,203,261+1024*0,0,0);//table leg
+
+object* item000294=OBJaddnew(1316,320,207+1024*0,0,0);//rod
+
+
+
+
+
+object* item000299=OBJaddnew(1318,320,265+1024*0,0,0);//fish
+
+object* item000300=OBJaddnew(1317,320,265+1024*0,0,0);//fish
+
+object* item000301=OBJaddnew(1318,320,207+1024*1,0,0);//rod
+
+object* item000302=OBJaddnew(1318,320,208+1024*0,0,0);//hook
+
+object* item000303=OBJaddnew(1317,320,207+1024*1,0,0);//rod
+
+object* item000304=OBJaddnew(1317,320,208+1024*0,0,0);//hook
+
+object* item000305=OBJaddnew(1318,321,206+1024*1,0,0);//brazier
+
+object* item000306=OBJaddnew(1312,320,160+1024*0,128,0);//endtable
+
+object* item000307=OBJaddnew(1312,320,122+1024*1,128,0);//candle
+
+MOVERNEW_GLOBALFLAGS=0;
+
+object* item000308=OBJaddnew(1318,329,345+1024*0,0,0);//giant squid
+
+object* item000309=OBJaddnew(1317,333,346+1024*0,0,0);//sea serpent
+
+object* item000082=OBJaddnew(487,198,343+1024*0,0,0);//insects
+object* item000282=OBJaddnew(489,199,343+1024*0,0,0);//insects
+
+OBJaddnew(495,201,332+1024*6,0,0);//pole
+OBJaddnew(495,201,332+1024*2,0,65536+basehousenumber+0);//sign
+
+
+//Put items with parents into their containers
+//OBJaddtocontainer(item000032, item000015); //put this item inside its parent
+OBJaddtocontainer(item000019, item000029); //put this item inside its parent
+OBJaddtocontainer(item000019, item000030); //put this item inside its parent
+OBJaddtocontainer(item000032, item000033); //put this item inside its parent
+OBJaddtocontainer(item000032, item000034); //put this item inside its parent
+OBJaddtocontainer(item000032, item000035); //put this item inside its parent
+OBJaddtocontainer(item000047, item000048); //put this item inside its parent
+OBJaddtocontainer(item000047, item000050); //put this item inside its parent
+OBJaddtocontainer(item000047, item000051); //put this item inside its parent
+}//NEThost
+
+//BTrect=new Rectangle(483,200)-(1319,338);
+//ItemRect=new Rectangle(0,0)-(1318,333);
+

@@ -1,0 +1,50 @@
+﻿Build started 12/6/2010 4:52:57 PM.
+     1>Project "C:\The Ultima VI Online Project\c drive\c source\VC-files\mose_vcfiles\u6o7.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\u6o7.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Iinclude /ZI /nologo /W1 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D HOST /D CLIENT /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt data_both.cpp data_client.cpp data_host.cpp dmusic.cpp frame.cpp function_both.cpp function_client.cpp function_host.cpp house.cpp myddraw.cpp myfile.cpp random\randi.cpp random\random.cpp sound.cpp spell_code\spell_code.cpp stdafx.cpp txt.cpp u6o7.cpp use_code\use_code.cpp
+         use_code.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'use_code\use_code.cpp': No such file or directory
+         u6o7.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'u6o7.cpp': No such file or directory
+         txt.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'txt.cpp': No such file or directory
+         stdafx.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'stdafx.cpp': No such file or directory
+         spell_code.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'spell_code\spell_code.cpp': No such file or directory
+         sound.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'sound.cpp': No such file or directory
+         random.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'random\random.cpp': No such file or directory
+         randi.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'random\randi.cpp': No such file or directory
+         myfile.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'myfile.cpp': No such file or directory
+         myddraw.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'myddraw.cpp': No such file or directory
+         house.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'house.cpp': No such file or directory
+         function_host.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'function_host.cpp': No such file or directory
+         function_client.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'function_client.cpp': No such file or directory
+         function_both.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'function_both.cpp': No such file or directory
+         frame.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'frame.cpp': No such file or directory
+         dmusic.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'dmusic.cpp': No such file or directory
+         data_host.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'data_host.cpp': No such file or directory
+         data_client.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'data_client.cpp': No such file or directory
+         data_both.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'data_both.cpp': No such file or directory
+         Generating Code...
+     1>Done Building Project "C:\The Ultima VI Online Project\c drive\c source\VC-files\mose_vcfiles\u6o7.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.99

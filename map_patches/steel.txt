@@ -1,0 +1,1358 @@
+basehousenumber=52;//+1=53
+houseinitialcost[basehousenumber+1]=2500;
+housecost[basehousenumber+1]=85;
+houseentrancex[basehousenumber+1]=202; houseentrancey[basehousenumber+1]=68;
+MOVERNEW_GLOBALFLAGS=MOVERNEW_FLAG_PASSIVE;
+
+
+
+//U6O MapEdit Full Export V1.36
+patchx=0; patchy=0; //always 0 so far
+
+housenumber=65535;//Non house tiles
+BTset(193,54,146);
+BTset(194,54,198);
+BTset(195,54,198);
+BTset(196,54,152);
+BTset(202,54,1);
+BTset(203,54,1);
+BTset(205,54,1);
+BTset(206,54,1);
+BTset(191,55,70);
+BTset(193,55,199);
+BTset(194,55,213);
+BTset(195,55,213);
+BTset(196,55,148);
+BTset(197,55,146);
+BTset(198,55,144);
+BTset(199,55,194);
+BTset(200,55,144);
+BTset(201,55,144);
+BTset(202,55,144);
+BTset(203,55,194);
+BTset(204,55,144);
+BTset(205,55,152);
+BTset(191,56,73);
+BTset(192,56,73);
+BTset(193,56,199);
+BTset(194,56,213);
+BTset(195,56,213);
+BTset(196,56,213);
+BTset(197,56,145);
+BTset(198,56,210);
+BTset(199,56,210);
+BTset(200,56,210);
+BTset(201,56,210);
+BTset(202,56,210);
+BTset(203,56,210);
+BTset(204,56,210);
+BTset(205,56,145);
+BTset(189,57,1);
+BTset(190,57,73);
+BTset(191,57,73);
+BTset(192,57,75);
+BTset(193,57,153);
+BTset(194,57,147);
+BTset(195,57,213);
+BTset(196,57,213);
+BTset(197,57,145);
+BTset(198,57,210);
+BTset(199,57,210);
+BTset(200,57,210);
+BTset(201,57,210);
+BTset(202,57,210);
+BTset(203,57,210);
+BTset(204,57,210);
+BTset(205,57,145);
+BTset(189,58,1);
+BTset(194,58,145);
+BTset(195,58,210);
+BTset(196,58,210);
+BTset(197,58,146);
+BTset(198,58,210);
+BTset(199,58,210);
+BTset(200,58,144);
+BTset(201,58,144);
+BTset(202,58,156);
+BTset(203,58,210);
+BTset(204,58,210);
+BTset(205,58,193);
+BTset(206,58,1);
+BTset(189,59,1);
+BTset(190,59,1);
+BTset(191,59,1);
+BTset(192,59,73);
+BTset(193,59,79);
+BTset(194,59,145);
+BTset(195,59,210);
+BTset(196,59,210);
+BTset(197,59,159);
+BTset(198,59,210);
+BTset(199,59,210);
+BTset(200,59,210);
+BTset(201,59,210);
+BTset(202,59,145);
+BTset(203,59,210);
+BTset(204,59,210);
+BTset(205,59,145);
+BTset(189,60,1);
+BTset(190,60,73);
+BTset(191,60,80);
+BTset(192,60,81);
+BTset(193,60,81);
+BTset(194,60,145);
+BTset(195,60,210);
+BTset(196,60,210);
+BTset(197,60,210);
+BTset(198,60,210);
+BTset(199,60,210);
+BTset(200,60,210);
+BTset(201,60,210);
+BTset(202,60,145);
+BTset(203,60,210);
+BTset(204,60,210);
+BTset(205,60,145);
+BTset(189,61,1);
+BTset(190,61,162);
+BTset(191,61,160);
+BTset(192,61,108);
+BTset(193,61,108);
+BTset(194,61,145);
+BTset(195,61,210);
+BTset(196,61,210);
+BTset(197,61,210);
+BTset(198,61,210);
+BTset(199,61,210);
+BTset(200,61,210);
+BTset(201,61,210);
+BTset(202,61,145);
+BTset(203,61,210);
+BTset(204,61,210);
+BTset(205,61,193);
+BTset(206,61,1);
+BTset(190,62,202);
+BTset(191,62,110);
+BTset(192,62,109);
+BTset(193,62,108);
+BTset(194,62,145);
+BTset(195,62,210);
+BTset(196,62,210);
+BTset(197,62,210);
+BTset(198,62,210);
+BTset(199,62,210);
+BTset(200,62,210);
+BTset(201,62,210);
+BTset(202,62,145);
+BTset(203,62,210);
+BTset(204,62,210);
+BTset(205,62,145);
+BTset(206,62,1);
+BTset(190,63,203);
+BTset(191,63,108);
+BTset(192,63,108);
+BTset(193,63,110);
+BTset(194,63,146);
+BTset(195,63,210);
+BTset(196,63,210);
+BTset(197,63,146);
+BTset(198,63,158);
+BTset(199,63,210);
+BTset(200,63,210);
+BTset(201,63,157);
+BTset(202,63,144);
+BTset(203,63,144);
+BTset(204,63,144);
+BTset(205,63,145);
+BTset(190,64,161);
+BTset(191,64,111);
+BTset(192,64,110);
+BTset(193,64,109);
+BTset(194,64,145);
+BTset(195,64,210);
+BTset(196,64,210);
+BTset(197,64,145);
+BTset(198,64,210);
+BTset(199,64,210);
+BTset(200,64,210);
+BTset(201,64,210);
+BTset(202,64,210);
+BTset(203,64,213);
+BTset(204,64,213);
+BTset(205,64,148);
+BTset(206,64,152);
+BTset(189,65,1);
+BTset(190,65,169);
+BTset(191,65,160);
+BTset(192,65,108);
+BTset(193,65,110);
+BTset(194,65,145);
+BTset(195,65,210);
+BTset(196,65,210);
+BTset(197,65,145);
+BTset(198,65,210);
+BTset(199,65,210);
+BTset(200,65,210);
+BTset(201,65,210);
+BTset(202,65,210);
+BTset(203,65,213);
+BTset(204,65,213);
+BTset(205,65,213);
+BTset(206,65,199);
+BTset(189,66,1);
+BTset(190,66,1);
+BTset(191,66,83);
+BTset(192,66,89);
+BTset(193,66,111);
+BTset(194,66,155);
+BTset(195,66,144);
+BTset(196,66,192);
+BTset(197,66,144);
+BTset(198,66,192);
+BTset(199,66,144);
+BTset(200,66,210);
+BTset(201,66,210);
+BTset(202,66,192);
+BTset(203,66,147);
+BTset(204,66,213);
+BTset(205,66,213);
+BTset(206,66,199);
+BTset(192,67,83);
+BTset(193,67,89);
+BTset(194,67,92);
+BTset(195,67,111);
+BTset(196,67,111);
+BTset(197,67,90);
+BTset(198,67,81);
+BTset(199,67,91);
+BTset(200,67,91);
+BTset(201,67,111);
+BTset(202,67,108);
+BTset(203,67,153);
+BTset(204,67,198);
+BTset(205,67,198);
+BTset(206,67,149);
+BTset(191,68,1);
+BTset(192,68,1);
+BTset(193,68,83);
+BTset(194,68,84);
+BTset(195,68,84);
+BTset(196,68,89);
+BTset(197,68,111);
+BTset(198,68,111);
+BTset(199,68,108);
+BTset(200,68,111);
+BTset(201,68,109);
+BTset(202,68,108);
+BTset(203,68,82);
+BTset(204,68,93);
+BTset(207,68,78);
+BTset(189,69,1);
+BTset(190,69,1);
+BTset(193,69,1);
+BTset(194,69,1);
+BTset(196,69,83);
+BTset(197,69,89);
+BTset(198,69,92);
+BTset(199,69,88);
+BTset(200,69,84);
+BTset(201,69,89);
+BTset(202,69,92);
+BTset(203,69,92);
+BTset(204,69,82);
+BTset(198,70,74);
+BTset(199,70,1);
+BTset(203,70,83);
+BTset(204,70,84);
+BTset(205,70,94);
+BTset(206,70,82);
+BTset(207,70,93);
+BTset(208,70,57);
+BTset(209,70,62);
+BTset(210,70,60);
+BTset(211,70,58);
+BTset(199,71,56);
+BTset(204,71,1);
+BTset(205,71,83);
+BTset(206,71,79);
+BTset(207,71,82);
+BTset(208,71,93);
+BTset(209,71,93);
+BTset(211,71,59);
+BTset(207,72,94);
+BTset(208,72,81);
+BTset(209,72,93);
+BTset(210,72,93);
+BTset(208,73,93);
+BTset(209,73,79);
+BTset(210,73,93);
+BTset(211,73,94);
+BTset(212,73,93);
+BTset(210,74,83);
+BTset(211,74,92);
+BTset(212,74,94);
+BTset(213,74,92);
+BTset(214,74,81);
+BTset(210,75,94);
+BTset(211,75,83);
+BTset(212,75,84);
+BTset(213,75,89);
+BTset(208,76,75);
+BTset(211,76,1);
+BTset(212,76,79);
+BTset(213,76,83);
+BTset(214,76,84);
+BTset(209,77,78);
+BTset(213,77,93);
+BTset(214,77,93);
+BTset(1078,511,0);
+BTset(1079,511,0);
+BTset(1080,511,0);
+BTset(1081,511,0);
+BTset(1082,511,0);
+BTset(1083,511,0);
+BTset(1084,511,0);
+BTset(1085,511,0);
+BTset(1086,511,0);
+BTset(1087,511,0);
+BTset(1088,511,0);
+BTset(1089,511,0);
+BTset(1090,511,0);
+BTset(1091,511,0);
+BTset(1092,511,0);
+BTset(1093,511,0);
+BTset(1201,520,0);
+BTset(1202,520,0);
+BTset(1199,521,0);
+BTset(1200,521,0);
+BTset(1201,521,0);
+BTset(1202,521,0);
+BTset(1197,522,0);
+BTset(1198,522,0);
+BTset(1199,522,0);
+BTset(1200,522,0);
+BTset(1201,522,0);
+BTset(1202,522,0);
+BTset(1195,523,0);
+BTset(1196,523,0);
+BTset(1197,523,0);
+BTset(1198,523,0);
+BTset(1199,523,0);
+BTset(1200,523,0);
+BTset(1201,523,0);
+BTset(1202,523,0);
+BTset(1193,524,0);
+BTset(1194,524,0);
+BTset(1195,524,0);
+BTset(1196,524,0);
+BTset(1197,524,0);
+BTset(1198,524,0);
+BTset(1199,524,0);
+BTset(1200,524,0);
+BTset(1201,524,0);
+BTset(1202,524,0);
+BTset(1191,525,0);
+BTset(1192,525,0);
+BTset(1193,525,0);
+BTset(1194,525,0);
+BTset(1195,525,0);
+BTset(1196,525,0);
+BTset(1197,525,0);
+BTset(1198,525,0);
+BTset(1199,525,0);
+BTset(1200,525,0);
+BTset(1201,525,0);
+BTset(1202,525,0);
+BTset(1189,526,0);
+BTset(1190,526,0);
+BTset(1191,526,0);
+BTset(1192,526,0);
+BTset(1193,526,0);
+BTset(1194,526,0);
+BTset(1195,526,0);
+BTset(1196,526,0);
+BTset(1197,526,0);
+BTset(1198,526,0);
+BTset(1199,526,0);
+BTset(1200,526,0);
+BTset(1201,526,0);
+BTset(1202,526,0);
+BTset(1186,527,0);
+BTset(1187,527,0);
+BTset(1188,527,0);
+BTset(1189,527,0);
+BTset(1190,527,0);
+BTset(1191,527,0);
+BTset(1192,527,0);
+BTset(1193,527,0);
+BTset(1194,527,0);
+BTset(1195,527,0);
+BTset(1196,527,0);
+BTset(1197,527,0);
+BTset(1198,527,0);
+BTset(1199,527,0);
+BTset(1200,527,0);
+BTset(1201,527,0);
+BTset(1202,527,0);
+BTset(1182,528,0);
+BTset(1183,528,0);
+BTset(1184,528,0);
+BTset(1185,528,0);
+BTset(1186,528,0);
+BTset(1187,528,0);
+BTset(1188,528,0);
+BTset(1189,528,0);
+BTset(1190,528,0);
+BTset(1191,528,0);
+BTset(1192,528,0);
+BTset(1193,528,0);
+BTset(1194,528,0);
+BTset(1195,528,0);
+BTset(1196,528,0);
+BTset(1197,528,0);
+BTset(1198,528,0);
+BTset(1199,528,0);
+BTset(1200,528,0);
+BTset(1201,528,0);
+BTset(1202,528,0);
+BTset(1094,541,146);
+BTset(1095,541,144);
+BTset(1096,541,144);
+BTset(1097,541,146);
+BTset(1098,541,144);
+BTset(1099,541,144);
+BTset(1100,541,146);
+BTset(1101,541,144);
+BTset(1102,541,146);
+BTset(1103,541,144);
+BTset(1104,541,144);
+BTset(1105,541,154);
+BTset(1106,541,178);
+BTset(1107,541,176);
+BTset(1108,541,176);
+BTset(1109,541,176);
+BTset(1110,541,176);
+BTset(1111,541,176);
+BTset(1112,541,176);
+BTset(1113,541,176);
+BTset(1114,541,176);
+BTset(1115,541,176);
+BTset(1116,541,176);
+BTset(1117,541,186);
+BTset(1094,542,145);
+BTset(1095,542,210);
+BTset(1096,542,210);
+BTset(1097,542,145);
+BTset(1100,542,157);
+BTset(1102,542,145);
+BTset(1105,542,145);
+BTset(1106,542,177);
+BTset(1107,542,221);
+BTset(1108,542,221);
+BTset(1109,542,110);
+BTset(1110,542,109);
+BTset(1111,542,111);
+BTset(1112,542,108);
+BTset(1113,542,221);
+BTset(1114,542,221);
+BTset(1115,542,110);
+BTset(1116,542,108);
+BTset(1117,542,177);
+BTset(1094,543,145);
+BTset(1095,543,210);
+BTset(1096,543,210);
+BTset(1097,543,145);
+BTset(1102,543,159);
+BTset(1105,543,145);
+BTset(1106,543,177);
+BTset(1107,543,221);
+BTset(1108,543,222);
+BTset(1109,543,221);
+BTset(1110,543,108);
+BTset(1111,543,108);
+BTset(1112,543,221);
+BTset(1113,543,222);
+BTset(1114,543,222);
+BTset(1115,543,221);
+BTset(1116,543,108);
+BTset(1117,543,177);
+BTset(1094,544,145);
+BTset(1095,544,210);
+BTset(1096,544,210);
+BTset(1097,544,145);
+BTset(1105,544,145);
+BTset(1106,544,177);
+BTset(1107,544,110);
+BTset(1108,544,221);
+BTset(1109,544,111);
+BTset(1110,544,108);
+BTset(1111,544,108);
+BTset(1112,544,221);
+BTset(1113,544,222);
+BTset(1114,544,221);
+BTset(1115,544,108);
+BTset(1116,544,109);
+BTset(1117,544,177);
+BTset(1094,545,145);
+BTset(1095,545,210);
+BTset(1096,545,210);
+BTset(1097,545,146);
+BTset(1098,545,144);
+BTset(1099,545,158);
+BTset(1102,545,146);
+BTset(1103,545,144);
+BTset(1104,545,196);
+BTset(1105,545,145);
+BTset(1106,545,177);
+BTset(1107,545,110);
+BTset(1108,545,109);
+BTset(1109,545,108);
+BTset(1110,545,108);
+BTset(1111,545,110);
+BTset(1112,545,109);
+BTset(1113,545,221);
+BTset(1114,545,108);
+BTset(1115,545,221);
+BTset(1116,545,108);
+BTset(1117,545,177);
+BTset(1094,546,145);
+BTset(1095,546,210);
+BTset(1096,546,210);
+BTset(1097,546,145);
+BTset(1102,546,145);
+BTset(1103,546,210);
+BTset(1104,546,210);
+BTset(1105,546,145);
+BTset(1106,546,177);
+BTset(1107,546,109);
+BTset(1108,546,217);
+BTset(1109,546,111);
+BTset(1110,546,111);
+BTset(1111,546,110);
+BTset(1112,546,108);
+BTset(1113,546,110);
+BTset(1114,546,110);
+BTset(1115,546,108);
+BTset(1116,546,221);
+BTset(1117,546,177);
+BTset(1094,547,146);
+BTset(1095,547,210);
+BTset(1096,547,144);
+BTset(1097,547,145);
+BTset(1102,547,145);
+BTset(1103,547,210);
+BTset(1104,547,210);
+BTset(1105,547,145);
+BTset(1106,547,177);
+BTset(1107,547,217);
+BTset(1108,547,218);
+BTset(1109,547,217);
+BTset(1110,547,108);
+BTset(1111,547,108);
+BTset(1112,547,108);
+BTset(1113,547,108);
+BTset(1114,547,111);
+BTset(1115,547,221);
+BTset(1116,547,222);
+BTset(1117,547,177);
+BTset(1094,548,145);
+BTset(1095,548,210);
+BTset(1096,548,210);
+BTset(1097,548,145);
+BTset(1102,548,145);
+BTset(1103,548,210);
+BTset(1104,548,210);
+BTset(1105,548,145);
+BTset(1106,548,177);
+BTset(1107,548,218);
+BTset(1108,548,219);
+BTset(1109,548,218);
+BTset(1110,548,217);
+BTset(1111,548,108);
+BTset(1112,548,111);
+BTset(1113,548,108);
+BTset(1114,548,221);
+BTset(1115,548,222);
+BTset(1116,548,223);
+BTset(1117,548,177);
+BTset(1094,549,146);
+BTset(1095,549,144);
+BTset(1096,549,144);
+BTset(1097,549,146);
+BTset(1098,549,144);
+BTset(1099,549,144);
+BTset(1102,549,149);
+BTset(1103,549,210);
+BTset(1104,549,210);
+BTset(1105,549,145);
+BTset(1106,549,178);
+BTset(1107,549,176);
+BTset(1108,549,176);
+BTset(1109,549,176);
+BTset(1110,549,178);
+BTset(1111,549,176);
+BTset(1112,549,176);
+BTset(1113,549,176);
+BTset(1114,549,176);
+BTset(1115,549,176);
+BTset(1116,549,176);
+BTset(1117,549,181);
+BTset(1094,550,145);
+BTset(1095,550,210);
+BTset(1096,550,210);
+BTset(1097,550,145);
+BTset(1098,550,210);
+BTset(1099,550,210);
+BTset(1100,550,210);
+BTset(1101,550,210);
+BTset(1102,550,210);
+BTset(1103,550,210);
+BTset(1104,550,210);
+BTset(1105,550,145);
+BTset(1106,550,177);
+BTset(1107,550,218);
+BTset(1108,550,219);
+BTset(1109,550,218);
+BTset(1110,550,177);
+BTset(1094,551,145);
+BTset(1095,551,210);
+BTset(1096,551,210);
+BTset(1097,551,210);
+BTset(1098,551,210);
+BTset(1099,551,210);
+BTset(1100,551,210);
+BTset(1101,551,210);
+BTset(1102,551,210);
+BTset(1103,551,210);
+BTset(1104,551,210);
+BTset(1105,551,145);
+BTset(1106,551,177);
+BTset(1107,551,217);
+BTset(1108,551,218);
+BTset(1109,551,217);
+BTset(1110,551,177);
+BTset(1094,552,155);
+BTset(1095,552,144);
+BTset(1096,552,144);
+BTset(1097,552,144);
+BTset(1098,552,144);
+BTset(1099,552,144);
+BTset(1100,552,144);
+BTset(1101,552,144);
+BTset(1102,552,144);
+BTset(1103,552,144);
+BTset(1104,552,144);
+BTset(1105,552,149);
+BTset(1106,552,187);
+BTset(1107,552,176);
+BTset(1108,552,176);
+BTset(1109,552,176);
+BTset(1110,552,181);
+//NonHouseBTrect=new Rectangle(189,54)-(1202,552) = (1013,498);
+
+//house tiles (tiles sorted by position, not number)
+housenumber=basehousenumber+1;
+BTset(1098,542,210);
+housenumber=basehousenumber+1;
+BTset(1099,542,210);
+housenumber=basehousenumber+1;
+BTset(1101,542,210);
+housenumber=basehousenumber+1;
+BTset(1103,542,210);
+housenumber=basehousenumber+1;
+BTset(1104,542,210);
+housenumber=basehousenumber+1;
+BTset(1098,543,210);
+housenumber=basehousenumber+1;
+BTset(1099,543,210);
+housenumber=basehousenumber+1;
+BTset(1100,543,210);
+housenumber=basehousenumber+1;
+BTset(1101,543,210);
+housenumber=basehousenumber+1;
+BTset(1103,543,210);
+housenumber=basehousenumber+1;
+BTset(1104,543,210);
+housenumber=basehousenumber+1;
+BTset(1098,544,210);
+housenumber=basehousenumber+1;
+BTset(1099,544,210);
+housenumber=basehousenumber+1;
+BTset(1100,544,210);
+housenumber=basehousenumber+1;
+BTset(1101,544,210);
+housenumber=basehousenumber+1;
+BTset(1102,544,210);
+housenumber=basehousenumber+1;
+BTset(1103,544,210);
+housenumber=basehousenumber+1;
+BTset(1104,544,210);
+housenumber=basehousenumber+1;
+BTset(1100,545,210);
+housenumber=basehousenumber+1;
+BTset(1101,545,210);
+housenumber=basehousenumber+1;
+BTset(1098,546,210);
+housenumber=basehousenumber+1;
+BTset(1099,546,210);
+housenumber=basehousenumber+1;
+BTset(1100,546,210);
+housenumber=basehousenumber+1;
+BTset(1101,546,210);
+housenumber=basehousenumber+1;
+BTset(1098,547,210);
+housenumber=basehousenumber+1;
+BTset(1099,547,210);
+housenumber=basehousenumber+1;
+BTset(1100,547,210);
+housenumber=basehousenumber+1;
+BTset(1101,547,210);
+housenumber=basehousenumber+1;
+BTset(1098,548,210);
+housenumber=basehousenumber+1;
+BTset(1099,548,210);
+housenumber=basehousenumber+1;
+BTset(1100,548,210);
+housenumber=basehousenumber+1;
+BTset(1101,548,210);
+housenumber=basehousenumber+1;
+BTset(1100,549,210);
+housenumber=basehousenumber+1;
+BTset(1101,549,210);
+
+housenumber=65535;
+
+
+if (NEThost){
+//Objects
+object* item000000=OBJaddnew(196,58,276+1024*5,0,0);//steps
+
+object* item000001=OBJaddnew(195,58,276+1024*5,0,0);//steps
+
+object* item000002=OBJaddnew(200,61,250+1024*0,0,0);//table
+
+object* item000003=OBJaddnew(201,61,250+1024*2,0,0);//table
+
+object* item000004=OBJaddnew(200,60,228+1024*0,0,0);//table
+
+object* item000005=OBJaddnew(201,60,228+1024*2,0,0);//table
+
+object* item000006=OBJaddnew(202,64,276+1024*7,0,0);//steps
+
+object* item000007=OBJaddnew(202,65,276+1024*7,0,0);//steps
+
+
+object* item000009=OBJaddnew(201,59,252+1024*2,128,0);//chair
+
+object* item000010=OBJaddnew(200,59,252+1024*2,128,0);//chair
+
+
+
+
+
+
+
+object* item000017=OBJaddnew(200,60,145+1024*1,128,0);//candelabra
+
+object* item000018=OBJaddnew(200,58,144+1024*0,0,0);//tapestry
+
+object* item000019=OBJaddnew(201,58,144+1024*1,0,0);//tapestry
+
+object* item000020=OBJaddnew(198,65,198+1024*0,0,0);//cutting table
+
+object* item000021=OBJaddnew(199,65,198+1024*1,0,0);//cutting table
+
+object* item000022=OBJaddnew(205,66,206+1024*1,0,0);//brazier
+
+object* item000023=OBJaddnew(194,55,206+1024*1,0,0);//brazier
+
+object* item000024=OBJaddnew(204,60,163+1024*7,0,0);//bed
+
+object* item000025=OBJaddnew(204,59,163+1024*6,0,0);//bed
+
+object* item000026=OBJaddnew(204,58,163+1024*7,0,0);//bed
+
+object* item000027=OBJaddnew(204,57,163+1024*6,0,0);//bed
+
+object* item000028=OBJaddnew(198,56,163+1024*0,0,0);//bed
+
+object* item000029=OBJaddnew(199,56,163+1024*1,0,0);//bed
+
+object* item000030=OBJaddnew(200,56,163+1024*0,0,0);//bed
+
+object* item000031=OBJaddnew(201,56,163+1024*1,0,0);//bed
+
+object* item000032=OBJaddnew(202,56,163+1024*0,0,0);//bed
+
+object* item000033=OBJaddnew(203,56,163+1024*1,0,0);//bed
+
+object* item000034=OBJaddnew(204,62,163+1024*7,0,0);//bed
+
+object* item000035=OBJaddnew(204,61,163+1024*6,0,0);//bed
+
+object* item000036=OBJaddnew(198,58,159+1024*0,128,0);//clock
+
+object* item000037=OBJaddnew(198,59,159+1024*1,128,0);//clock
+
+object* item000038=OBJaddnew(201,55,164+1024*3,0,0);//fireplace
+
+object* item000039=OBJaddnew(198,65,112+1024*0,128,0);//cooking tray
+
+object* item000040=OBJaddnew(198,65,135+1024*0,0,0);//horse chops
+
+object* item000041=OBJaddnew(204,56,123+1024*0,128,0);//mirror
+
+object* item000042=OBJaddnew(202,62,140+1024*0,128,0);//wall mount
+
+object* item000043=OBJaddnew(202,62,141+1024*0,128,0);//decorative sword
+
+object* item000044=OBJaddnew(194,59,140+1024*0,128,0);//wall mount
+
+object* item000045=OBJaddnew(194,59,141+1024*0,128,0);//decorative sword
+
+object* item000046=OBJaddnew(194,62,140+1024*0,128,0);//wall mount
+
+object* item000047=OBJaddnew(194,62,141+1024*0,128,0);//decorative sword
+
+object* item000048=OBJaddnew(197,56,143+1024*0,128,0);//picture
+
+object* item000049=OBJaddnew(202,55,143+1024*1,128,0);//picture
+
+object* item000050=OBJaddnew(203,62,160+1024*0,128,0);//endtable
+
+object* item000051=OBJaddnew(203,62,122+1024*1,128,0);//candle
+
+object* item000052=OBJaddnew(198,57,177+1024*1,128,0);//desk
+
+object* item000053=OBJaddnew(198,57,122+1024*1,128,0);//candle
+
+object* item000054=OBJaddnew(202,59,176+1024*0,128,0);//chest of drawers
+
+object* item000055=OBJaddnew(203,59,176+1024*1,128,0);//chest of drawers
+
+object* item000056=OBJaddnew(194,64,176+1024*0,128,0);//chest of drawers
+
+object* item000057=OBJaddnew(195,64,176+1024*1,128,0);//chest of drawers
+
+object* item000058=OBJaddnew(195,65,163+1024*0,0,0);//bed
+
+object* item000059=OBJaddnew(196,65,163+1024*1,0,0);//bed
+
+object* item000060=OBJaddnew(194,65,143+1024*0,128,0);//picture
+
+
+
+
+
+
+
+object* item000067=OBJaddnew(195,60,303+1024*0,0,0);//carpet
+
+object* item000068=OBJaddnew(195,62,303+1024*16,0,0);//carpet
+
+object* item000069=OBJaddnew(197,60,303+1024*1,0,0);//carpet
+
+object* item000070=OBJaddnew(196,60,303+1024*1,0,0);//carpet
+
+object* item000071=OBJaddnew(196,62,303+1024*13,0,0);//carpet
+
+object* item000072=OBJaddnew(197,62,303+1024*13,0,0);//carpet
+
+object* item000073=OBJaddnew(195,61,303+1024*3,0,0);//carpet
+
+object* item000074=OBJaddnew(196,61,303+1024*10,0,0);//carpet
+
+object* item000075=OBJaddnew(197,61,303+1024*10,0,0);//carpet
+
+object* item000076=OBJaddnew(199,60,303+1024*2,0,0);//carpet
+
+object* item000077=OBJaddnew(199,61,303+1024*5,0,0);//carpet
+
+object* item000078=OBJaddnew(198,60,303+1024*1,0,0);//carpet
+
+object* item000079=OBJaddnew(198,61,303+1024*10,0,0);//carpet
+
+object* item000080=OBJaddnew(198,62,303+1024*13,0,0);//carpet
+
+object* item000081=OBJaddnew(200,62,259+1024*0,0,0);//table leg
+
+object* item000082=OBJaddnew(201,62,261+1024*0,0,0);//table leg
+
+object* item000083=OBJaddnew(201,62,252+1024*0,128,0);//chair
+
+object* item000084=OBJaddnew(199,60,252+1024*1,128,0);//chair
+
+object* item000085=OBJaddnew(199,61,252+1024*1,128,0);//chair
+
+object* item000086=OBJaddnew(194,61,164+1024*1,0,0);//fireplace
+
+object* item000087=OBJaddnew(194,60,143+1024*0,128,0);//picture
+
+object* item000088=OBJaddnew(198,67,206+1024*1,0,0);//brazier
+
+object* item000089=OBJaddnew(196,61,252+1024*2,128,0);//chair
+
+object* item000090=OBJaddnew(195,62,252+1024*1,128,0);//chair
+
+object* item000091=OBJaddnew(195,61,252+1024*0,128,0);//chair
+
+object* item000092=OBJaddnew(195,60,156+1024*0,128,0);//harpsichord
+
+object* item000093=OBJaddnew(201,60,121+1024*0,128,0);//silverware
+
+object* item000094=OBJaddnew(201,60,119+1024*0,128,0);//plate
+
+object* item000095=OBJaddnew(200,61,120+1024*0,128,0);//mug
+
+object* item000096=OBJaddnew(200,61,118+1024*0,128,0);//wineglass
+
+object* item000097=OBJaddnew(201,61,117+1024*0,0,0);//ale
+
+object* item000098=OBJaddnew(201,60,120+1024*0,128,0);//mug
+
+object* item000099=OBJaddnew(204,66,382+1024*9,0,0);//guard
+
+object* item000100=OBJaddnew(199,65,380+1024*14,0,0);//merchant
+
+object* item000101=OBJaddnew(198,64,162+1024*1,0,0);//stove
+
+object* item000102=OBJaddnew(198,63,162+1024*0,0,0);//stove
+
+object* item000103=OBJaddnew(198,65,114+1024*0,128,0);//knife
+
+object* item000104=OBJaddnew(199,62,303+1024*17,0,0);//carpet
+
+object* item000105=OBJaddnew(202,61,176+1024*0,128,0);//chest of drawers
+
+object* item000106=OBJaddnew(203,61,176+1024*1,128,0);//chest of drawers
+
+object* item000107=OBJaddnew(202,60,176+1024*0,128,0);//chest of drawers
+
+object* item000108=OBJaddnew(203,60,176+1024*1,128,0);//chest of drawers
+
+object* item000109=OBJaddnew(203,63,273+1024*1,0,0);//tile
+
+object* item000110=OBJaddnew(204,63,273+1024*1,0,0);//tile
+
+object* item000111=OBJaddnew(202,63,272+1024*0,0,0);//steps
+
+object* item000112=OBJaddnew(194,58,272+1024*3,0,0);//steps
+
+object* item000113=OBJaddnew(194,57,273+1024*2,0,0);//tile
+
+object* item000114=OBJaddnew(200,55,142+1024*1,128,0);//decorative shield
+
+object* item000115=OBJaddnew(200,55,141+1024*1,128,0);//decorative sword
+
+object* item000116=OBJaddnew(190,63,215+1024*0,0,0);//stable
+
+object* item000117=OBJaddnew(191,63,215+1024*1,0,0);//stable
+
+object* item000118=OBJaddnew(192,63,215+1024*2,0,0);//stable
+
+
+
+
+
+object* item000123=OBJaddnew(190,59,166+1024*0,0,0);//grain
+
+object* item000124=OBJaddnew(190,59,102+1024*0,128,0);//rake
+
+object* item000125=OBJaddnew(190,63,195+1024*0,0,0);//wheat
+
+object* item000126=OBJaddnew(191,63,195+1024*1,0,0);//wheat
+
+object* item000127=OBJaddnew(190,64,195+1024*2,0,0);//wheat
+
+object* item000128=OBJaddnew(191,64,195+1024*3,0,0);//wheat
+
+object* item000129=OBJaddnew(195,54,273+1024*1,0,0);//tile
+
+object* item000130=OBJaddnew(194,54,273+1024*1,0,0);//tile
+
+object* item000131=OBJaddnew(193,56,273+1024*2,0,0);//tile
+
+object* item000132=OBJaddnew(193,55,273+1024*2,0,0);//tile
+
+object* item000133=OBJaddnew(193,54,273+1024*0,0,0);//tile
+
+object* item000134=OBJaddnew(189,58,281+1024*2,0,0);//fence
+
+object* item000135=OBJaddnew(189,59,281+1024*1,0,0);//fence
+
+object* item000136=OBJaddnew(189,60,281+1024*1,0,0);//fence
+
+object* item000137=OBJaddnew(189,61,281+1024*5,0,0);//fence
+
+object* item000138=OBJaddnew(190,58,281+1024*0,0,0);//fence
+
+object* item000139=OBJaddnew(192,58,281+1024*0,0,0);//fence
+
+object* item000140=OBJaddnew(191,58,281+1024*0,0,0);//fence
+
+object* item000141=OBJaddnew(193,58,281+1024*0,0,0);//fence
+
+
+
+object* item000144=OBJaddnew(192,64,101+1024*0,128,0);//pitchfork
+
+object* item000145=OBJaddnew(190,59,105+1024*0,128,0);//hoe
+
+object* item000146=OBJaddnew(190,60,205+1024*0,0,0);//water trough
+
+object* item000147=OBJaddnew(193,63,202+1024*0,0,0);//horse shoes
+
+OBJaddnew(199,66,332+1024*0,0,65536+basehousenumber+1);//);//sign
+
+//OBJaddnew(204,68,332+1024*6,0,65536+basehousenumber+1);//);//sign
+
+//OBJaddnew(204,68,332+1024*7,0,65536+basehousenumber+1);//);//sign
+
+OBJaddnew(204,65,305+1024*0,0,36111440);//pointing at something
+
+OBJaddnew(195,56,305+1024*0,0,35521607);//pointing at something
+
+object* item000152=OBJaddnew(192,62,430+1024*2,0,0);//horse
+
+object* item000153=OBJaddnew(191,62,430+1024*10,0,0);//horse
+
+
+
+object* item000156=OBJaddnew(200,62,252+1024*0,128,0);//chair
+
+
+
+
+
+OBJaddnew(1095,542,305+1024*1,0,3670211);//pointing at something
+
+OBJaddnew(1096,548,305+1024*0,0,35914836);//pointing at something
+
+object* item000163=OBJaddnew(1095,547,334+1024*0,0,0);//secret door
+
+object* item000164=OBJaddnew(1101,541,304+1024*4,0,0);//cookfire
+
+object* item000165=OBJaddnew(1101,542,304+1024*5,0,0);//cookfire
+
+object* item000166=OBJaddnew(1101,542,219+1024*0,0,0);//oven
+
+object* item000167=OBJaddnew(1099,542,217+1024*0,0,0);//anvil
+
+object* item000168=OBJaddnew(1098,542,205+1024*0,0,0);//water trough
+
+object* item000169=OBJaddnew(1099,542,203+1024*0,128,0);//pliers
+
+object* item000170=OBJaddnew(1098,544,198+1024*0,0,0);//cutting table
+
+object* item000171=OBJaddnew(1099,544,198+1024*1,0,0);//cutting table
+
+object* item000172=OBJaddnew(1098,544,204+1024*0,128,0);//hammer
+
+object* item000173=OBJaddnew(1104,542,222+1024*0,0,0);//cannon balls
+
+object* item000174=OBJaddnew(1101,547,206+1024*1,0,0);//brazier
+
+object* item000175=OBJaddnew(1103,550,330+1024*0,0,0);//mat
+
+object* item000176=OBJaddnew(1104,550,330+1024*1,0,0);//mat
+
+object* item000177=OBJaddnew(1104,551,330+1024*3,0,0);//mat
+
+object* item000178=OBJaddnew(1103,551,330+1024*2,0,0);//mat
+
+object* item000179=OBJaddnew(1102,551,166+1024*0,0,0);//grain
+
+object* item000180=OBJaddnew(1101,551,187+1024*0,128,0);//gargoyle jug
+
+object* item000181=OBJaddnew(1102,551,100+1024*0,0,0);//scythe
+
+OBJaddnew(1104,551,305+1024*1,0,4260044);//pointing at something
+
+object* item000183=OBJaddnew(1096,542,167+1024*0,0,0);//flour
+
+object* item000184=OBJaddnew(1096,546,284+1024*0,128,0);//rope
+
+object* item000185=OBJaddnew(1098,550,189+1024*0,0,0);//cask
+
+object* item000186=OBJaddnew(1096,543,167+1024*0,0,0);//flour
+
+object* item000187=OBJaddnew(1099,550,189+1024*0,0,0);//cask
+
+object* item000188=OBJaddnew(1104,541,140+1024*1,128,0);//wall mount
+
+object* item000189=OBJaddnew(1104,541,141+1024*1,128,0);//decorative sword
+
+object* item000190=OBJaddnew(1098,545,142+1024*1,128,0);//decorative shield
+
+object* item000191=OBJaddnew(1098,545,141+1024*1,128,0);//decorative sword
+
+object* item000192=OBJaddnew(1103,541,142+1024*1,128,0);//decorative shield
+
+object* item000193=OBJaddnew(1103,541,141+1024*1,128,0);//decorative sword
+
+object* item000194=OBJaddnew(1097,547,140+1024*0,128,0);//wall mount
+
+object* item000195=OBJaddnew(1097,547,141+1024*0,128,0);//decorative sword
+
+object* item000196=OBJaddnew(1097,548,142+1024*0,128,0);//decorative shield
+
+object* item000197=OBJaddnew(1097,548,141+1024*0,128,0);//decorative sword
+
+object* item000198=OBJaddnew(1097,546,142+1024*0,128,0);//decorative shield
+
+object* item000199=OBJaddnew(1097,546,141+1024*0,128,0);//decorative sword
+
+object* item000200=OBJaddnew(1095,550,192+1024*1,0,0);//crate
+
+object* item000201=OBJaddnew(1095,550,115+1024*0,0,0);//wine
+OBJremove(item000201);//remove from the map (so it can go in a container)
+
+object* item000202=OBJaddnew(1095,550,117+1024*0,0,0);//ale
+OBJremove(item000202);//remove from the map (so it can go in a container)
+
+object* item000203=OBJaddnew(1095,550,116+1024*0,0,0);//mead
+OBJremove(item000203);//remove from the map (so it can go in a container)
+
+object* item000204=OBJaddnew(1096,544,191+1024*0,128,0);//basket
+
+object* item000205=OBJaddnew(1097,551,334+1024*2,0,0);//secret door
+
+OBJaddnew(1096,550,305+1024*0,0,36045908);//pointing at something
+
+object* item000207=OBJaddnew(1099,547,238+1024*0,0,0);//shadow
+
+object* item000208=OBJaddnew(1100,546,229+1024*0,0,0);//shadow
+
+object* item000209=OBJaddnew(1100,548,229+1024*0,0,0);//shadow
+
+object* item000210=OBJaddnew(1100,547,262+1024*0,0,0);//shadow
+
+object* item000211=OBJaddnew(1104,548,262+1024*0,0,0);//shadow
+
+object* item000212=OBJaddnew(1103,548,259+1024*0,0,0);//table leg
+
+
+
+object* item000215=OBJaddnew(1103,549,191+1024*0,128,0);//basket
+
+object* item000216=OBJaddnew(1103,548,194+1024*0,128,0);//bottle of milk
+
+object* item000217=OBJaddnew(1103,542,192+1024*1,0,0);//crate
+
+object* item000218=OBJaddnew(1102,542,140+1024*0,128,0);//wall mount
+
+object* item000219=OBJaddnew(1102,542,141+1024*0,128,0);//decorative sword
+
+object* item000220=OBJaddnew(1095,551,193+1024*0,128,0);//small jug
+
+object* item000221=OBJaddnew(1103,543,186+1024*1,0,0);//barrel
+
+OBJaddnew(1096,547,332+1024*7,0,130);//);//sign
+
+
+
+
+object* item000226=OBJaddnew(1104,547,238+1024*0,0,0);//shadow
+
+
+OBJaddnew(1099,546,279+1024*5,0,1);
+housestoragex[basehousenumber+1][housestoragenext[basehousenumber+1]]=patchx+1099;
+housestoragey[basehousenumber+1][housestoragenext[basehousenumber+1]]=patchy+546;
+housestoragenext[basehousenumber+1]++;
+
+OBJaddnew(1098,546,279+1024*7,0,1);
+housestoragex[basehousenumber+1][housestoragenext[basehousenumber+1]]=patchx+1098;
+housestoragey[basehousenumber+1][housestoragenext[basehousenumber+1]]=patchy+546;
+housestoragenext[basehousenumber+1]++;
+
+OBJaddnew(1098,547,279+1024*1,0,1);
+housestoragex[basehousenumber+1][housestoragenext[basehousenumber+1]]=patchx+1098;
+housestoragey[basehousenumber+1][housestoragenext[basehousenumber+1]]=patchy+547;
+housestoragenext[basehousenumber+1]++;
+
+OBJaddnew(1098,548,279+1024*9,0,1);
+housestoragex[basehousenumber+1][housestoragenext[basehousenumber+1]]=patchx+1098;
+housestoragey[basehousenumber+1][housestoragenext[basehousenumber+1]]=patchy+548;
+housestoragenext[basehousenumber+1]++;
+
+OBJaddnew(1099,548,279+1024*5,0,1);
+housestoragex[basehousenumber+1][housestoragenext[basehousenumber+1]]=patchx+1099;
+housestoragey[basehousenumber+1][housestoragenext[basehousenumber+1]]=patchy+548;
+housestoragenext[basehousenumber+1]++;
+
+
+
+OBJaddnew(1108,548,305+1024*1,0,35914824);//pointing at something
+
+OBJaddnew(1108,550,305+1024*1,0,36045896);//pointing at something
+
+object* item000237=OBJaddnew(1110,546,282+1024*2,0,0);//bars
+
+object* item000238=OBJaddnew(1116,548,171+1024*0,0,0);//fumerole
+
+MOVERNEW_GLOBALFLAGS=0;
+
+object* item000239=OBJaddnew(1113,548,413+1024*10,0,0);//silver snake
+
+/*
+object* item000240=OBJaddnew(1113,546,413+1024*11,0,0);//silver snake
+
+object* item000241=OBJaddnew(1113,547,413+1024*8,0,0);//silver snake
+
+object* item000242=OBJaddnew(1115,544,413+1024*7,0,0);//silver snake
+
+object* item000243=OBJaddnew(1114,546,413+1024*13,0,0);//silver snake
+
+object* item000244=OBJaddnew(1115,546,413+1024*14,0,0);//silver snake
+
+object* item000245=OBJaddnew(1114,548,413+1024*9,0,0);//silver snake
+
+object* item000246=OBJaddnew(1115,548,413+1024*13,0,0);//silver snake
+
+object* item000247=OBJaddnew(1115,547,413+1024*8,0,0);//silver snake
+
+object* item000248=OBJaddnew(1114,544,413+1024*11,0,0);//silver snake
+
+object* item000249=OBJaddnew(1114,545,413+1024*8,0,0);//silver snake
+*/
+
+object* item000250=OBJaddnew(1106,546,282+1024*0,0,0);//bars
+
+object* item000251=OBJaddnew(1107,546,282+1024*2,0,0);//bars
+
+object* item000252=OBJaddnew(1110,546,282+1024*3,0,0);//bars
+
+object* item000253=OBJaddnew(1110,547,282+1024*4,0,0);//bars
+
+object* item000254=OBJaddnew(1110,548,282+1024*4,0,0);//bars
+
+object* item000255=OBJaddnew(1110,546,282+1024*6,0,0);//bars
+
+object* item000256=OBJaddnew(1107,546,282+1024*6,0,0);//bars
+
+object* item000257=OBJaddnew(1109,546,282+1024*0,0,0);//bars
+
+object* item000258=OBJaddnew(1109,546,282+1024*6,0,0);//bars
+
+object* item000259=OBJaddnew(1108,543,171+1024*0,0,0);//fumerole
+
+object* item000260=OBJaddnew(1113,543,171+1024*0,0,0);//fumerole
+
+//object* item000261=OBJaddnew(1116,546,317+1024*0,0,0);//fire field
+
+//object* item000262=OBJaddnew(1107,543,317+1024*0,0,0);//fire field
+
+//object* item000263=OBJaddnew(1115,545,317+1024*0,0,0);//fire field
+
+//object* item000264=OBJaddnew(1113,544,317+1024*0,0,0);//fire field
+
+//object* item000265=OBJaddnew(1116,542,317+1024*0,0,0);//fire field
+
+//object* item000266=OBJaddnew(1108,542,317+1024*0,0,0);//fire field
+
+object* item000267=OBJaddnew(1107,551,361+1024*2,0,0);//spider
+
+object* item000268=OBJaddnew(1116,543,165+1024*0,0,0);//stalagmite
+
+object* item000269=OBJaddnew(1111,548,165+1024*1,0,0);//stalagmite
+
+object* item000270=OBJaddnew(1107,542,165+1024*1,0,0);//stalagmite
+
+object* item000271=OBJaddnew(1107,550,165+1024*0,0,0);//stalagmite
+
+object* item000272=OBJaddnew(1109,550,71+1024*0,0,4);//spidersilk
+
+object* item000273=OBJaddnew(1109,550,53+1024*0,0,0);//web
+
+OBJaddnew(1103,546,279+1024*12,0,0);
+
+OBJaddnew(1103,547,279+1024*2,0,0);
+
+object* item000276=OBJaddnew(1099,547,261+1024*0,0,0);//table leg
+
+myobj=OBJaddnew(1100,549,300+1024*8,0,278);//matched door pair
+myobj->more=(object*)OBJaddnew( 1101,549,300 + 1024*9,0,(unsigned long)myobj);//matched door pair
+
+
+OBJaddnew(1100,549,301+1024*0,0,256+basehousenumber+1);//doorframe
+
+OBJaddnew(1101,549,301+1024*1,0,256+basehousenumber+1);//doorframe
+
+myobj=OBJaddnew(200,66,300+1024*4,0,282);//matched door pair
+myobj->more=(object*)OBJaddnew( 201,66,300 + 1024*5,0,(unsigned long)myobj);//matched door pair
+
+
+
+
+OBJaddnew(200,66,301+1024*0,0,0);//doorframe
+
+OBJaddnew(201,66,301+1024*1,0,0);//doorframe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+myobj=OBJaddnew(192,65,299+1024*8,0,306);//matched door pair
+myobj->more=(object*)OBJaddnew( 193,65,299 + 1024*9,0,(unsigned long)myobj);//matched door pair
+
+
+OBJaddnew(192,65,301+1024*8,0,256+basehousenumber+1);//doorframe
+
+OBJaddnew(193,65,301+1024*9,0,256+basehousenumber+1);//doorframe
+
+OBJaddnew(192,61,301+1024*8,0,0);//doorframe
+
+OBJaddnew(193,61,301+1024*9,0,0);//doorframe
+
+
+
+
+
+
+
+myobj=OBJaddnew(195,63,297+1024*8,0,318);//matched door pair
+myobj->more=(object*)OBJaddnew( 196,63,297 + 1024*9,0,(unsigned long)myobj);//matched door pair
+
+
+OBJaddnew(195,63,301+1024*0,0,256+basehousenumber+1);//doorframe
+
+OBJaddnew(196,63,301+1024*1,0,256+basehousenumber+1);//doorframe
+
+
+
+myobj=OBJaddnew(198,58,297+1024*4,0,324);//matched door pair
+myobj->more=(object*)OBJaddnew( 199,58,297 + 1024*5,0,(unsigned long)myobj);//matched door pair
+
+
+OBJaddnew(198,58,301+1024*0,0,0);//doorframe
+
+OBJaddnew(199,58,301+1024*1,0,0);//doorframe
+
+//Put items with parents into their containers
+OBJaddtocontainer(item000200, item000201); //put this item inside its parent
+OBJaddtocontainer(item000200, item000202); //put this item inside its parent
+OBJaddtocontainer(item000200, item000203); //put this item inside its parent
+//3 Items In Containers.
+
+OBJaddnew(204,68,332+1024*6,0,0);//);//sign
+OBJaddnew(204,68,332+1024*7,0,132);//QUEST SIGN. TODO: make sign text for sign # 132
+
+
+}//NEThost
+
+//BTrect=new Rectangle(189,54)-(1202,552) = (1013,498);
+//ItemRect=new Rectangle(189,54)-(1116,551);
+

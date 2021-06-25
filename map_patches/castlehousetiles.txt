@@ -1,0 +1,1338 @@
+//house tiles (tiles sorted by position, not number)
+patchx=0; patchy=0;
+housenumber=basehousenumber+24;
+BTset(1330,267,146);
+BTset(1329,268,210);
+BTset(1330,268,210);
+BTset(1331,268,210);
+BTset(1307,269,146);
+BTset(1328,269,210);
+BTset(1329,269,210);
+BTset(1330,269,210);
+BTset(1331,269,210);
+BTset(1332,269,210);
+BTset(1306,270,144);
+BTset(1307,270,194);
+BTset(1328,270,146);
+BTset(1329,270,144);
+BTset(1330,270,145);
+BTset(1331,270,210);
+BTset(1332,270,210);
+housenumber=basehousenumber+9;
+BTset(1306,271,210);
+BTset(1307,271,210);
+BTset(1308,271,210);
+BTset(1309,271,210);
+BTset(1310,271,210);
+BTset(1311,271,210);
+housenumber=basehousenumber+12;
+BTset(1313,271,210);
+BTset(1314,271,210);
+BTset(1315,271,210);
+BTset(1316,271,210);
+BTset(1317,271,210);
+BTset(1318,271,210);
+BTset(1319,271,210);
+housenumber=basehousenumber+24;
+BTset(1330,271,210);
+BTset(1331,271,210);
+BTset(1332,271,210);
+housenumber=basehousenumber+9;
+BTset(1305,272,210);
+BTset(1306,272,210);
+BTset(1307,272,210);
+BTset(1308,272,210);
+BTset(1309,272,210);
+BTset(1310,272,210);
+BTset(1311,272,210);
+housenumber=basehousenumber+12;
+BTset(1313,272,210);
+BTset(1314,272,210);
+BTset(1315,272,210);
+BTset(1316,272,210);
+BTset(1317,272,210);
+BTset(1318,272,210);
+BTset(1319,272,210);
+housenumber=basehousenumber+24;
+BTset(1330,272,210);
+BTset(1331,272,210);
+housenumber=basehousenumber+9;
+BTset(1305,273,210);
+BTset(1306,273,210);
+BTset(1307,273,210);
+BTset(1308,273,210);
+BTset(1309,273,210);
+BTset(1310,273,145);
+BTset(1311,273,210);
+housenumber=basehousenumber+12;
+BTset(1313,273,210);
+BTset(1314,273,145);
+BTset(1315,273,210);
+BTset(1316,273,210);
+BTset(1317,273,210);
+BTset(1318,273,210);
+BTset(1319,273,145);
+housenumber=basehousenumber+4;
+BTset(1299,274,210);
+BTset(1300,274,210);
+BTset(1301,274,210);
+BTset(1299,275,210);
+BTset(1300,275,210);
+housenumber=basehousenumber+8;
+BTset(1306,275,210);
+BTset(1307,275,210);
+BTset(1308,275,210);
+BTset(1309,275,210);
+BTset(1310,275,210);
+BTset(1311,275,210);
+housenumber=basehousenumber+11;
+BTset(1313,275,210);
+BTset(1314,275,210);
+BTset(1315,275,210);
+BTset(1316,275,210);
+BTset(1317,275,210);
+BTset(1318,275,210);
+BTset(1319,275,210);
+housenumber=basehousenumber+4;
+BTset(1299,276,210);
+BTset(1300,276,210);
+BTset(1301,276,210);
+housenumber=basehousenumber+8;
+BTset(1305,276,210);
+BTset(1306,276,210);
+BTset(1307,276,210);
+BTset(1308,276,210);
+BTset(1309,276,210);
+BTset(1310,276,210);
+BTset(1311,276,210);
+housenumber=basehousenumber+11;
+BTset(1313,276,210);
+BTset(1314,276,210);
+BTset(1315,276,210);
+BTset(1316,276,210);
+BTset(1317,276,210);
+BTset(1318,276,210);
+BTset(1319,276,210);
+housenumber=basehousenumber+4;
+BTset(1299,277,210);
+BTset(1300,277,210);
+BTset(1302,277,210);
+housenumber=basehousenumber+8;
+BTset(1305,277,210);
+BTset(1306,277,210);
+BTset(1307,277,210);
+BTset(1308,277,210);
+BTset(1309,277,210);
+BTset(1310,277,145);
+BTset(1311,277,210);
+housenumber=basehousenumber+11;
+BTset(1313,277,210);
+BTset(1314,277,145);
+BTset(1315,277,210);
+BTset(1316,277,210);
+BTset(1317,277,210);
+BTset(1318,277,210);
+BTset(1319,277,145);
+housenumber=basehousenumber+4;
+BTset(1299,278,210);
+BTset(1300,278,210);
+BTset(1301,278,210);
+BTset(1302,278,210);
+housenumber=basehousenumber+7;
+BTset(1306,279,210);
+BTset(1307,279,210);
+BTset(1308,279,210);
+BTset(1309,279,210);
+BTset(1310,279,210);
+BTset(1311,279,210);
+housenumber=basehousenumber+10;
+BTset(1313,279,210);
+BTset(1314,279,210);
+BTset(1315,279,210);
+BTset(1316,279,210);
+BTset(1317,279,210);
+BTset(1318,279,210);
+BTset(1319,279,210);
+housenumber=basehousenumber+3;
+BTset(1299,280,210);
+BTset(1300,280,210);
+BTset(1301,280,210);
+housenumber=basehousenumber+7;
+BTset(1305,280,210);
+BTset(1306,280,210);
+BTset(1307,280,210);
+BTset(1308,280,210);
+BTset(1309,280,210);
+BTset(1310,280,210);
+BTset(1311,280,210);
+housenumber=basehousenumber+10;
+BTset(1313,280,210);
+BTset(1314,280,210);
+BTset(1315,280,210);
+BTset(1316,280,210);
+BTset(1317,280,210);
+BTset(1318,280,210);
+BTset(1319,280,210);
+housenumber=basehousenumber+3;
+BTset(1299,281,210);
+BTset(1300,281,210);
+housenumber=basehousenumber+7;
+BTset(1305,281,210);
+BTset(1306,281,210);
+BTset(1307,281,210);
+BTset(1308,281,210);
+BTset(1309,281,210);
+BTset(1310,281,145);
+BTset(1311,281,210);
+housenumber=basehousenumber+10;
+BTset(1313,281,210);
+BTset(1314,281,145);
+BTset(1315,281,210);
+BTset(1316,281,210);
+BTset(1317,281,210);
+BTset(1318,281,210);
+BTset(1319,281,145);
+housenumber=basehousenumber+3;
+BTset(1299,282,210);
+BTset(1300,282,210);
+BTset(1301,282,210);
+BTset(1299,283,210);
+BTset(1300,283,210);
+BTset(1301,283,210);
+BTset(1302,283,210);
+BTset(1299,284,210);
+BTset(1300,284,210);
+BTset(1301,284,210);
+BTset(1302,284,210);
+housenumber=basehousenumber+2;
+BTset(1299,286,210);
+BTset(1300,286,210);
+BTset(1301,286,210);
+BTset(1299,287,210);
+BTset(1300,287,210);
+housenumber=basehousenumber+6;
+BTset(1306,287,210);
+BTset(1307,287,210);
+BTset(1308,287,210);
+housenumber=basehousenumber+2;
+BTset(1299,288,210);
+BTset(1300,288,210);
+BTset(1301,288,210);
+housenumber=basehousenumber+6;
+BTset(1306,288,210);
+BTset(1307,288,210);
+housenumber=basehousenumber+2;
+BTset(1299,289,210);
+BTset(1300,289,210);
+BTset(1301,289,210);
+BTset(1302,289,210);
+housenumber=basehousenumber+6;
+BTset(1306,289,210);
+BTset(1307,289,210);
+BTset(1308,289,210);
+housenumber=basehousenumber+2;
+BTset(1299,290,210);
+BTset(1300,290,210);
+BTset(1301,290,210);
+BTset(1302,290,210);
+housenumber=basehousenumber+6;
+BTset(1305,290,210);
+BTset(1306,290,210);
+BTset(1307,290,210);
+BTset(1308,290,210);
+housenumber=basehousenumber+2;
+BTset(1299,291,210);
+BTset(1300,291,210);
+BTset(1301,291,210);
+housenumber=basehousenumber+6;
+BTset(1305,291,210);
+BTset(1306,291,210);
+BTset(1307,291,210);
+BTset(1308,291,210);
+BTset(1306,292,210);
+BTset(1307,292,210);
+BTset(1308,292,210);
+housenumber=basehousenumber+1;
+BTset(1299,293,210);
+BTset(1300,293,210);
+BTset(1301,293,210);
+BTset(1299,294,210);
+BTset(1300,294,210);
+housenumber=basehousenumber+5;
+BTset(1306,294,210);
+BTset(1307,294,210);
+BTset(1308,294,210);
+housenumber=basehousenumber+1;
+BTset(1298,295,197);
+housenumber=basehousenumber+1;
+BTset(1299,295,210);
+housenumber=basehousenumber+1;
+BTset(1300,295,210);
+housenumber=basehousenumber+1;
+BTset(1301,295,210);
+housenumber=basehousenumber+1;
+BTset(1302,295,210);
+housenumber=basehousenumber+5;
+BTset(1306,295,210);
+housenumber=basehousenumber+5;
+BTset(1307,295,210);
+housenumber=basehousenumber+1;
+BTset(1299,296,210);
+housenumber=basehousenumber+1;
+BTset(1300,296,210);
+housenumber=basehousenumber+1;
+BTset(1301,296,210);
+housenumber=basehousenumber+1;
+BTset(1302,296,210);
+housenumber=basehousenumber+5;
+BTset(1305,296,210);
+housenumber=basehousenumber+5;
+BTset(1306,296,210);
+housenumber=basehousenumber+5;
+BTset(1307,296,210);
+housenumber=basehousenumber+5;
+BTset(1308,296,210);
+housenumber=basehousenumber+1;
+BTset(1299,297,210);
+housenumber=basehousenumber+1;
+BTset(1300,297,210);
+housenumber=basehousenumber+1;
+BTset(1301,297,210);
+housenumber=basehousenumber+5;
+BTset(1305,297,210);
+housenumber=basehousenumber+5;
+BTset(1306,297,210);
+housenumber=basehousenumber+5;
+BTset(1307,297,210);
+housenumber=basehousenumber+5;
+BTset(1308,297,210);
+housenumber=basehousenumber+1;
+BTset(1299,298,210);
+housenumber=basehousenumber+1;
+BTset(1300,298,210);
+housenumber=basehousenumber+1;
+BTset(1301,298,210);
+housenumber=basehousenumber+5;
+BTset(1306,298,210);
+housenumber=basehousenumber+5;
+BTset(1307,298,210);
+housenumber=basehousenumber+5;
+BTset(1308,298,210);
+housenumber=basehousenumber+5;
+BTset(1306,299,210);
+housenumber=basehousenumber+5;
+BTset(1307,299,210);
+housenumber=basehousenumber+5;
+BTset(1308,299,210);
+
+if (NEThost){
+
+housenumber=65535;
+
+
+//Objects
+myobj=OBJaddnew(1302,295,297+1024*10,0,0);//matched door pair
+myobj->more=(object*)OBJaddnew( 1302,296,297 + 1024*11,0,(unsigned long)myobj);//matched door pair
+
+
+OBJaddnew(1302,295,301+1024*2,0,256+basehousenumber+1);//doorframe
+
+OBJaddnew(1302,296,301+1024*3,0,256+basehousenumber+1);//doorframe
+
+OBJaddnew(1300,293,279+1024*3,0,0);
+housestoragex[basehousenumber+1][housestoragenext[basehousenumber+1]]=patchx+1300;
+housestoragey[basehousenumber+1][housestoragenext[basehousenumber+1]]=patchy+293;
+housestoragenext[basehousenumber+1]++;
+
+myobj=OBJaddnew(1299,293,186+1024*1,0,0); //barrel (closed) + random food
+myobj2=OBJnew();
+x=rnd*6;
+if (x==0){myobj2->type=129; myobj2->more2=1;}//meat
+if (x==1){myobj2->type=128; myobj2->more2=1;}//bread
+if (x==2) myobj2->type=130;//rolls
+if (x==3) myobj2->type=131;//cake
+if (x==4) myobj2->type=132;//cheese
+if (x==5) myobj2->type=133;//ham
+myobj->more=myobj2; myobj2->prev=myobj;
+
+myobj=OBJaddnew(1299,294,300+1024*8,0,0);//matched door pair
+myobj->more=(object*)OBJaddnew( 1300,294,300 + 1024*9,0,(unsigned long)myobj);//matched door pair
+
+
+OBJaddnew(1299,294,301+1024*0,0,256+basehousenumber+1);//doorframe
+
+OBJaddnew(1300,294,301+1024*1,0,256+basehousenumber+1);//doorframe
+
+OBJaddnew(1301,294,164+1024*2,0,0);
+
+myobj=OBJaddnew(1302,289,297+1024*10,0,0);//matched door pair
+myobj->more=(object*)OBJaddnew( 1302,290,297 + 1024*11,0,(unsigned long)myobj);//matched door pair
+
+
+OBJaddnew(1302,289,301+1024*2,0,256+basehousenumber+2);//doorframe
+
+OBJaddnew(1302,290,301+1024*3,0,256+basehousenumber+2);//doorframe
+
+myobj=OBJaddnew(1299,286,186+1024*1,0,0); //barrel (closed) + random food
+myobj2=OBJnew();
+x=rnd*6;
+if (x==0){myobj2->type=129; myobj2->more2=1;}//meat
+if (x==1){myobj2->type=128; myobj2->more2=1;}//bread
+if (x==2) myobj2->type=130;//rolls
+if (x==3) myobj2->type=131;//cake
+if (x==4) myobj2->type=132;//cheese
+if (x==5) myobj2->type=133;//ham
+myobj->more=myobj2; myobj2->prev=myobj;
+
+myobj=OBJaddnew(1299,287,300+1024*8,0,0);//matched door pair
+myobj->more=(object*)OBJaddnew( 1300,287,300 + 1024*9,0,(unsigned long)myobj);//matched door pair
+
+
+OBJaddnew(1299,287,301+1024*0,0,256+basehousenumber+2);//doorframe
+
+OBJaddnew(1300,287,301+1024*1,0,256+basehousenumber+2);//doorframe
+
+OBJaddnew(1301,287,164+1024*2,0,0);
+
+myobj=OBJaddnew(1302,283,297+1024*10,0,0);//matched door pair
+myobj->more=(object*)OBJaddnew( 1302,284,297 + 1024*11,0,(unsigned long)myobj);//matched door pair
+
+
+OBJaddnew(1302,283,301+1024*2,0,256+basehousenumber+3);//doorframe
+
+OBJaddnew(1302,284,301+1024*3,0,256+basehousenumber+3);//doorframe
+
+myobj=OBJaddnew(1299,280,186+1024*1,0,0); //barrel (closed) + random food
+myobj2=OBJnew();
+x=rnd*6;
+if (x==0){myobj2->type=129; myobj2->more2=1;}//meat
+if (x==1){myobj2->type=128; myobj2->more2=1;}//bread
+if (x==2) myobj2->type=130;//rolls
+if (x==3) myobj2->type=131;//cake
+if (x==4) myobj2->type=132;//cheese
+if (x==5) myobj2->type=133;//ham
+myobj->more=myobj2; myobj2->prev=myobj;
+
+myobj=OBJaddnew(1299,281,300+1024*8,0,0);//matched door pair
+myobj->more=(object*)OBJaddnew( 1300,281,300 + 1024*9,0,(unsigned long)myobj);//matched door pair
+
+
+OBJaddnew(1299,281,301+1024*0,0,256+basehousenumber+3);//doorframe
+
+OBJaddnew(1300,281,301+1024*1,0,256+basehousenumber+3);//doorframe
+
+OBJaddnew(1299,284,163+1024*0,0,0);
+
+OBJaddnew(1300,284,163+1024*1,0,0);
+
+OBJaddnew(1301,281,164+1024*2,0,0);
+
+myobj=OBJaddnew(1302,277,297+1024*10,0,0);//matched door pair
+myobj->more=(object*)OBJaddnew( 1302,278,297 + 1024*11,0,(unsigned long)myobj);//matched door pair
+
+
+OBJaddnew(1302,277,301+1024*2,0,256+basehousenumber+4);//doorframe
+
+OBJaddnew(1302,278,301+1024*3,0,256+basehousenumber+4);//doorframe
+
+myobj=OBJaddnew(1299,274,186+1024*1,0,0); //barrel (closed) + random food
+myobj2=OBJnew();
+x=rnd*6;
+if (x==0){myobj2->type=129; myobj2->more2=1;}//meat
+if (x==1){myobj2->type=128; myobj2->more2=1;}//bread
+if (x==2) myobj2->type=130;//rolls
+if (x==3) myobj2->type=131;//cake
+if (x==4) myobj2->type=132;//cheese
+if (x==5) myobj2->type=133;//ham
+myobj->more=myobj2; myobj2->prev=myobj;
+
+myobj=OBJaddnew(1299,275,300+1024*8,0,0);//matched door pair
+myobj->more=(object*)OBJaddnew( 1300,275,300 + 1024*9,0,(unsigned long)myobj);//matched door pair
+
+
+OBJaddnew(1299,275,301+1024*0,0,256+basehousenumber+4);//doorframe
+
+OBJaddnew(1300,275,301+1024*1,0,256+basehousenumber+4);//doorframe
+
+OBJaddnew(1299,278,163+1024*0,0,0);
+
+OBJaddnew(1300,278,163+1024*1,0,0);
+
+OBJaddnew(1301,275,164+1024*2,0,0);
+
+OBJaddnew(1308,297,163+1024*6,0,0);
+
+OBJaddnew(1308,298,163+1024*7,0,0);
+
+OBJaddnew(1305,299,164+1024*0,0,0);
+
+OBJaddnew(1302,297,332+1024*0,0,65536+basehousenumber+5);//sign
+
+myobj=OBJaddnew(1305,296,297+1024*10,0,0);//matched door pair
+myobj->more=(object*)OBJaddnew( 1305,297,297 + 1024*11,0,(unsigned long)myobj);//matched door pair
+
+
+OBJaddnew(1305,296,301+1024*2,0,256+basehousenumber+5);//doorframe
+
+OBJaddnew(1305,297,301+1024*3,0,256+basehousenumber+5);//doorframe
+
+myobj=OBJaddnew(1306,295,300+1024*8,0,0);//matched door pair
+myobj->more=(object*)OBJaddnew( 1307,295,300 + 1024*9,0,(unsigned long)myobj);//matched door pair
+
+
+OBJaddnew(1306,295,301+1024*0,0,256+basehousenumber+5);//doorframe
+
+OBJaddnew(1307,295,301+1024*1,0,256+basehousenumber+5);//doorframe
+
+myobj=OBJaddnew(1306,294,186+1024*1,0,0); //barrel (closed) + random food
+myobj2=OBJnew();
+x=rnd*6;
+if (x==0){myobj2->type=129; myobj2->more2=1;}//meat
+if (x==1){myobj2->type=128; myobj2->more2=1;}//bread
+if (x==2) myobj2->type=130;//rolls
+if (x==3) myobj2->type=131;//cake
+if (x==4) myobj2->type=132;//cheese
+if (x==5) myobj2->type=133;//ham
+myobj->more=myobj2; myobj2->prev=myobj;
+
+OBJaddnew(1307,294,279+1024*3,0,0);
+housestoragex[basehousenumber+5][housestoragenext[basehousenumber+5]]=patchx+1307;
+housestoragey[basehousenumber+5][housestoragenext[basehousenumber+5]]=patchy+294;
+housestoragenext[basehousenumber+5]++;
+
+OBJaddnew(1308,294,279+1024*4,0,0);
+housestoragex[basehousenumber+5][housestoragenext[basehousenumber+5]]=patchx+1308;
+housestoragey[basehousenumber+5][housestoragenext[basehousenumber+5]]=patchy+294;
+housestoragenext[basehousenumber+5]++;
+
+OBJaddnew(1306,296,138+1024*0,128,0);
+
+OBJaddnew(1308,299,160+1024*0,128,0);
+
+OBJaddnew(1308,299,161+1024*0,128,0);
+
+myobj=OBJaddnew(1307,299,177+1024*0,128,0); //Desk + candle
+myobj2=OBJnew();
+myobj2->type=122;
+myobj2->info=128;
+myobj->more=myobj2; myobj2->prev=myobj;
+
+OBJaddnew(1307,298,252+1024*2,128,0);
+
+OBJaddnew(1302,294,332+1024*1,0,65536+basehousenumber+1);//sign
+
+OBJaddnew(1308,290,163+1024*6,0,0);
+
+OBJaddnew(1308,291,163+1024*7,0,0);
+
+OBJaddnew(1305,292,164+1024*0,0,0);
+
+myobj=OBJaddnew(1305,290,297+1024*10,0,0);//matched door pair
+myobj->more=(object*)OBJaddnew( 1305,291,297 + 1024*11,0,(unsigned long)myobj);//matched door pair
+
+
+OBJaddnew(1305,290,301+1024*2,0,256+basehousenumber+6);//doorframe
+
+OBJaddnew(1305,291,301+1024*3,0,256+basehousenumber+6);//doorframe
+
+myobj=OBJaddnew(1306,288,300+1024*8,0,0);//matched door pair
+myobj->more=(object*)OBJaddnew( 1307,288,300 + 1024*9,0,(unsigned long)myobj);//matched door pair
+
+
+OBJaddnew(1306,288,301+1024*0,0,256+basehousenumber+6);//doorframe
+
+OBJaddnew(1307,288,301+1024*1,0,256+basehousenumber+6);//doorframe
+
+myobj=OBJaddnew(1306,287,186+1024*1,0,0); //barrel (closed) + random food
+myobj2=OBJnew();
+x=rnd*6;
+if (x==0){myobj2->type=129; myobj2->more2=1;}//meat
+if (x==1){myobj2->type=128; myobj2->more2=1;}//bread
+if (x==2) myobj2->type=130;//rolls
+if (x==3) myobj2->type=131;//cake
+if (x==4) myobj2->type=132;//cheese
+if (x==5) myobj2->type=133;//ham
+myobj->more=myobj2; myobj2->prev=myobj;
+
+OBJaddnew(1306,289,138+1024*0,128,0);
+
+OBJaddnew(1308,292,160+1024*0,128,0);
+
+OBJaddnew(1308,292,161+1024*0,128,0);
+
+myobj=OBJaddnew(1307,292,177+1024*0,128,0); //Desk + candle
+myobj2=OBJnew();
+myobj2->type=122;
+myobj2->info=128;
+myobj->more=myobj2; myobj2->prev=myobj;
+
+OBJaddnew(1307,291,252+1024*2,128,0);
+
+OBJaddnew(1302,291,332+1024*0,0,65536+basehousenumber+6);//sign
+
+OBJaddnew(1302,288,332+1024*1,0,65536+basehousenumber+2);//sign
+
+OBJaddnew(1302,281,332+1024*0,0,65536+basehousenumber+7);//sign
+
+OBJaddnew(1302,285,332+1024*3,0,65536+basehousenumber+3);//sign
+
+OBJaddnew(1302,276,332+1024*0,0,65536+basehousenumber+8);//sign
+
+OBJaddnew(1302,279,332+1024*3,0,65536+basehousenumber+4);//sign
+
+OBJaddnew(1300,286,279+1024*3,0,0);
+housestoragex[basehousenumber+2][housestoragenext[basehousenumber+2]]=patchx+1300;
+housestoragey[basehousenumber+2][housestoragenext[basehousenumber+2]]=patchy+286;
+housestoragenext[basehousenumber+2]++;
+
+OBJaddnew(1301,286,279+1024*4,0,0);
+housestoragex[basehousenumber+2][housestoragenext[basehousenumber+2]]=patchx+1301;
+housestoragey[basehousenumber+2][housestoragenext[basehousenumber+2]]=patchy+286;
+housestoragenext[basehousenumber+2]++;
+
+OBJaddnew(1301,293,279+1024*4,0,0);
+housestoragex[basehousenumber+1][housestoragenext[basehousenumber+1]]=patchx+1301;
+housestoragey[basehousenumber+1][housestoragenext[basehousenumber+1]]=patchy+293;
+housestoragenext[basehousenumber+1]++;
+
+OBJaddnew(1300,280,279+1024*3,0,0);
+housestoragex[basehousenumber+3][housestoragenext[basehousenumber+3]]=patchx+1300;
+housestoragey[basehousenumber+3][housestoragenext[basehousenumber+3]]=patchy+280;
+housestoragenext[basehousenumber+3]++;
+
+OBJaddnew(1301,280,279+1024*4,0,0);
+housestoragex[basehousenumber+3][housestoragenext[basehousenumber+3]]=patchx+1301;
+housestoragey[basehousenumber+3][housestoragenext[basehousenumber+3]]=patchy+280;
+housestoragenext[basehousenumber+3]++;
+
+OBJaddnew(1300,274,279+1024*3,0,0);
+housestoragex[basehousenumber+4][housestoragenext[basehousenumber+4]]=patchx+1300;
+housestoragey[basehousenumber+4][housestoragenext[basehousenumber+4]]=patchy+274;
+housestoragenext[basehousenumber+4]++;
+
+OBJaddnew(1301,274,279+1024*4,0,0);
+housestoragex[basehousenumber+4][housestoragenext[basehousenumber+4]]=patchx+1301;
+housestoragey[basehousenumber+4][housestoragenext[basehousenumber+4]]=patchy+274;
+housestoragenext[basehousenumber+4]++;
+
+OBJaddnew(1299,297,163+1024*0,0,0);
+
+OBJaddnew(1300,297,163+1024*1,0,0);
+
+OBJaddnew(1299,290,163+1024*0,0,0);
+
+OBJaddnew(1300,290,163+1024*1,0,0);
+
+myobj=OBJaddnew(1299,296,177+1024*0,128,0); //Desk + candle
+myobj2=OBJnew();
+myobj2->type=122;
+myobj2->info=128;
+myobj->more=myobj2; myobj2->prev=myobj;
+
+myobj=OBJaddnew(1299,289,177+1024*0,128,0); //Desk + candle
+myobj2=OBJnew();
+myobj2->type=122;
+myobj2->info=128;
+myobj->more=myobj2; myobj2->prev=myobj;
+
+myobj=OBJaddnew(1299,283,177+1024*0,128,0); //Desk + candle
+myobj2=OBJnew();
+myobj2->type=122;
+myobj2->info=128;
+myobj->more=myobj2; myobj2->prev=myobj;
+
+myobj=OBJaddnew(1299,277,177+1024*0,128,0); //Desk + candle
+myobj2=OBJnew();
+myobj2->type=122;
+myobj2->info=128;
+myobj->more=myobj2; myobj2->prev=myobj;
+
+OBJaddnew(1299,276,252+1024*2,128,0);
+
+OBJaddnew(1299,288,252+1024*2,128,0);
+
+OBJaddnew(1299,282,252+1024*2,128,0);
+
+OBJaddnew(1299,295,252+1024*2,128,0);
+
+myobj=OBJaddnew(1305,280,297+1024*10,0,0);//matched door pair
+myobj->more=(object*)OBJaddnew( 1305,281,297 + 1024*11,0,(unsigned long)myobj);//matched door pair
+
+
+OBJaddnew(1305,280,301+1024*2,0,256+basehousenumber+7);//doorframe
+
+OBJaddnew(1305,281,301+1024*3,0,256+basehousenumber+7);//doorframe
+
+OBJaddnew(1308,281,163+1024*0,0,0);
+
+OBJaddnew(1309,281,163+1024*1,0,0);
+
+myobj=OBJaddnew(1310,279,300+1024*10,0,0);//matched door pair
+myobj->more=(object*)OBJaddnew( 1310,280,300 + 1024*11,0,(unsigned long)myobj);//matched door pair
+
+
+OBJaddnew(1310,279,301+1024*2,0,256+basehousenumber+7);//doorframe
+
+OBJaddnew(1310,280,301+1024*3,0,256+basehousenumber+7);//doorframe
+
+myobj=OBJaddnew(1305,276,297+1024*10,0,0);//matched door pair
+myobj->more=(object*)OBJaddnew( 1305,277,297 + 1024*11,0,(unsigned long)myobj);//matched door pair
+
+
+myobj=OBJaddnew(1310,275,300+1024*10,0,0);//matched door pair
+myobj->more=(object*)OBJaddnew( 1310,276,300 + 1024*11,0,(unsigned long)myobj);//matched door pair
+
+
+OBJaddnew(1305,276,301+1024*2,0,256+basehousenumber+8);//doorframe
+
+OBJaddnew(1305,277,301+1024*3,0,256+basehousenumber+8);//doorframe
+
+OBJaddnew(1310,275,301+1024*2,0,256+basehousenumber+8);//doorframe
+
+OBJaddnew(1310,276,301+1024*3,0,256+basehousenumber+8);//doorframe
+
+OBJaddnew(1311,276,279+1024*0,0,0);
+housestoragex[basehousenumber+8][housestoragenext[basehousenumber+8]]=patchx+1311;
+housestoragey[basehousenumber+8][housestoragenext[basehousenumber+8]]=patchy+276;
+housestoragenext[basehousenumber+8]++;
+
+OBJaddnew(1311,277,279+1024*1,0,0);
+housestoragex[basehousenumber+8][housestoragenext[basehousenumber+8]]=patchx+1311;
+housestoragey[basehousenumber+8][housestoragenext[basehousenumber+8]]=patchy+277;
+housestoragenext[basehousenumber+8]++;
+
+myobj=OBJaddnew(1311,275,186+1024*1,0,0); //barrel (closed) + random food
+myobj2=OBJnew();
+x=rnd*6;
+if (x==0){myobj2->type=129; myobj2->more2=1;}//meat
+if (x==1){myobj2->type=128; myobj2->more2=1;}//bread
+if (x==2) myobj2->type=130;//rolls
+if (x==3) myobj2->type=131;//cake
+if (x==4) myobj2->type=132;//cheese
+if (x==5) myobj2->type=133;//ham
+myobj->more=myobj2; myobj2->prev=myobj;
+
+OBJaddnew(1311,280,279+1024*0,0,0);
+housestoragex[basehousenumber+7][housestoragenext[basehousenumber+7]]=patchx+1311;
+housestoragey[basehousenumber+7][housestoragenext[basehousenumber+7]]=patchy+280;
+housestoragenext[basehousenumber+7]++;
+
+OBJaddnew(1311,281,279+1024*1,0,0);
+housestoragex[basehousenumber+7][housestoragenext[basehousenumber+7]]=patchx+1311;
+housestoragey[basehousenumber+7][housestoragenext[basehousenumber+7]]=patchy+281;
+housestoragenext[basehousenumber+7]++;
+
+myobj=OBJaddnew(1311,279,186+1024*1,0,0); //barrel (closed) + random food
+myobj2=OBJnew();
+x=rnd*6;
+if (x==0){myobj2->type=129; myobj2->more2=1;}//meat
+if (x==1){myobj2->type=128; myobj2->more2=1;}//bread
+if (x==2) myobj2->type=130;//rolls
+if (x==3) myobj2->type=131;//cake
+if (x==4) myobj2->type=132;//cheese
+if (x==5) myobj2->type=133;//ham
+myobj->more=myobj2; myobj2->prev=myobj;
+
+myobj=OBJaddnew(1305,272,297+1024*10,0,0);//matched door pair
+myobj->more=(object*)OBJaddnew( 1305,273,297 + 1024*11,0,(unsigned long)myobj);//matched door pair
+
+
+OBJaddnew(1305,272,301+1024*2,0,256+basehousenumber+9);//doorframe
+
+OBJaddnew(1305,273,301+1024*3,0,256+basehousenumber+9);//doorframe
+
+myobj=OBJaddnew(1310,271,300+1024*10,0,0);//matched door pair
+myobj->more=(object*)OBJaddnew( 1310,272,300 + 1024*11,0,(unsigned long)myobj);//matched door pair
+
+
+OBJaddnew(1310,271,301+1024*2,0,256+basehousenumber+9);//doorframe
+
+OBJaddnew(1310,272,301+1024*3,0,256+basehousenumber+9);//doorframe
+
+OBJaddnew(1311,272,279+1024*0,0,0);
+housestoragex[basehousenumber+9][housestoragenext[basehousenumber+9]]=patchx+1311;
+housestoragey[basehousenumber+9][housestoragenext[basehousenumber+9]]=patchy+272;
+housestoragenext[basehousenumber+9]++;
+
+OBJaddnew(1311,273,279+1024*1,0,0);
+housestoragex[basehousenumber+9][housestoragenext[basehousenumber+9]]=patchx+1311;
+housestoragey[basehousenumber+9][housestoragenext[basehousenumber+9]]=patchy+273;
+housestoragenext[basehousenumber+9]++;
+
+myobj=OBJaddnew(1311,271,186+1024*1,0,0); //barrel (closed) + random food
+myobj2=OBJnew();
+x=rnd*6;
+if (x==0){myobj2->type=129; myobj2->more2=1;}//meat
+if (x==1){myobj2->type=128; myobj2->more2=1;}//bread
+if (x==2) myobj2->type=130;//rolls
+if (x==3) myobj2->type=131;//cake
+if (x==4) myobj2->type=132;//cheese
+if (x==5) myobj2->type=133;//ham
+myobj->more=myobj2; myobj2->prev=myobj;
+
+OBJaddnew(1308,277,163+1024*0,0,0);
+
+OBJaddnew(1309,277,163+1024*1,0,0);
+
+OBJaddnew(1308,273,163+1024*0,0,0);
+
+OBJaddnew(1309,273,163+1024*1,0,0);
+
+OBJaddnew(1309,270,164+1024*2,0,0);
+
+OBJaddnew(1309,274,164+1024*2,0,0);
+
+OBJaddnew(1309,278,164+1024*2,0,0);
+
+myobj=OBJaddnew(1306,275,177+1024*1,128,0); //Desk + candle
+myobj2=OBJnew();
+myobj2->type=122;
+myobj2->info=128;
+myobj->more=myobj2; myobj2->prev=myobj;
+
+OBJaddnew(1307,275,252+1024*3,128,0);
+
+OBJaddnew(1307,277,139+1024*0,128,0);
+
+OBJaddnew(1307,273,139+1024*0,128,0);
+
+OBJaddnew(1307,281,138+1024*0,128,0);
+
+myobj=OBJaddnew(1306,271,177+1024*1,128,0); //Desk + candle
+myobj2=OBJnew();
+myobj2->type=122;
+myobj2->info=128;
+myobj->more=myobj2; myobj2->prev=myobj;
+
+OBJaddnew(1307,271,252+1024*3,128,0);
+
+myobj=OBJaddnew(1306,279,177+1024*1,128,0); //Desk + candle
+myobj2=OBJnew();
+myobj2->type=122;
+myobj2->info=128;
+myobj->more=myobj2; myobj2->prev=myobj;
+
+OBJaddnew(1307,279,252+1024*3,128,0);
+
+OBJaddnew(1313,280,279+1024*0,0,0);
+housestoragex[basehousenumber+10][housestoragenext[basehousenumber+10]]=patchx+1313;
+housestoragey[basehousenumber+10][housestoragenext[basehousenumber+10]]=patchy+280;
+housestoragenext[basehousenumber+10]++;
+
+OBJaddnew(1313,281,279+1024*1,0,0);
+housestoragex[basehousenumber+10][housestoragenext[basehousenumber+10]]=patchx+1313;
+housestoragey[basehousenumber+10][housestoragenext[basehousenumber+10]]=patchy+281;
+housestoragenext[basehousenumber+10]++;
+
+myobj=OBJaddnew(1313,279,186+1024*1,0,0); //barrel (closed) + random food
+myobj2=OBJnew();
+x=rnd*6;
+if (x==0){myobj2->type=129; myobj2->more2=1;}//meat
+if (x==1){myobj2->type=128; myobj2->more2=1;}//bread
+if (x==2) myobj2->type=130;//rolls
+if (x==3) myobj2->type=131;//cake
+if (x==4) myobj2->type=132;//cheese
+if (x==5) myobj2->type=133;//ham
+myobj->more=myobj2; myobj2->prev=myobj;
+
+OBJaddnew(1313,276,279+1024*0,0,0);
+housestoragex[basehousenumber+11][housestoragenext[basehousenumber+11]]=patchx+1313;
+housestoragey[basehousenumber+11][housestoragenext[basehousenumber+11]]=patchy+276;
+housestoragenext[basehousenumber+11]++;
+
+OBJaddnew(1313,277,279+1024*1,0,0);
+housestoragex[basehousenumber+11][housestoragenext[basehousenumber+11]]=patchx+1313;
+housestoragey[basehousenumber+11][housestoragenext[basehousenumber+11]]=patchy+277;
+housestoragenext[basehousenumber+11]++;
+
+myobj=OBJaddnew(1313,275,186+1024*1,0,0); //barrel (closed) + random food
+myobj2=OBJnew();
+x=rnd*6;
+if (x==0){myobj2->type=129; myobj2->more2=1;}//meat
+if (x==1){myobj2->type=128; myobj2->more2=1;}//bread
+if (x==2) myobj2->type=130;//rolls
+if (x==3) myobj2->type=131;//cake
+if (x==4) myobj2->type=132;//cheese
+if (x==5) myobj2->type=133;//ham
+myobj->more=myobj2; myobj2->prev=myobj;
+
+OBJaddnew(1313,272,279+1024*0,0,0);
+housestoragex[basehousenumber+12][housestoragenext[basehousenumber+12]]=patchx+1313;
+housestoragey[basehousenumber+12][housestoragenext[basehousenumber+12]]=patchy+272;
+housestoragenext[basehousenumber+12]++;
+
+OBJaddnew(1313,273,279+1024*1,0,0);
+housestoragex[basehousenumber+12][housestoragenext[basehousenumber+12]]=patchx+1313;
+housestoragey[basehousenumber+12][housestoragenext[basehousenumber+12]]=patchy+273;
+housestoragenext[basehousenumber+12]++;
+
+myobj=OBJaddnew(1313,271,186+1024*1,0,0); //barrel (closed) + random food
+myobj2=OBJnew();
+x=rnd*6;
+if (x==0){myobj2->type=129; myobj2->more2=1;}//meat
+if (x==1){myobj2->type=128; myobj2->more2=1;}//bread
+if (x==2) myobj2->type=130;//rolls
+if (x==3) myobj2->type=131;//cake
+if (x==4) myobj2->type=132;//cheese
+if (x==5) myobj2->type=133;//ham
+myobj->more=myobj2; myobj2->prev=myobj;
+
+OBJaddnew(1317,277,163+1024*0,0,0);
+
+OBJaddnew(1318,277,163+1024*1,0,0);
+
+OBJaddnew(1318,274,164+1024*2,0,0);
+
+myobj=OBJaddnew(1315,275,177+1024*1,128,0); //Desk + candle
+myobj2=OBJnew();
+myobj2->type=122;
+myobj2->info=128;
+myobj->more=myobj2; myobj2->prev=myobj;
+
+OBJaddnew(1316,275,252+1024*3,128,0);
+
+OBJaddnew(1316,277,139+1024*0,128,0);
+
+OBJaddnew(1317,273,163+1024*0,0,0);
+
+OBJaddnew(1318,273,163+1024*1,0,0);
+
+OBJaddnew(1318,270,164+1024*2,0,0);
+
+myobj=OBJaddnew(1315,271,177+1024*1,128,0); //Desk + candle
+myobj2=OBJnew();
+myobj2->type=122;
+myobj2->info=128;
+myobj->more=myobj2; myobj2->prev=myobj;
+
+OBJaddnew(1316,271,252+1024*3,128,0);
+
+OBJaddnew(1316,273,139+1024*0,128,0);
+
+OBJaddnew(1317,281,163+1024*0,0,0);
+
+OBJaddnew(1318,281,163+1024*1,0,0);
+
+OBJaddnew(1318,278,164+1024*2,0,0);
+
+myobj=OBJaddnew(1315,279,177+1024*1,128,0); //Desk + candle
+myobj2=OBJnew();
+myobj2->type=122;
+myobj2->info=128;
+myobj->more=myobj2; myobj2->prev=myobj;
+
+OBJaddnew(1316,279,252+1024*3,128,0);
+
+OBJaddnew(1316,281,139+1024*0,128,0);
+
+myobj=OBJaddnew(1314,279,300+1024*10,0,0);//matched door pair
+myobj->more=(object*)OBJaddnew( 1314,280,300 + 1024*11,0,(unsigned long)myobj);//matched door pair
+
+
+OBJaddnew(1314,279,301+1024*2,0,256+basehousenumber+10);//doorframe
+
+OBJaddnew(1314,280,301+1024*3,0,256+basehousenumber+10);//doorframe
+
+myobj=OBJaddnew(1314,275,300+1024*10,0,0);//matched door pair
+myobj->more=(object*)OBJaddnew( 1314,276,300 + 1024*11,0,(unsigned long)myobj);//matched door pair
+
+
+OBJaddnew(1314,275,301+1024*2,0,256+basehousenumber+11);//doorframe
+
+OBJaddnew(1314,276,301+1024*3,0,256+basehousenumber+11);//doorframe
+
+myobj=OBJaddnew(1314,271,300+1024*10,0,0);//matched door pair
+myobj->more=(object*)OBJaddnew( 1314,272,300 + 1024*11,0,(unsigned long)myobj);//matched door pair
+
+
+OBJaddnew(1314,271,301+1024*2,0,256+basehousenumber+12);//doorframe
+
+OBJaddnew(1314,272,301+1024*3,0,256+basehousenumber+12);//doorframe
+
+myobj=OBJaddnew(1319,271,297+1024*10,0,0);//matched door pair
+myobj->more=(object*)OBJaddnew( 1319,272,297 + 1024*11,0,(unsigned long)myobj);//matched door pair
+
+
+OBJaddnew(1319,271,301+1024*2,0,256+basehousenumber+12);//doorframe
+
+OBJaddnew(1319,272,301+1024*3,0,256+basehousenumber+12);//doorframe
+
+myobj=OBJaddnew(1319,275,297+1024*10,0,0);//matched door pair
+myobj->more=(object*)OBJaddnew( 1319,276,297 + 1024*11,0,(unsigned long)myobj);//matched door pair
+
+
+OBJaddnew(1319,275,301+1024*2,0,256+basehousenumber+11);//doorframe
+
+OBJaddnew(1319,276,301+1024*3,0,256+basehousenumber+11);//doorframe
+
+myobj=OBJaddnew(1319,279,297+1024*10,0,0);//matched door pair
+myobj->more=(object*)OBJaddnew( 1319,280,297 + 1024*11,0,(unsigned long)myobj);//matched door pair
+
+
+OBJaddnew(1319,279,301+1024*2,0,256+basehousenumber+10);//doorframe
+
+OBJaddnew(1319,280,301+1024*3,0,256+basehousenumber+10);//doorframe
+
+OBJaddnew(1307,287,279+1024*3,0,0);
+housestoragex[basehousenumber+6][housestoragenext[basehousenumber+6]]=patchx+1307;
+housestoragey[basehousenumber+6][housestoragenext[basehousenumber+6]]=patchy+287;
+housestoragenext[basehousenumber+6]++;
+
+OBJaddnew(1308,287,279+1024*4,0,0);
+housestoragex[basehousenumber+6][housestoragenext[basehousenumber+6]]=patchx+1308;
+housestoragey[basehousenumber+6][housestoragenext[basehousenumber+6]]=patchy+287;
+housestoragenext[basehousenumber+6]++;
+
+OBJaddnew(1302,273,332+1024*0,0,65536+basehousenumber+9);//sign
+
+OBJaddnew(1319,281,332+1024*3,0,65536+basehousenumber+10);//sign
+
+OBJaddnew(1319,277,332+1024*3,0,65536+basehousenumber+11);//sign
+
+OBJaddnew(1319,273,332+1024*3,0,65536+basehousenumber+12);//sign
+
+OBJaddnew(1319,274,332+1024*0,0,65536+basehousenumber+13);//sign
+
+OBJaddnew(1319,279,332+1024*0,0,65536+basehousenumber+14);//sign
+
+OBJaddnew(1319,286,332+1024*0,0,65536+basehousenumber+15);//sign
+
+OBJaddnew(1319,291,332+1024*0,0,65536+basehousenumber+16);//sign
+
+OBJaddnew(1319,297,332+1024*0,0,65536+basehousenumber+17);//sign
+
+
+
+OBJaddnew(1328,292,332+1024*3,0,65536+basehousenumber+19);//sign
+
+OBJaddnew(1328,286,332+1024*3,0,65536+basehousenumber+20);//sign
+
+OBJaddnew(1328,280,332+1024*3,0,65536+basehousenumber+21);//sign
+
+OBJaddnew(1328,274,332+1024*3,0,65536+basehousenumber+22);//sign
+
+OBJaddnew(1299,270,332+1024*2,0,65536+basehousenumber+23);//sign
+
+myobj=OBJaddnew(1330,271,297+1024*10,0,0);//matched door pair
+myobj->more=(object*)OBJaddnew( 1330,272,297 + 1024*11,0,(unsigned long)myobj);//matched door pair
+
+
+OBJaddnew(1330,271,301+1024*2,0,256+basehousenumber+24);//doorframe
+
+OBJaddnew(1330,272,301+1024*3,0,256+basehousenumber+24);//doorframe
+
+OBJaddnew(1328,271,332+1024*0,0,65536+basehousenumber+24);//sign
+
+OBJaddnew(1328,269,279+1024*0,0,0);
+housestoragex[basehousenumber+24][housestoragenext[basehousenumber+24]]=patchx+1328;
+housestoragey[basehousenumber+24][housestoragenext[basehousenumber+24]]=patchy+269;
+housestoragenext[basehousenumber+24]++;
+
+myobj=OBJaddnew(1330,268,300+1024*10,0,0);//matched door pair
+myobj->more=(object*)OBJaddnew( 1330,269,300 + 1024*11,0,(unsigned long)myobj);//matched door pair
+
+
+OBJaddnew(1330,268,301+1024*2,0,256+basehousenumber+24);//doorframe
+
+OBJaddnew(1330,269,301+1024*3,0,256+basehousenumber+24);//doorframe
+
+OBJaddnew(1297,269,252+1024*3,128,0);
+
+myobj=OBJaddnew(1296,269,177+1024*1,128,0); //Desk + candle
+myobj2=OBJnew();
+myobj2->type=122;
+myobj2->info=128;
+myobj->more=myobj2; myobj2->prev=myobj;
+
+OBJaddnew(1299,268,279+1024*2,0,0);
+housestoragex[basehousenumber+23][housestoragenext[basehousenumber+23]]=patchx+1299;
+housestoragey[basehousenumber+23][housestoragenext[basehousenumber+23]]=patchy+268;
+housestoragenext[basehousenumber+23]++;
+
+OBJaddnew(1300,269,279+1024*0,0,0);
+housestoragex[basehousenumber+23][housestoragenext[basehousenumber+23]]=patchx+1300;
+housestoragey[basehousenumber+23][housestoragenext[basehousenumber+23]]=patchy+269;
+housestoragenext[basehousenumber+23]++;
+
+OBJaddnew(1299,267,279+1024*12,0,0);
+housestoragex[basehousenumber+23][housestoragenext[basehousenumber+23]]=patchx+1299;
+housestoragey[basehousenumber+23][housestoragenext[basehousenumber+23]]=patchy+267;
+housestoragenext[basehousenumber+23]++;
+
+OBJaddnew(1300,268,229+1024*0,0,0);
+
+OBJaddnew(1299,269,259+1024*0,0,0);
+
+myobj=OBJaddnew(1297,268,186+1024*1,0,0); //barrel (closed) + random food
+myobj2=OBJnew();
+x=rnd*6;
+if (x==0){myobj2->type=129; myobj2->more2=1;}//meat
+if (x==1){myobj2->type=128; myobj2->more2=1;}//bread
+if (x==2) myobj2->type=130;//rolls
+if (x==3) myobj2->type=131;//cake
+if (x==4) myobj2->type=132;//cheese
+if (x==5) myobj2->type=133;//ham
+myobj->more=myobj2; myobj2->prev=myobj;
+
+myobj=OBJaddnew(1331,268,186+1024*1,0,0); //barrel (closed) + random food
+myobj2=OBJnew();
+x=rnd*6;
+if (x==0){myobj2->type=129; myobj2->more2=1;}//meat
+if (x==1){myobj2->type=128; myobj2->more2=1;}//bread
+if (x==2) myobj2->type=130;//rolls
+if (x==3) myobj2->type=131;//cake
+if (x==4) myobj2->type=132;//cheese
+if (x==5) myobj2->type=133;//ham
+myobj->more=myobj2; myobj2->prev=myobj;
+
+OBJaddnew(1329,268,279+1024*2,0,0);
+housestoragex[basehousenumber+24][housestoragenext[basehousenumber+24]]=patchx+1329;
+housestoragey[basehousenumber+24][housestoragenext[basehousenumber+24]]=patchy+268;
+housestoragenext[basehousenumber+24]++;
+
+OBJaddnew(1329,267,279+1024*12,0,0);
+housestoragex[basehousenumber+24][housestoragenext[basehousenumber+24]]=patchx+1329;
+housestoragey[basehousenumber+24][housestoragenext[basehousenumber+24]]=patchy+267;
+housestoragenext[basehousenumber+24]++;
+
+OBJaddnew(1329,269,259+1024*0,0,0);
+
+OBJaddnew(1332,269,163+1024*6,0,0);
+
+OBJaddnew(1332,270,163+1024*7,0,0);
+
+OBJaddnew(1331,271,252+1024*1,128,0);
+
+myobj=OBJaddnew(1332,271,177+1024*1,128,0); //Desk + candle
+myobj2=OBJnew();
+myobj2->type=122;
+myobj2->info=128;
+myobj->more=myobj2; myobj2->prev=myobj;
+
+OBJaddnew(1306,282,144+1024*0,128,0);
+
+OBJaddnew(1307,282,144+1024*1,128,0);
+
+OBJaddnew(1314,282,140+1024*1,128,0);
+
+OBJaddnew(1314,282,141+1024*1,128,0);
+
+OBJaddnew(1317,282,143+1024*1,128,0);
+
+OBJaddnew(1304,271,138+1024*0,128,0);
+
+myobj=OBJaddnew(1298,268,300+1024*10,0,0);//matched door pair
+myobj->more=(object*)OBJaddnew( 1298,269,300 + 1024*11,0,(unsigned long)myobj);//matched door pair
+
+
+OBJaddnew(1298,268,301+1024*2,0,256+basehousenumber+23);//doorframe
+
+OBJaddnew(1298,269,301+1024*3,0,256+basehousenumber+23);//doorframe
+
+myobj=OBJaddnew(1298,271,297+1024*10,0,0);//matched door pair
+myobj->more=(object*)OBJaddnew( 1298,272,297 + 1024*11,0,(unsigned long)myobj);//matched door pair
+
+
+OBJaddnew(1298,271,301+1024*2,0,256+basehousenumber+23);//doorframe
+
+OBJaddnew(1298,272,301+1024*3,0,256+basehousenumber+23);//doorframe
+
+OBJaddnew(1301,299,273+1024*1,0,0);
+
+OBJaddnew(1300,299,273+1024*1,0,0);
+
+OBJaddnew(1299,299,273+1024*1,0,0);
+
+OBJaddnew(1298,299,273+1024*1,0,0);
+
+OBJaddnew(1297,299,273+1024*1,0,0);
+
+OBJaddnew(1296,300,273+1024*1,0,0);
+
+OBJaddnew(1295,301,273+1024*2,0,0);
+
+OBJaddnew(1296,300,273+1024*2,0,0);
+
+OBJaddnew(1295,302,273+1024*2,0,0);
+
+OBJaddnew(1295,303,273+1024*2,0,0);
+
+OBJaddnew(1296,299,273+1024*0,0,0);
+
+OBJaddnew(1295,300,273+1024*0,0,0);
+
+OBJaddnew(1302,299,272+1024*2,0,0);
+
+OBJaddnew(1302,300,276+1024*3,0,0);
+
+OBJaddnew(1302,301,276+1024*3,0,0);
+
+OBJaddnew(1296,302,222+1024*0,0,0);
+
+OBJaddnew(1296,303,221+1024*3,0,0);
+
+OBJaddnew(1297,304,221+1024*2,0,0);
+
+OBJaddnew(1298,304,223+1024*0,128,0);
+
+OBJaddnew(1328,300,273+1024*1,0,0);
+
+OBJaddnew(1328,300,273+1024*2,0,0);
+
+OBJaddnew(1328,299,273+1024*2,0,0);
+
+OBJaddnew(1326,300,272+1024*0,128,0);
+
+OBJaddnew(1326,301,276+1024*7,128,0);
+
+OBJaddnew(1327,300,273+1024*1,0,0);
+
+OBJaddnew(1329,298,276+1024*1,128,0);
+
+OBJaddnew(1328,298,272+1024*1,128,0);
+
+OBJaddnew(1304,278,206+1024*1,128,0);
+
+OBJaddnew(1304,295,206+1024*1,128,0);
+
+OBJaddnew(1308,285,206+1024*1,128,0);
+
+OBJaddnew(1308,283,206+1024*1,128,0);
+
+OBJaddnew(1310,285,138+1024*0,128,0);
+
+OBJaddnew(1310,283,138+1024*0,128,0);
+
+OBJaddnew(1318,283,138+1024*0,128,0);
+
+OBJaddnew(1318,285,138+1024*0,128,0);
+
+myobj=OBJaddnew(1309,283,298+1024*2,0,0);//matched door pair
+myobj->more=(object*)OBJaddnew( 1309,284,298 + 1024*3,0,(unsigned long)myobj);//matched door pair
+
+
+myobj=OBJaddnew(1319,283,298+1024*2,0,0);//matched door pair
+myobj->more=(object*)OBJaddnew( 1319,284,298 + 1024*3,0,(unsigned long)myobj);//matched door pair
+
+
+OBJaddnew(1309,283,301+1024*2,0,256+basehousenumber+0);//doorframe
+
+OBJaddnew(1309,284,301+1024*3,0,256+basehousenumber+0);//doorframe
+
+OBJaddnew(1319,283,301+1024*2,0,256+basehousenumber+0);//doorframe
+
+OBJaddnew(1319,284,301+1024*3,0,256+basehousenumber+0);//doorframe
+
+OBJaddnew(1311,282,143+1024*1,128,0);
+
+OBJaddnew(1302,275,142+1024*0,128,0);
+
+OBJaddnew(1302,287,140+1024*0,128,0);
+
+OBJaddnew(1302,287,141+1024*0,128,0);
+
+OBJaddnew(1302,292,142+1024*0,128,0);
+
+OBJaddnew(1302,292,141+1024*0,128,0);
+
+OBJaddnew(1319,295,140+1024*0,128,0);
+
+OBJaddnew(1319,295,141+1024*0,128,0);
+
+OBJaddnew(1319,289,142+1024*0,128,0);
+
+OBJaddnew(1319,289,141+1024*0,128,0);
+
+OBJaddnew(1328,276,140+1024*0,128,0);
+
+OBJaddnew(1328,276,141+1024*0,128,0);
+
+OBJaddnew(1328,282,142+1024*0,128,0);
+
+OBJaddnew(1328,288,142+1024*0,128,0);
+
+OBJaddnew(1328,288,141+1024*0,128,0);
+
+OBJaddnew(1328,294,140+1024*0,128,0);
+
+OBJaddnew(1328,294,141+1024*0,128,0);
+
+OBJaddnew(1331,304,221+1024*2,0,0);
+
+OBJaddnew(1332,303,221+1024*1,0,0);
+
+OBJaddnew(1330,304,223+1024*0,128,0);
+
+OBJaddnew(1332,302,222+1024*0,128,0);
+
+OBJaddnew(1304,288,206+1024*1,128,0);
+
+OBJaddnew(1307,300,164+1024*3,0,0);
+
+OBJaddnew(1299,271,206+1024*1,128,0);
+
+OBJaddnew(1298,302,206+1024*1,0,0);
+
+OBJaddnew(1330,302,206+1024*1,0,0);
+
+OBJaddnew(1319,299,164+1024*1,0,0);
+
+OBJaddnew(1319,290,164+1024*1,0,0);
+
+OBJaddnew(1319,278,164+1024*1,0,0);
+
+OBJaddnew(1320,270,164+1024*3,0,0);
+
+OBJaddnew(1328,281,164+1024*1,0,0);
+
+OBJaddnew(1328,289,164+1024*1,0,0);
+
+OBJaddnew(1329,270,164+1024*3,0,0);
+
+OBJaddnew(1313,282,164+1024*3,0,0);
+
+OBJaddnew(1315,282,164+1024*3,0,0);
+
+OBJaddnew(1328,298,332+1024*3,0,65536+basehousenumber+18);//sign
+
+//ladders
+OBJaddnew(290,378,305+1024,0,1297+(301<<16));
+OBJaddnew(1297,301,305,0,290+(378<<16));
+
+OBJaddnew(310,362,305+1024,0,1317+(285<<16));
+OBJaddnew(1317,285,305,0,310+(362<<16));
+
+OBJaddnew(310-6,362,305+1024,0,1317-6+(285<<16));
+OBJaddnew(1317-6,285,305,0,310-6+(362<<16));
+
+housenumber=21;
+houseinitialcost[housenumber]=500; housecost[housenumber]=20; housenumber++;
+houseinitialcost[housenumber]=500; housecost[housenumber]=20; housenumber++;
+houseinitialcost[housenumber]=500; housecost[housenumber]=15; housenumber++;
+houseinitialcost[housenumber]=500; housecost[housenumber]=15; housenumber++;
+houseinitialcost[housenumber]=500; housecost[housenumber]=20; housenumber++;
+houseinitialcost[housenumber]=500; housecost[housenumber]=20; housenumber++;
+houseinitialcost[housenumber]=500; housecost[housenumber]=17; housenumber++;
+houseinitialcost[housenumber]=500; housecost[housenumber]=17; housenumber++;
+houseinitialcost[housenumber]=500; housecost[housenumber]=20; housenumber++;
+houseinitialcost[housenumber]=500; housecost[housenumber]=17; housenumber++;
+houseinitialcost[housenumber]=500; housecost[housenumber]=17; housenumber++;
+houseinitialcost[housenumber]=500; housecost[housenumber]=20; housenumber++;
+houseinitialcost[housenumber]=500; housecost[housenumber]=10; housenumber++;
+houseinitialcost[housenumber]=500; housecost[housenumber]=10; housenumber++;
+houseinitialcost[housenumber]=500; housecost[housenumber]=10; housenumber++;
+houseinitialcost[housenumber]=500; housecost[housenumber]=10; housenumber++;
+houseinitialcost[housenumber]=500; housecost[housenumber]=10; housenumber++;
+houseinitialcost[housenumber]=500; housecost[housenumber]=10; housenumber++;
+houseinitialcost[housenumber]=500; housecost[housenumber]=10; housenumber++;
+houseinitialcost[housenumber]=500; housecost[housenumber]=10; housenumber++;
+houseinitialcost[housenumber]=500; housecost[housenumber]=10; housenumber++;
+houseinitialcost[housenumber]=500; housecost[housenumber]=10; housenumber++;
+houseinitialcost[housenumber]=500; housecost[housenumber]=22; housenumber++;
+houseinitialcost[housenumber]=500; housecost[housenumber]=20; housenumber++;
+
+for (x=21;x<=44;x++){
+houseentrancex[x]=1314; houseentrancey[x]=284;
+}
+
+}//NEThost
